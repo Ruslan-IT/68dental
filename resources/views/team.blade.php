@@ -65,121 +65,13 @@
                     <div data-hover="cursor" data-swiper="specialists" data-w-id="931c407f-a6d0-0145-bade-8207f8c9ae59"
                          class="swiper mod--specialists-third w-dyn-list swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden"
                          style="opacity: 0;">
-                        <div role="list" class="swiper-wrapper mod--specialists-third w-dyn-items"
-                             id="swiper-wrapper-719e7f3fbd3f52be" aria-live="polite"
-                             style="transform: translate3d(0px, 0px, 0px);">
-                            <div role="group" class="swiper-slide mod--specialists-third w-dyn-item swiper-slide-active"
-                                 style="width: 129.667px; margin-right: 16px;" aria-label="1 / 4">
-                                <div class="collection__item-wrap mod--specialists-third">
-                                    <div class="specialists__img-wrap is1"><img
-                                            src="{{ asset('images/67ebff7260357e68b0c6248f_specialist__img-mob-1.jpg') }}"
-                                            loading="lazy" alt="" sizes="100vw"
-                                            srcset="{{ asset('images/67ebff7260357e68b0c6248f_specialist__img-mob-1-p-500.jpg') }} 500w, {{ asset('images/67ebff7260357e68b0c6248f_specialist__img-mob-1.jpg') }} 700w"
-                                            class="specialists__img is3">
-                                        <div class="specialists__tag absolute">20+ лет опыта</div>
-                                        <a href="/team"
-                                           class="button is-icon mod--specialists-third w-inline-block">
-                                            <div class="button__icon width-16 w-embed">
-                                                <svg width="100%" height="100%" viewBox="0 0 16 16" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 15L15 1M15 1V15M15 1H1" stroke="currentColor"
-                                                          stroke-width="2" stroke-linecap="round"></path>
-                                                </svg>
-                                            </div>
-                                        </a></div>
-                                    <div class="specialists__name"><h3
-                                            class="heading-6 text-weight-normal font-style-worksans">Мильднер Марьяна Викторовна</h3>
-                                        <p class="text-size-regular text-color-neutral_gray">Врач-стоматолог терапевт-эндодонтист, ортопед, детский стоматолог</p></div>
-                                </div>
-                            </div>
-                            <div role="group" class="swiper-slide mod--specialists-third w-dyn-item swiper-slide-next"
-                                 style="width: 129.667px; margin-right: 16px;" aria-label="2 / 4">
-                                <div class="collection__item-wrap mod--specialists-third">
-                                    <div class="specialists__img-wrap is1"><img
-                                            src="{{ asset('images/68304810ff1e57eb5bbff7ea_img-mob-2.jpg') }}"
-                                            loading="lazy" alt="" sizes="100vw"
-                                            srcset="{{ asset('images/68304810ff1e57eb5bbff7ea_img-mob-2-p-500.jpg') }} 500w, {{ asset('images/68304810ff1e57eb5bbff7ea_img-mob-2.jpg') }} 700w"
-                                            class="specialists__img is3">
-                                        <div class="specialists__tag absolute">13+ лет опыта</div>
-                                        <a href="/team"
-                                           class="button is-icon mod--specialists-third w-inline-block">
-                                            <div class="button__icon width-16 w-embed">
-                                                <svg width="100%" height="100%" viewBox="0 0 16 16" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 15L15 1M15 1V15M15 1H1" stroke="currentColor"
-                                                          stroke-width="2" stroke-linecap="round"></path>
-                                                </svg>
-                                            </div>
-                                        </a></div>
-                                    <div class="specialists__name"><h3
-                                            class="heading-6 text-weight-normal font-style-worksans">Петренко Кирилл Игоревич</h3>
-                                        <p class="text-size-regular text-color-neutral_gray">Врач-стоматолог хирург-имплантолог, ортопед</p></div>
-                                </div>
-                            </div>
-                            <div role="group" class="swiper-slide mod--specialists-third w-dyn-item"
-                                 style="width: 129.667px; margin-right: 16px;" aria-label="3 / 4">
-                                <div class="collection__item-wrap mod--specialists-third">
-                                    <div class="specialists__img-wrap is1"><img
-                                            src="{{ asset('images/6830474e5efd5123069deea0_img-mob-700.jpg') }}"
-                                            loading="lazy" alt="" sizes="100vw"
-                                            srcset="{{ asset('images/6830474e5efd5123069deea0_img-mob-700-p-500.jpg') }} 500w, {{ asset('images/6830474e5efd5123069deea0_img-mob-700.jpg') }} 700w"
-                                            class="specialists__img is3">
-                                        <div class="specialists__tag absolute w-dyn-bind-empty"></div>
-                                        <a href="/team"
-                                           class="button is-icon mod--specialists-third w-inline-block">
-                                            <div class="button__icon width-16 w-embed">
-                                                <svg width="100%" height="100%" viewBox="0 0 16 16" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 15L15 1M15 1V15M15 1H1" stroke="currentColor"
-                                                          stroke-width="2" stroke-linecap="round"></path>
-                                                </svg>
-                                            </div>
-                                        </a></div>
-                                    <div class="specialists__name"><h3
-                                            class="heading-6 text-weight-normal font-style-worksans">Бугрим Анна Андреевна </h3>
-                                        <p class="text-size-regular text-color-neutral_gray">Врач-стоматолог терапевт, гигиенист</p></div>
-                                </div>
-                            </div>
-                            <div role="group" class="swiper-slide mod--specialists-third w-dyn-item" aria-label="4 / 4"
-                                 style="width: 129.667px; margin-right: 16px;">
-                                <div class="collection__item-wrap mod--specialists-third">
-                                    <div class="specialists__img-wrap is1"><img
-                                            src="{{ asset('images/6830481a65088923183d9ff4_img-mob-3.jpg') }}"
-                                            loading="lazy" alt="" sizes="100vw"
-                                            srcset="{{ asset('images/6830481a65088923183d9ff4_img-mob-3-p-500.jpg') }} 500w, {{ asset('images/6830481a65088923183d9ff4_img-mob-3.jpg') }} 700w"
-                                            class="specialists__img is3">
-                                        <div class="specialists__tag absolute">25+ лет работы</div>
-                                        <a href="/team"
-                                           class="button is-icon mod--specialists-third w-inline-block">
-                                            <div class="button__icon width-16 w-embed">
-                                                <svg width="100%" height="100%" viewBox="0 0 16 16" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 15L15 1M15 1V15M15 1H1" stroke="currentColor"
-                                                          stroke-width="2" stroke-linecap="round"></path>
-                                                </svg>
-                                            </div>
-                                        </a></div>
-                                    <div class="specialists__name"><h3
-                                            class="heading-6 text-weight-normal font-style-worksans">Петренко Ольга Николаевна </h3>
-                                        <p class="text-size-regular text-color-neutral_gray">Основательница клиники, врач-стоматолог эндодонтист, терапевт, ортопед</p></div>
-                                </div>
-                            </div>
+                        <div role="list" class="swiper-wrapper mod--specialists-third w-dyn-items">
+                            @include('partials.specialists-team-cards')
                         </div>
                         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
                     <div class="swiper__pagination mod--mobile">
                         <div data-swiper-specialists="pagination" class="swiper__swiper-nav">
-                            <div class="swiper__pagination-bullet">
-                                <div data-anim="" class="swiper__pagination-bullet-active active"></div>
-                            </div>
-                            <div class="swiper__pagination-bullet">
-                                <div data-anim="" class="swiper__pagination-bullet-active"></div>
-                            </div>
-                            <div class="swiper__pagination-bullet">
-                                <div data-anim="" class="swiper__pagination-bullet-active"></div>
-                            </div>
-                            <div class="swiper__pagination-bullet">
-                                <div data-anim="" class="swiper__pagination-bullet-active"></div>
-                            </div>
+                            @include('partials.specialists-pagination')
                         </div>
                     </div>
                     <div data-w-id="931c407f-a6d0-0145-bade-8207f8c9ae72" class="button-wrap mod--specialists-third"

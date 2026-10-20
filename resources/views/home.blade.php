@@ -82,9 +82,7 @@
                     </div>
                     <img src="{{ asset('images/684c3512dfce8ae39559d4a5_icon_hero-360.svg') }}" loading="lazy" mobile-hide="" alt="icon_hero-360" class="hero__illustr-icon"><img src="{{ asset('images/684c40ea56921e1966b94f5b_icon_hero-360-mob.svg') }}" loading="lazy" desktop-hide="" alt="icon_hero-360" class="hero__illustr-icon"></div>
                 <div class="hero__content-wrap">
-                    <div data-w-id="111a76b8-88a4-5909-45b6-da2035208866" style="opacity: 0;" class="hero__contact"><a href="tel:+73472468568" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67eb93731aa6a8772d43e557_icon__call.svg') }}" loading="lazy" alt="Телефон" class="hero__contact-icon">
-                            <div class="alt-for-link"></div>
-                        </a><a href="https://wa.me/79174172079" target="_blank" rel="noopener" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67eb93731aa6a8772d43e557_icon__call.svg') }}" loading="lazy" alt="WhatsApp" class="hero__contact-icon">
+                    <div data-w-id="111a76b8-88a4-5909-45b6-da2035208866" style="opacity: 0;" class="hero__contact"><a href="https://wa.me/79174172079" target="_blank" rel="noopener" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67eb93731aa6a8772d43e557_icon__call.svg') }}" loading="lazy" alt="WhatsApp" class="hero__contact-icon">
                             <div class="alt-for-link"></div>
                         </a><a href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank" rel="noopener" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67eb93730254dadf0bc87490_icon__place.svg') }}" loading="lazy" alt="Яндекс Карты" class="hero__contact-icon">
                             <div class="alt-for-link"></div>
@@ -483,16 +481,13 @@
                 <div class="section__content-wrap">
                     <div data-w-id="7eae70d1-5107-fec5-de25-040510ddc8e4" style="opacity: 0;" class="heading__wrap"><h2 class="heading-4">Специалисты</h2>
                         <div class="text__wrap max-width-38"><p class="text-size-regular text-color-graphite">
-                                Ниже — карточки специалистов из макета. Это не подтверждённый список врачей Евростом.</p></div>
+                                Ночевкина Марина Раисовна — врач-стоматолог клиники. Остальные карточки сохранены из макета страницы.</p></div>
                     </div>
                     <div class="specialists__swiper-wrap">
                         <div data-swiper="specialists-first" data-w-id="dbf19cfc-52b3-5147-53a0-fa791de664ed" style="opacity: 0;" class="swiper mod--specialists-first w-dyn-list">
                             <div role="list" class="swiper-wrapper w-dyn-items" id="swiper-wrapper-29e2109a3fd757b22" aria-live="off">
                                 
-                                <div role="group" class="swiper-slide mod--specialists-first w-dyn-item" data-swiper-slide-index="0" aria-label="1 / 4"><img src="{{ asset('images/67ebf94c0ba2aa1151e4d940_specialist__img-1.jpg') }}" loading="lazy" mobile-hide="" alt="" sizes="(max-width: 767px) 100vw, 800px" srcset="{{ asset('images/67ebf94c0ba2aa1151e4d940_specialist__img-1-p-500.jpg') }} 500w, {{ asset('images/67ebf94c0ba2aa1151e4d940_specialist__img-1-p-800.jpg') }} 800w, {{ asset('images/67ebf94c0ba2aa1151e4d940_specialist__img-1-p-1080.jpg') }} 1080w, {{ asset('images/67ebf94c0ba2aa1151e4d940_specialist__img-1-p-1600.jpg') }} 1600w, {{ asset('images/67ebf94c0ba2aa1151e4d940_specialist__img-1.jpg') }} 1718w" class="specialists__img is1"><img src="{{ asset('images/67ebff7260357e68b0c6248f_specialist__img-mob-1.jpg') }}" loading="lazy" desktop-hide="" alt="" sizes="(max-width: 767px) 100vw, 800px" srcset="{{ asset('images/67ebff7260357e68b0c6248f_specialist__img-mob-1-p-500.jpg') }} 500w, {{ asset('images/67ebff7260357e68b0c6248f_specialist__img-mob-1.jpg') }} 700w" class="specialists__img is1"></div>
-                                <div role="group" class="swiper-slide mod--specialists-first w-dyn-item" data-swiper-slide-index="1" aria-label="2 / 4"><img src="{{ asset('images/6830480d1b70c87f24a74a1d_img-desk-2.jpg') }}" loading="lazy" mobile-hide="" alt="" sizes="(max-width: 767px) 100vw, 800px" srcset="{{ asset('images/6830480d1b70c87f24a74a1d_img-desk-2-p-500.jpg') }} 500w, {{ asset('images/6830480d1b70c87f24a74a1d_img-desk-2-p-800.jpg') }} 800w, {{ asset('images/6830480d1b70c87f24a74a1d_img-desk-2-p-1080.jpg') }} 1080w, {{ asset('images/6830480d1b70c87f24a74a1d_img-desk-2-p-1600.jpg') }} 1600w, {{ asset('images/6830480d1b70c87f24a74a1d_img-desk-2.jpg') }} 1718w" class="specialists__img is1"><img src="{{ asset('images/68304810ff1e57eb5bbff7ea_img-mob-2.jpg') }}" loading="lazy" desktop-hide="" alt="" sizes="(max-width: 767px) 100vw, 800px" srcset="{{ asset('images/68304810ff1e57eb5bbff7ea_img-mob-2-p-500.jpg') }} 500w, {{ asset('images/68304810ff1e57eb5bbff7ea_img-mob-2.jpg') }} 700w" class="specialists__img is1"></div>
-                                <div role="group" class="swiper-slide mod--specialists-first w-dyn-item" data-swiper-slide-index="2" aria-label="3 / 4"><img src="{{ asset('images/683026199645ef1a9fb9f6c4_main%20photo2.jpg') }}" loading="lazy" mobile-hide="" alt="" sizes="(max-width: 767px) 100vw, 800px" srcset="{{ asset('images/683026199645ef1a9fb9f6c4_main%20photo2-p-500.jpg') }} 500w, {{ asset('images/683026199645ef1a9fb9f6c4_main%20photo2-p-800.jpg') }} 800w, {{ asset('images/683026199645ef1a9fb9f6c4_main%20photo2-p-1080.jpg') }} 1080w, {{ asset('images/683026199645ef1a9fb9f6c4_main%20photo2-p-1600.jpg') }} 1600w, {{ asset('images/683026199645ef1a9fb9f6c4_main%20photo2.jpg') }} 1718w" class="specialists__img is1"><img src="{{ asset('images/6830474e5efd5123069deea0_img-mob-700.jpg') }}" loading="lazy" desktop-hide="" alt="" sizes="(max-width: 767px) 100vw, 800px" srcset="{{ asset('images/6830474e5efd5123069deea0_img-mob-700-p-500.jpg') }} 500w, {{ asset('images/6830474e5efd5123069deea0_img-mob-700.jpg') }} 700w" class="specialists__img is1"></div>
-                                <div role="group" class="swiper-slide mod--specialists-first w-dyn-item" data-swiper-slide-index="3" aria-label="4 / 4"><img src="{{ asset('images/683048178c4cc6f2788f0f99_img-desk-3.jpg') }}" loading="lazy" mobile-hide="" alt="" sizes="(max-width: 767px) 100vw, 800px" srcset="{{ asset('images/683048178c4cc6f2788f0f99_img-desk-3-p-500.jpg') }} 500w, {{ asset('images/683048178c4cc6f2788f0f99_img-desk-3-p-800.jpg') }} 800w, {{ asset('images/683048178c4cc6f2788f0f99_img-desk-3-p-1080.jpg') }} 1080w, {{ asset('images/683048178c4cc6f2788f0f99_img-desk-3-p-1600.jpg') }} 1600w, {{ asset('images/683048178c4cc6f2788f0f99_img-desk-3.jpg') }} 1718w" class="specialists__img is1"><img src="{{ asset('images/6830481a65088923183d9ff4_img-mob-3.jpg') }}" loading="lazy" desktop-hide="" alt="" sizes="(max-width: 767px) 100vw, 800px" srcset="{{ asset('images/6830481a65088923183d9ff4_img-mob-3-p-500.jpg') }} 500w, {{ asset('images/6830481a65088923183d9ff4_img-mob-3.jpg') }} 700w" class="specialists__img is1"></div>
+                                @include('partials.specialists-home-photos')
                                 
                             </div>
                             <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
@@ -500,47 +495,13 @@
                             <div data-swiper="specialists-second" class="swiper mod--specialists-second w-dyn-list">
                                 <div role="list" class="swiper-wrapper test w-dyn-items" id="swiper-wrapper-8bcc6865df799c49" aria-live="off">
                                     
-                                    <div role="group" class="swiper-slide mod--specialists-second w-dyn-item" data-swiper-slide-index="0" aria-label="1 / 4"><img src="{{ asset('images/67ebff7260357e68b0c6248f_specialist__img-mob-1.jpg') }}" loading="lazy" alt="" sizes="(max-width: 767px) 46vw, 160px" srcset="{{ asset('images/67ebff7260357e68b0c6248f_specialist__img-mob-1-p-500.jpg') }} 500w, {{ asset('images/67ebff7260357e68b0c6248f_specialist__img-mob-1.jpg') }} 700w" class="specialists__img is2">
-                                        <div class="specialists__text-wrap"><h3 class="heading-5 mobile-size-16 font-style-worksans text-weight-normal">
-                                                Мильднер Марьяна Викторовна</h3>
-                                            <div class="margin-custom mod--specialists"><p class="text-size-regular text-color-neutral_gray">Врач-стоматолог терапевт-эндодонтист, ортопед, детский стоматолог</p></div>
-                                            <p class="specialists__tag">20+ лет опыта</p></div>
-                                    </div>
-                                    <div role="group" class="swiper-slide mod--specialists-second w-dyn-item" data-swiper-slide-index="1" aria-label="2 / 4"><img src="{{ asset('images/68304810ff1e57eb5bbff7ea_img-mob-2.jpg') }}" loading="lazy" alt="" sizes="(max-width: 767px) 46vw, 160px" srcset="{{ asset('images/68304810ff1e57eb5bbff7ea_img-mob-2-p-500.jpg') }} 500w, {{ asset('images/68304810ff1e57eb5bbff7ea_img-mob-2.jpg') }} 700w" class="specialists__img is2">
-                                        <div class="specialists__text-wrap"><h3 class="heading-5 mobile-size-16 font-style-worksans text-weight-normal">
-                                                Петренко Кирилл Игоревич</h3>
-                                            <div class="margin-custom mod--specialists"><p class="text-size-regular text-color-neutral_gray">Врач-стоматолог хирург-имплантолог, ортопед</p></div>
-                                            <p class="specialists__tag">13+ лет опыта</p></div>
-                                    </div>
-                                    <div role="group" class="swiper-slide mod--specialists-second w-dyn-item" data-swiper-slide-index="2" aria-label="3 / 4"><img src="{{ asset('images/6830474e5efd5123069deea0_img-mob-700.jpg') }}" loading="lazy" alt="" sizes="(max-width: 767px) 46vw, 160px" srcset="{{ asset('images/6830474e5efd5123069deea0_img-mob-700-p-500.jpg') }} 500w, {{ asset('images/6830474e5efd5123069deea0_img-mob-700.jpg') }} 700w" class="specialists__img is2">
-                                        <div class="specialists__text-wrap"><h3 class="heading-5 mobile-size-16 font-style-worksans text-weight-normal">
-                                                Бугрим Анна Андреевна </h3>
-                                            <div class="margin-custom mod--specialists"><p class="text-size-regular text-color-neutral_gray">Врач-стоматолог терапевт, гигиенист</p></div>
-                                            <p class="specialists__tag w-dyn-bind-empty"></p></div>
-                                    </div>
-                                    <div role="group" class="swiper-slide mod--specialists-second w-dyn-item" data-swiper-slide-index="3" aria-label="4 / 4"><img src="{{ asset('images/6830481a65088923183d9ff4_img-mob-3.jpg') }}" loading="lazy" alt="" sizes="(max-width: 767px) 46vw, 160px" srcset="{{ asset('images/6830481a65088923183d9ff4_img-mob-3-p-500.jpg') }} 500w, {{ asset('images/6830481a65088923183d9ff4_img-mob-3.jpg') }} 700w" class="specialists__img is2">
-                                        <div class="specialists__text-wrap"><h3 class="heading-5 mobile-size-16 font-style-worksans text-weight-normal">
-                                                Петренко Ольга Николаевна </h3>
-                                            <div class="margin-custom mod--specialists"><p class="text-size-regular text-color-neutral_gray">Основательница клиники, врач-стоматолог эндодонтист, терапевт, ортопед</p></div>
-                                            <p class="specialists__tag">25+ лет работы</p></div>
-                                    </div>
+                                    @include('partials.specialists-home-cards')
                                     
                                 </div>
                                 <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
                             <div class="specialists__pagination">
                                 <div data-swiper-specialists="pagination" class="swiper__swiper-nav">
-                                    <div class="swiper__pagination-bullet">
-                                        <div data-anim="" class="swiper__pagination-bullet-active specialists"></div>
-                                    </div>
-                                    <div class="swiper__pagination-bullet">
-                                        <div data-anim="" class="swiper__pagination-bullet-active specialists active"></div>
-                                    </div>
-                                    <div class="swiper__pagination-bullet">
-                                        <div data-anim="" class="swiper__pagination-bullet-active specialists"></div>
-                                    </div>
-                                    <div class="swiper__pagination-bullet">
-                                        <div data-anim="" class="swiper__pagination-bullet-active specialists"></div>
-                                    </div>
+                                    @include('partials.specialists-pagination', ['bulletClass' => 'specialists'])
                                 </div>
                                 <div mobile-hide="" data-swiper="next-specialists" class="swiper-nav__arrow" tabindex="0" role="button" aria-label="Следующий слайд" aria-controls="swiper-wrapper-8bcc6865df799c49"><img src="{{ asset('images/67eb9cee3cbf463f1a626321_icon__arrow-right.svg') }}" loading="lazy" alt="icon__arrow-right" class="icon width-24"></div>
                             </div>
