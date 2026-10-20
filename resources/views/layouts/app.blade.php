@@ -1,18 +1,30 @@
 <!DOCTYPE html>
-<html data-wf-domain="www.dentalux.net" data-wf-page="@yield('wf-page', '67ea68f011b0fd6e4b26caea')" data-wf-site="67ea68f011b0fd6e4b26caf8" lang="ru" class=" w-mod-js w-mod-ix">
+<html data-wf-page="@yield('wf-page', '67ea68f011b0fd6e4b26caea')" data-wf-site="67ea68f011b0fd6e4b26caf8" lang="ru">
 <head>
     <meta charset="utf-8">
     <link href="https://cdn.prod.website-files.com" rel="preconnect" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net" rel="preconnect" crossorigin>
     <link href="https://cdnjs.cloudflare.com" rel="preconnect" crossorigin>
     <link href="https://d3e54v103j8qbb.cloudfront.net" rel="preconnect" crossorigin>
-    <title>@yield('title', 'Евростом — стоматологическая клиника')</title>
-    <meta name="description" content="@yield('description', 'Евростом — стоматологическая клиника. Алексеевка, Уфимский район, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Пн–Пт: 09:00–21:00, суббота и воскресенье — выходные.')">
+    @php
+        $pageTitle = trim($__env->yieldContent('title')) ?: 'Евростом — стоматологическая клиника';
+        $pageDescription = trim($__env->yieldContent('description')) ?: 'Евростом — стоматологическая клиника. Алексеевка, Уфимский район, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Пн–Пт: 09:00–21:00, суббота и воскресенье — выходные.';
+        $canonicalUrl = url()->current();
+    @endphp
+    <title>{{ $pageTitle }}</title>
+    <meta name="description" content="{{ $pageDescription }}">
     <meta name="keywords" content="Евростом, стоматологическая клиника, Алексеевка, Уфимский район">
-    <meta property="og:title" content="@yield('title', 'Евростом — стоматологическая клиника')">
-    <meta property="og:description" content="@yield('description', 'Стоматологическая клиника Евростом. Алексеевка, Центральная улица, 58/1. Телефон +7 (347) 246-85-68.')">
+    <meta name="robots" content="@yield('robots', 'index, follow')">
+    <link rel="canonical" href="{{ $canonicalUrl }}">
+    <meta property="og:site_name" content="Евростом">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ $canonicalUrl }}">
+    <meta property="og:title" content="{{ $pageTitle }}">
+    <meta property="og:description" content="{{ $pageDescription }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ $pageTitle }}">
+    <meta name="twitter:description" content="{{ $pageDescription }}">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta content="Webflow" name="generator">
     <link href="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/css/dentalux-project.webflow.shared.7f4e53650.min.css" rel="stylesheet" type="text/css">
     @stack('page-css')
     <script>
@@ -25,13 +37,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}?v=5">
-    <link rel="canonical" href="@yield('canonical', 'http://68dental.local/')">
     <script type="application/ld+json">
         {
             "@@context": "https://schema.org",
             "@type": "Dentist",
             "name": "Евростом",
-            "url": "http://68dental.local/",
+            "url": "{{ url('/') }}",
             "telephone": "+73472468568",
             "address": {
                 "@type": "PostalAddress",

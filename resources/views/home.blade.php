@@ -1,8 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Евростом — стоматологическая клиника')
-@section('description', 'Евростом — стоматологическая клиника в Алексеевке, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Пн–Пт: 09:00–21:00.')
-@section('canonical', 'http://68dental.local/')
+@section('description', 'Стоматологическая клиника Евростом в Алексеевке, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Приём пн–пт с 09:00 до 21:00.')
 @section('wf-page', '67ea68f011b0fd6e4b26caea')
 
 @push('page-css')
@@ -83,11 +82,11 @@
                     </div>
                     <img src="{{ asset('images/684c3512dfce8ae39559d4a5_icon_hero-360.svg') }}" loading="lazy" mobile-hide="" alt="icon_hero-360" class="hero__illustr-icon"><img src="{{ asset('images/684c40ea56921e1966b94f5b_icon_hero-360-mob.svg') }}" loading="lazy" desktop-hide="" alt="icon_hero-360" class="hero__illustr-icon"></div>
                 <div class="hero__content-wrap">
-                    <div data-w-id="111a76b8-88a4-5909-45b6-da2035208866" style="opacity: 0;" class="hero__contact"><a href="tel:+73472468568" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67ebbb567bce72eb183c4505_e688b3fe043bd601ac4105febbd08b79_icon__email.svg') }}" loading="lazy" alt="icon__email" class="hero__contact-icon">
+                    <div data-w-id="111a76b8-88a4-5909-45b6-da2035208866" style="opacity: 0;" class="hero__contact"><a href="tel:+73472468568" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67eb93731aa6a8772d43e557_icon__call.svg') }}" loading="lazy" alt="Телефон" class="hero__contact-icon">
                             <div class="alt-for-link"></div>
-                        </a><a href="https://wa.me/79174172079" target="_blank" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67ebbb56cb5367c248461185_0394cd0c07207f0b2fbb0e873b11d494_icon__facebook.svg') }}" loading="lazy" alt="icon__facebook" class="hero__contact-icon">
+                        </a><a href="https://wa.me/79174172079" target="_blank" rel="noopener" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67eb93731aa6a8772d43e557_icon__call.svg') }}" loading="lazy" alt="WhatsApp" class="hero__contact-icon">
                             <div class="alt-for-link"></div>
-                        </a><a href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67ebbb564b3e0808bc7282eb_61f01bffa8e806bfb83e6084e80e82d6_icon__instagram.svg') }}" loading="lazy" alt="icon__instagram" class="hero__contact-icon">
+                        </a><a href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank" rel="noopener" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67eb93730254dadf0bc87490_icon__place.svg') }}" loading="lazy" alt="Яндекс Карты" class="hero__contact-icon">
                             <div class="alt-for-link"></div>
                         </a></div>
                     <div data-w-id="88aae577-de30-5b11-5650-7807387ad5ff" style="opacity: 0;" class="hero__swiper-wrap">
@@ -1120,7 +1119,7 @@
                             </div>
                         </div>
                     </div>
-                    <div mobile-hide="" data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d8210636" class="button-wrap" style="opacity: 0;"><a href="https://yandex.ru/maps/org/yevrostom/27380149446/reviews/" target="_blank" class="button is-large gray w-inline-block"><img src="{{ asset('images/67ed28adb59c1de594c623ed_icon-google.svg') }}" loading="lazy" alt="" class="icon width-24">
+                    <div mobile-hide="" data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d8210636" class="button-wrap" style="opacity: 0;"><a href="https://yandex.ru/maps/org/yevrostom/27380149446/reviews/" target="_blank" rel="noopener" class="button is-large gray w-inline-block">
                             <div>Отзывы на Яндекс Картах</div>
                         </a></div>
                 </div>

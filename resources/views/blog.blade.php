@@ -1,8 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Блог — Евростом')
-@section('description', 'Статьи о здоровье зубов от стоматологической клиники Евростом.')
-@section('canonical', 'http://68dental.local/blog')
+@section('title', 'Блог клиники Евростом')
+@section('description', 'Заметки стоматологической клиники Евростом об уходе за зубами и визите к врачу. Алексеевка, Центральная улица, 58/1.')
 @section('wf-page', '681bc6e0e2182fd5263898da')
 
 @push('page-css')

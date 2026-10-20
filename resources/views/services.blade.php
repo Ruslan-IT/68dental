@@ -1,8 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Услуги — Евростом')
-@section('description', 'Услуги стоматологической клиники Евростом: лечение, гигиена, ортопедия, имплантация и детский приём.')
-@section('canonical', 'http://68dental.local/services')
+@section('title', 'Услуги стоматологии Евростом')
+@section('description', 'Направления стоматологической клиники Евростом: лечение, гигиена, ортопедия и имплантация. Запись по телефону +7 (347) 246-85-68.')
 @section('wf-page', '67f654a11d2d5d55ce79cb63')
 
 @push('page-css')
@@ -1961,10 +1960,8 @@
                     </div>
                     <div mobile-hide="" data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d8210636" class="button-wrap"
                          style="opacity: 0;"><a
-                            href="https://www.google.com/search?sca_esv=2d4d8ffc55fcccf2&amp;cs=1&amp;output=search&amp;kgmid=/g/11f3dwh_y1&amp;q=%D0%94%D0%B5%D0%BD%D1%82%D0%B0-%D0%9B%D1%8E%D0%BA%D1%81&amp;shndl=30&amp;shem=lcuae,uaasie&amp;source=sh/x/loc/uni/m1/1&amp;kgs=8dba0fd432479592#lrd=0x40d95860701016a5:0x3a3032a5ebccece0,1,,,,"
-                            target="_blank" class="button is-large gray w-inline-block"><img
-                                src="{{ asset('images/67ed28adb59c1de594c623ed_icon-google.svg') }}"
-                                loading="lazy" alt="" class="icon width-24">
+                            href="https://yandex.ru/maps/org/yevrostom/27380149446/reviews/" rel="noopener"
+                            target="_blank" class="button is-large gray w-inline-block">
                             <div>Смотреть все отзывы</div>
                         </a></div>
                 </div>

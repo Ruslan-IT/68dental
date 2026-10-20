@@ -1,8 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'О клинике — Евростом')
-@section('description', 'Стоматологическая клиника Евростом в Алексеевке. О подходе к лечению и записи на приём.')
-@section('canonical', 'http://68dental.local/about')
+@section('title', 'О клинике Евростом')
+@section('description', 'О стоматологической клинике Евростом в Алексеевке, Уфимский район: как проходит приём и как записаться. Телефон +7 (347) 246-85-68.')
 @section('wf-page', '67f396e7f9a8790a4335c7e9')
 
 @push('page-css')
@@ -53,12 +52,12 @@
         <section data-w-id="ec3f144b-2598-92bc-b2f4-6f7546cadc21" class="section">
             <div class="container">
                 <div class="section__content-wrap">
-                    <div data-w-id="eeb68631-ee71-13c4-1dc3-b41fba5e0155" style="opacity: 0;" class="heading__wrap"><h2
+                    <div class="heading__wrap"><h2
                             class="heading-4">О клинике Евростом </h2>
                         <div class="text__wrap max-width-19"><p class="text-size-regular text-color-graphite">Команда, которая делает визит к стоматологу спокойнее.</p></div>
                     </div>
-                    <div data-w-id="770fd28d-1206-e206-8130-132ad1e6c7eb" class="columns mod--about" style="">
-                        <div data-w-id="ea1cec00-7269-d451-dcf8-21f60032d220" class="columns__col mod--about is1">
+                    <div class="columns mod--about">
+                        <div class="columns__col mod--about is1">
                             <div class="about__icon-wrap is1"><img
                                     src="{{ asset('images/67ebe508f509b13f8c0b2e51_benefits__icon-4.svg') }}"
                                     loading="lazy" alt="Иконка" class="icon width-64">
@@ -67,7 +66,7 @@
                                     48576</p>
                                 <p class="text-size-regular">Пациентов уже получили услуги</p></div>
                         </div>
-                        <div data-w-id="d885b99f-0175-9f6a-6afd-61752433a0bf" class="columns__col mod--about is2">
+                        <div class="columns__col mod--about is2">
                             <div class="about__icon-wrap is1"><img
                                     src="{{ asset('images/67ebe508a97dcabcb091dd6b_benefits__icon-2.svg') }}"
                                     loading="lazy" alt="Иконка" class="icon width-64">
@@ -78,11 +77,11 @@
                             <img
                                 src="{{ asset('images/67f4ca75f83c2d9f9ef88510_about__img.avif') }}"
                                 loading="lazy" alt="Фото" class="about__img"></div>
-                        <div data-w-id="27394086-35e7-d58e-006f-d401d511dc5a" class="columns__col mod--about is3"><h3 class="heading-5 font-style-worksans text-weight-normal">Задача нашей клиники</h3>
+                        <div class="columns__col mod--about is3"><h3 class="heading-5 font-style-worksans text-weight-normal">Задача нашей клиники</h3>
                             <div class="about__text-wrap is2"><p
                                     class="text-size-medium mobile-size-14 text-color-violet">Мы помогаем каждому пациенту получить качественную стоматологическую помощь: современные методы, опыт команды и внимание к конкретному человеку. Нам важно не только решить проблему, но и сделать так, чтобы человек чувствовал себя увереннее. Мы выстраиваем долгие отношения и в первую очередь смотрим на запрос пациента.</p></div>
                         </div>
-                        <div data-w-id="34b2090a-9dd5-d15f-ea0c-b677ec854a23" class="columns__col mod--about is4">
+                        <div class="columns__col mod--about is4">
                             <div class="about__icon-wrap is2">
                                 <div class="about__icons"><img
                                         src="{{ asset('images/67f619431be085f9980b6472_about__icon-ava.avif') }}"
@@ -101,7 +100,7 @@
                             <div class="about__text-wrap is1"><p
                                     class="text-size-medium mobile-size-14 text-color-dim-gray">Это команда специалистов со стажем от 3 до 30 лет.</p></div>
                         </div>
-                        <div data-w-id="73544dae-6ad5-cd03-4ed6-bab0a5f591c6" class="columns__col mod--about is5">
+                        <div class="columns__col mod--about is5">
                             <div class="about__icon-wrap is3"><img
                                     src="{{ asset('images/67f655f7a5514b7f2c655382_about__icon-services.svg') }}"
                                     loading="lazy" alt="Иконка услуги" class="icon width-64"><a href="/services"
@@ -426,10 +425,8 @@
                         </div>
                     </div>
                     <div mobile-hide="" data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d8210636" class="button-wrap"><a
-                            href="https://www.google.com/search?sca_esv=2d4d8ffc55fcccf2&amp;cs=1&amp;output=search&amp;kgmid=/g/11f3dwh_y1&amp;q=%D0%94%D0%B5%D0%BD%D1%82%D0%B0-%D0%9B%D1%8E%D0%BA%D1%81&amp;shndl=30&amp;shem=lcuae,uaasie&amp;source=sh/x/loc/uni/m1/1&amp;kgs=8dba0fd432479592#lrd=0x40d95860701016a5:0x3a3032a5ebccece0,1,,,,"
-                            target="_blank" class="button is-large gray w-inline-block"><img
-                                src="{{ asset('images/67ed28adb59c1de594c623ed_icon-google.svg') }}"
-                                loading="lazy" alt="" class="icon width-24">
+                            href="https://yandex.ru/maps/org/yevrostom/27380149446/reviews/" rel="noopener"
+                            target="_blank" class="button is-large gray w-inline-block">
                             <div>Смотреть все отзывы</div>
                         </a></div>
                 </div>

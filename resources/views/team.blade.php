@@ -1,8 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Команда — Евростом')
-@section('description', 'Команда стоматологической клиники Евростом.')
-@section('canonical', 'http://68dental.local/team')
+@section('title', 'Команда клиники Евростом')
+@section('description', 'Страница команды стоматологической клиники Евростом в Алексеевке, Центральная улица, 58/1. Запись по телефону +7 (347) 246-85-68.')
 @section('wf-page', '67fcb2e7c97b3a27aafaa8e9')
 
 @push('page-css')

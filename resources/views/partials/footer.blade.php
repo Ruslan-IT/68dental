@@ -53,8 +53,7 @@
                                 href="https://yandex.ru/maps/org/yevrostom/27380149446/?tab=features" target="_blank"
                                 rel="noopener" class="footer__text-link">Доступность</a><a mobile-hide="" href="#"
                                                                                            class="text-size-medium mod--custom text-color-white">Карточка
-                                на Яндекс Картах</a><a href="https://gapsystudio.com/" target="_blank"
-                                                       class="text-size-medium mod--custom text-color-white"></a></div>
+                                на Яндекс Картах</a></div>
                     </div>
                 </div>
             </div>

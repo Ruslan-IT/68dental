@@ -1,8 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Контакты — Евростом')
-@section('description', 'Контакты клиники Евростом: Алексеевка, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Пн–Пт: 09:00–21:00.')
-@section('canonical', 'http://68dental.local/contact')
+@section('title', 'Контакты клиники Евростом')
+@section('description', 'Адрес клиники Евростом: Алексеевка, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Пн–пт с 09:00 до 21:00, сб и вс — выходные.')
 @section('wf-page', '68231d17b77fe9cbbcbfa1f9')
 
 @push('page-css')
@@ -80,15 +79,16 @@
                                 <div class="contact__social-wrap"><a
                                         href="tel:+73472468568"
                                         class="contact__social w-inline-block"><img
-                                            src="{{ asset('images/6823227ffa96345d047f07a6_icon-email.svg') }}"
-                                            loading="lazy" alt="Почта" class="icon width-36"></a><a
+                                            src="{{ asset('images/67ed3f04f8d1941bbc010459_icon__phone.svg') }}"
+                                            loading="lazy" alt="Телефон" class="icon width-36"></a><a
                                         href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank"
+                                        rel="noopener"
                                         class="contact__social w-inline-block"><img
-                                            src="{{ asset('images/67ed38babab72294e770dbe5_icon__facebook.svg') }}"
+                                            src="{{ asset('images/67ed3f052b8d6a02e20242ba_icon__place.svg') }}"
                                             loading="lazy" alt="Карта" class="icon width-36"></a><a
                                         href="https://wa.me/79174172079"
-                                        target="_blank" class="contact__social w-inline-block"><img
-                                            src="{{ asset('images/67ed38ba08dca978557bd2fe_icon__inst.svg') }}"
+                                        target="_blank" rel="noopener" class="contact__social w-inline-block"><img
+                                            src="{{ asset('images/67ed3f04f8d1941bbc010459_icon__phone.svg') }}"
                                             loading="lazy" alt="WhatsApp" class="icon width-36"></a></div>
                                 <p desktop-hide="" class="text-size-regular text-color-white">Как с нами связаться</p>
                             </div>
