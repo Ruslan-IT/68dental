@@ -1,7 +1,5 @@
 @extends('layouts.app')
 
-@section('title', 'Контакты клиники Евростом')
-@section('description', 'Адрес клиники Евростом: Алексеевка, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Пн–пт с 09:00 до 21:00, сб и вс — выходные.')
 @section('wf-page', '68231d17b77fe9cbbcbfa1f9')
 
 @push('page-css')
@@ -23,7 +21,7 @@
                         <div class="form__block contact w-form">
                             <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form cta"
                                   data-wf-page-id="68231d17b77fe9cbbcbfa1f9"
-                                  data-wf-element-id="dea7b75a-7402-9f70-0701-c0ed9d6b4236" aria-label="Форма записи" onsubmit="window.location.href='tel:+73472468568';return false;">
+                                  data-wf-element-id="dea7b75a-7402-9f70-0701-c0ed9d6b4236" aria-label="Форма записи" onsubmit="window.location.href='tel:{{ config('clinic.phone_tel') }}';return false;">
                                 <div class="contact__text-wrap is1"><p
                                         class="text-size-medium mobile-size-14 text-align-center">Мы свяжемся с вами в течение часа, чтобы вы могли выбрать дату и время приёма.</p></div>
                                 <div class="text__field-wrap cta"><input class="text__field w-input" maxlength="256"
@@ -43,11 +41,11 @@
                             </form>
                             <div class="success__message w-form-done" tabindex="-1" role="region"
                                  aria-label="Форма отправлена">
-                                <div class="text-size-medium text-color-white">Спасибо, что выбираете Евростом. Мы перезвоним, чтобы выбрать удобное время. Ожидайте звонок.
+                                <div class="text-size-medium text-color-white">Спасибо, что выбираете {{ config('clinic.name') }}. Мы перезвоним, чтобы выбрать удобное время. Ожидайте звонок.
                                 </div>
                             </div>
                             <div class="w-form-fail" tabindex="-1" role="region" aria-label="Ошибка отправки формы">
-                                <div>Не удалось отправить форму. Позвоните: +7 (347) 246-85-68.</div>
+                                <div>Не удалось отправить форму. Позвоните: {{ config('clinic.phone_display') }}.</div>
                             </div>
                         </div>
                     </div>
@@ -56,47 +54,47 @@
                             <div class="contact__col-wrap"><img
                                     src="{{ asset('images/67ed3f04f8d1941bbc010459_icon__phone.svg') }}"
                                     loading="lazy" alt="Телефон" class="contact__icon is1"><a
-                                    href="tel:+73472468568" class="text-size-regular text-color-white">+7 (347) 246-85-68</a><a href="tel:+73472468568" class="text-size-regular text-color-white">+7 (347) 246-85-68</a></div>
+                                    href="tel:{{ config('clinic.phone_tel') }}" class="text-size-regular text-color-white">{{ config('clinic.phone_display') }}</a><a href="mailto:{{ config('clinic.email') }}" class="text-size-regular text-color-white">{{ config('clinic.email') }}</a></div>
                         </div>
                         <div class="contact__col">
                             <div class="contact__col-wrap"><img
                                     src="{{ asset('images/67ed3f0561fca9c14fccc574_icon__calendar.svg') }}"
                                     loading="lazy" alt="Календарь" class="contact__icon">
-                                <p class="text-size-regular text-color-white">Пн–Пт: 09:00–21:00</p>
-                                <p class="text-size-regular text-color-white">Сб: выходной</p>
-                                <p class="text-size-regular text-color-white">Вс: выходной</p></div>
+                                <p class="text-size-regular text-color-white">{{ config('clinic.hours_weekdays') }}</p>
+                                <p class="text-size-regular text-color-white">{{ config('clinic.hours_saturday') }}</p>
+                                <p class="text-size-regular text-color-white">{{ config('clinic.hours_sunday') }}</p></div>
                         </div>
                         <div id="w-node-_79a22015-ab8f-4b54-5d77-d8cdeb15c4e3-bcbfa1f9" class="contact__col">
                             <div class="contact__col-wrap"><img
                                     src="{{ asset('images/67ed3f052b8d6a02e20242ba_icon__place.svg') }}"
                                     loading="lazy" alt="Адрес" class="contact__icon is1"><a
-                                    href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank"
-                                    class="text-size-regular text-color-white">Алексеевка,<br>Центральная ул., 58/1</a>
+                                    href="{{ config('clinic.map_url') }}" target="_blank"
+                                    class="text-size-regular text-color-white">{{ config('clinic.address') }}</a>
                             </div>
                         </div>
                         <div id="w-node-_32611652-2785-6d05-c2ec-1a42cbe52b84-bcbfa1f9" class="contact__col social">
                             <div class="contact__col-wrap social">
                                 <div class="contact__social-wrap"><a
-                                        href="tel:+73472468568"
+                                        href="tel:{{ config('clinic.phone_tel') }}"
                                         class="contact__social w-inline-block"><img
                                             src="{{ asset('images/67ed3f04f8d1941bbc010459_icon__phone.svg') }}"
                                             loading="lazy" alt="Телефон" class="icon width-36"></a><a
-                                        href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank"
+                                        href="{{ config('clinic.map_url') }}" target="_blank"
                                         rel="noopener"
                                         class="contact__social w-inline-block"><img
                                             src="{{ asset('images/67ed3f052b8d6a02e20242ba_icon__place.svg') }}"
                                             loading="lazy" alt="Карта" class="icon width-36"></a><a
-                                        href="https://wa.me/79174172079"
+                                        href="mailto:{{ config('clinic.email') }}"
                                         target="_blank" rel="noopener" class="contact__social w-inline-block"><img
                                             src="{{ asset('images/67ed3f04f8d1941bbc010459_icon__phone.svg') }}"
-                                            loading="lazy" alt="WhatsApp" class="icon width-36"></a></div>
+                                            loading="lazy" alt="Почта" class="icon width-36"></a></div>
                                 <p desktop-hide="" class="text-size-regular text-color-white">Как с нами связаться</p>
                             </div>
                         </div>
                     </div>
                     <a data-w-id="813d4f5d-b171-87ce-4033-29f8c6ee4608"
                        style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                       href="tel:+73472468568" class="contact__phone-btn mod--contact w-inline-block">
+                       href="tel:{{ config('clinic.phone_tel') }}" class="contact__phone-btn mod--contact w-inline-block">
                         <div class="alt-for-link">Подробнее</div>
                     </a></div>
             </div>

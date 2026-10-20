@@ -1,7 +1,5 @@
 @extends('layouts.app')
 
-@section('title', 'О клинике Евростом')
-@section('description', 'О стоматологической клинике Евростом в Алексеевке, Уфимский район: как проходит приём и как записаться. Телефон +7 (347) 246-85-68.')
 @section('wf-page', '67f396e7f9a8790a4335c7e9')
 
 @push('page-css')
@@ -23,12 +21,12 @@
                         <div class="about__icon-wrap is1"><img
                                 src="{{ asset('images/67ebe508f509b13f8c0b2e51_benefits__icon-4.svg') }}"
                                 loading="lazy" alt="Иконка" class="icon width-64">
-                            <p class="text-size-regular text-weight-bold">Всё чаще пациенты выбирают Евростом</p>
+                            <p class="text-size-regular text-weight-bold">Всё чаще пациенты выбирают {{ config('clinic.name') }}</p>
                         </div>
                         <div class="about__text-wrap is1"><p class="heading-4 mobile-size-48 font-style-inter">48576</p>
                             <p class="text-size-regular">Пациентов уже получили услуги</p></div>
                     </div>
-                    <a data-w-id="0d5651a3-88c6-a4f4-619d-6eb9fab6e975" style="opacity: 0;" href="tel:+73472468568"
+                    <a data-w-id="0d5651a3-88c6-a4f4-619d-6eb9fab6e975" style="opacity: 0;" href="tel:{{ config('clinic.phone_tel') }}"
                        class="contact__phone-btn w-inline-block">
                         <div class="alt-for-link">Подробнее</div>
                     </a></div>
@@ -53,7 +51,7 @@
             <div class="container">
                 <div class="section__content-wrap">
                     <div class="heading__wrap"><h2
-                            class="heading-4">О клинике Евростом </h2>
+                            class="heading-4">О клинике {{ config('clinic.name') }} </h2>
                         <div class="text__wrap max-width-19"><p class="text-size-regular text-color-graphite">Команда, которая делает визит к стоматологу спокойнее.</p></div>
                     </div>
                     <div class="columns mod--about">
@@ -61,7 +59,7 @@
                             <div class="about__icon-wrap is1"><img
                                     src="{{ asset('images/67ebe508f509b13f8c0b2e51_benefits__icon-4.svg') }}"
                                     loading="lazy" alt="Иконка" class="icon width-64">
-                                <p class="text-size-regular">Всё чаще пациенты выбирают Евростом</p></div>
+                                <p class="text-size-regular">Всё чаще пациенты выбирают {{ config('clinic.name') }}</p></div>
                             <div class="about__text-wrap is1"><p class="heading-4 mobile-size-48 font-style-inter">
                                     48576</p>
                                 <p class="text-size-regular">Пациентов уже получили услуги</p></div>
@@ -167,7 +165,7 @@
             <div class="container">
                 <div class="services__content-wrap">
                     <div data-w-id="d4959be2-7bd6-2412-399a-0d5d8e0f91ad" style="opacity: 0;" class="heading__wrap"><h2
-                            class="heading-4">Услуги стоматологии Евростом</h2>
+                            class="heading-4">Услуги стоматологии {{ config('clinic.name') }}</h2>
                         <div class="text__wrap max-width-22"><p class="text-size-regular text-color-graphite">Мы предлагаем широкий спектр стоматологических услуг. Здоровье пациента для нас на первом месте.</p></div>
                     </div>
                     <div data-hover="cursor" data-swiper="services" data-w-id="d4959be2-7bd6-2412-399a-0d5d8e0f91b3"
@@ -356,7 +354,7 @@
             <div class="container">
                 <div class="section__content-wrap">
                     <div data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d821061a" class="heading__wrap"><h2
-                            class="heading-4">Пациенты о Евростом</h2>
+                            class="heading-4">Пациенты о {{ config('clinic.name') }}</h2>
                         <div class="text__wrap max-width-19"><p class="text-size-regular text-color-graphite">Спасибо за доверие. Ваши слова помогают нам работать внимательнее.</p></div>
                     </div>
                     <div data-hover="cursor" data-swiper="reviews" data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d8210620"
@@ -373,7 +371,7 @@
                                             Олег Лазаренко</p>
                                         <p class="text-size-regular text-color-neutral_gray">11.02.2025</p></div>
                                 </div>
-                                <p class="text-size-medium mobile-size-14">Хожу в Евростом уже 3 года и доволен. Лечил здесь кариес, удалял зуб мудрости, делал чистку и ни разу не пожалел, что обратился именно сюда. Врачи знают своё дело и работают аккуратно. Советую тем, кому важны качество и спокойное отношение.</p></div>
+                                <p class="text-size-medium mobile-size-14">Хожу в {{ config('clinic.name') }} уже 3 года и доволен. Лечил здесь кариес, удалял зуб мудрости, делал чистку и ни разу не пожалел, что обратился именно сюда. Врачи знают своё дело и работают аккуратно. Советую тем, кому важны качество и спокойное отношение.</p></div>
                             <div role="group" class="swiper-slide mod--reviews w-dyn-item swiper-slide-next"
                                  style="width: 348.167px; margin-right: 16px;" aria-label="2 / 4">
                                 <div class="reviews__ava-wrap"><img
@@ -393,7 +391,7 @@
                                             Ирина Федунь</p>
                                         <p class="text-size-regular text-color-neutral_gray">04.06.2024</p></div>
                                 </div>
-                                <p class="text-size-medium mobile-size-14">Очень довольна визитом в Евростом. Пришла с сильной зубной болью, оказался пульпит. Лечение прошло профессионально, аккуратно и без боли. Врачи внимательные, в клинике спокойная атмосфера. Рекомендую.</p>
+                                <p class="text-size-medium mobile-size-14">Очень довольна визитом в {{ config('clinic.name') }}. Пришла с сильной зубной болью, оказался пульпит. Лечение прошло профессионально, аккуратно и без боли. Врачи внимательные, в клинике спокойная атмосфера. Рекомендую.</p>
                             </div>
                             <div role="group" class="swiper-slide mod--reviews w-dyn-item" aria-label="4 / 4"
                                  style="width: 348.167px; margin-right: 16px;">
@@ -404,7 +402,7 @@
                                             Назар Романчук</p>
                                         <p class="text-size-regular text-color-neutral_gray">14.05.2024</p></div>
                                 </div>
-                                <p class="text-size-medium mobile-size-14">Начал лечение на элайнерах, потому что хотел исправить прикус без брекетов. В Евростом всё организовано хорошо, врачи объясняют каждый шаг и следят за результатом. Элайнеры носить удобно, изменения уже видны. </p>
+                                <p class="text-size-medium mobile-size-14">Начал лечение на элайнерах, потому что хотел исправить прикус без брекетов. В {{ config('clinic.name') }} всё организовано хорошо, врачи объясняют каждый шаг и следят за результатом. Элайнеры носить удобно, изменения уже видны. </p>
                             </div>
                         </div>
                         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
@@ -425,7 +423,7 @@
                         </div>
                     </div>
                     <div mobile-hide="" data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d8210636" class="button-wrap"><a
-                            href="https://yandex.ru/maps/org/yevrostom/27380149446/reviews/" rel="noopener"
+                            href="{{ config('clinic.map_url') }}" rel="noopener"
                             target="_blank" class="button is-large gray w-inline-block">
                             <div>Смотреть все отзывы</div>
                         </a></div>
@@ -443,7 +441,7 @@
                         <div class="form__block cta w-form">
                             <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form cta"
                                   data-wf-page-id="67f396e7f9a8790a4335c7e9"
-                                  data-wf-element-id="45100916-48bc-7640-6c7c-b98fa9470b69" aria-label="Форма записи" onsubmit="window.location.href='tel:+73472468568';return false;"><p
+                                  data-wf-element-id="45100916-48bc-7640-6c7c-b98fa9470b69" aria-label="Форма записи" onsubmit="window.location.href='tel:{{ config('clinic.phone_tel') }}';return false;"><p
                                     class="text-size-medium mobile-size-14 text-align-center">Мы проводим первичный осмотр и консультацию. Оставьте заявку на сайте.<br>Мы перезвоним, чтобы выбрать удобное время.</p>
                                 <div class="text__field-wrap cta"><input class="text__field w-input" maxlength="256"
                                                                          name="Name" data-name="Name"
@@ -462,11 +460,11 @@
                             </form>
                             <div class="success__message w-form-done" tabindex="-1" role="region"
                                  aria-label="Форма отправлена">
-                                <div class="text-size-medium">Спасибо, что выбираете Евростом. Мы перезвоним, чтобы выбрать удобное время. Ожидайте звонок.
+                                <div class="text-size-medium">Спасибо, что выбираете {{ config('clinic.name') }}. Мы перезвоним, чтобы выбрать удобное время. Ожидайте звонок.
                                 </div>
                             </div>
                             <div class="w-form-fail" tabindex="-1" role="region" aria-label="Ошибка отправки формы">
-                                <div>Не удалось отправить форму. Позвоните: +7 (347) 246-85-68.</div>
+                                <div>Не удалось отправить форму. Позвоните: {{ config('clinic.phone_display') }}.</div>
                             </div>
                         </div>
                     </div>

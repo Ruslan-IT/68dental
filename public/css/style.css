@@ -30,6 +30,20 @@ html {
             align-items: center;
         }
 
+        .footer__logo-text {
+            display: inline-flex;
+            align-items: center;
+            width: auto;
+            height: auto;
+            color: #FEFBF8;
+            font-family: Upmax, Arial, sans-serif;
+            font-size: 22px;
+            line-height: 1.1;
+            font-weight: 600;
+            letter-spacing: .02em;
+            white-space: nowrap;
+        }
+
         @media (max-width: 1359px) {
             .header__col.is2 .nav-extra {
                 display: none;

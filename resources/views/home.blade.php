@@ -1,7 +1,5 @@
 @extends('layouts.app')
 
-@section('title', 'Евростом — стоматологическая клиника')
-@section('description', 'Стоматологическая клиника Евростом в Алексеевке, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Приём пн–пт с 09:00 до 21:00.')
 @section('wf-page', '67ea68f011b0fd6e4b26caea')
 
 @push('page-css')
@@ -82,9 +80,9 @@
                     </div>
                     <img src="{{ asset('images/684c3512dfce8ae39559d4a5_icon_hero-360.svg') }}" loading="lazy" mobile-hide="" alt="icon_hero-360" class="hero__illustr-icon"><img src="{{ asset('images/684c40ea56921e1966b94f5b_icon_hero-360-mob.svg') }}" loading="lazy" desktop-hide="" alt="icon_hero-360" class="hero__illustr-icon"></div>
                 <div class="hero__content-wrap">
-                    <div data-w-id="111a76b8-88a4-5909-45b6-da2035208866" style="opacity: 0;" class="hero__contact"><a href="https://wa.me/79174172079" target="_blank" rel="noopener" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67eb93731aa6a8772d43e557_icon__call.svg') }}" loading="lazy" alt="WhatsApp" class="hero__contact-icon">
+                    <div data-w-id="111a76b8-88a4-5909-45b6-da2035208866" style="opacity: 0;" class="hero__contact"><a href="tel:{{ config('clinic.phone_tel') }}" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67eb93731aa6a8772d43e557_icon__call.svg') }}" loading="lazy" alt="Телефон" class="hero__contact-icon">
                             <div class="alt-for-link"></div>
-                        </a><a href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank" rel="noopener" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67eb93730254dadf0bc87490_icon__place.svg') }}" loading="lazy" alt="Яндекс Карты" class="hero__contact-icon">
+                        </a><a href="{{ config('clinic.map_url') }}" target="_blank" rel="noopener" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67eb93730254dadf0bc87490_icon__place.svg') }}" loading="lazy" alt="Яндекс Карты" class="hero__contact-icon">
                             <div class="alt-for-link"></div>
                         </a></div>
                     <div data-w-id="88aae577-de30-5b11-5650-7807387ad5ff" style="opacity: 0;" class="hero__swiper-wrap">
@@ -93,15 +91,15 @@
                                 
                                 <div class="swiper-slide mod--hero" data-swiper-slide-index="0" role="group" aria-label="1 / 3"><img src="{{ asset('images/68774d2c4ec1eb0373f4e281_hero__slider-img-1.png') }}" loading="eager" fetchpriority="high" alt="" class="hero__swiper-img">
                                     <div class="hero__swiper-text"><p class="heading-6">Эстетическая стоматология<br>и восстановление улыбки</p>
-                                        <p class="text-size-regular">Евростом – ваш <span class="text-weight-semibold mod--mobile-none">ориентир</span>, если нужно понять, с чего начать.</p></div>
+                                        <p class="text-size-regular">{{ config('clinic.name') }} – ваш <span class="text-weight-semibold mod--mobile-none">ориентир</span>, если нужно понять, с чего начать.</p></div>
                                 </div>
                                 <div class="swiper-slide mod--hero" data-swiper-slide-index="1" role="group" aria-label="2 / 3"><img src="{{ asset('images/68774d2c12303c717d57546b_hero__slider-img-2.png') }}" loading="lazy" alt="" class="hero__swiper-img">
                                     <div class="hero__swiper-text"><p class="heading-6">Оборудование на приёме</p>
-                                        <p class="text-size-regular text-color-neutral_gray">Евростом – <span class="text-weight-semibold">подход</span>, при котором ход лечения объясняют заранее.</p></div>
+                                        <p class="text-size-regular text-color-neutral_gray">{{ config('clinic.name') }} – <span class="text-weight-semibold">подход</span>, при котором ход лечения объясняют заранее.</p></div>
                                 </div>
                                 <div class="swiper-slide mod--hero" data-swiper-slide-index="2" role="group" aria-label="3 / 3"><img src="{{ asset('images/68774d2c2a9981ca95c15f3b_hero__slider-img-3.png') }}" loading="lazy" alt="" class="hero__swiper-img">
                                     <div class="hero__swiper-text"><p class="heading-6">Забота и внимание каждый день</p>
-                                        <p class="text-size-regular text-color-neutral_gray">Евростом – <span class="text-weight-semibold">врачи клиники</span>, к которым пациенты приходят на приём.</p></div>
+                                        <p class="text-size-regular text-color-neutral_gray">{{ config('clinic.name') }} – <span class="text-weight-semibold">врачи клиники</span>, к которым пациенты приходят на приём.</p></div>
                                 </div>
                                 
                             </div>
@@ -119,8 +117,8 @@
                             </div>
                         </div>
                     </div>
-                    <div data-w-id="a2e232d7-403d-42b7-b030-87db3d6674c6" style="opacity: 0;" class="hero__heading-wrap"><h1>ЕВРОСТОМ</h1>
-                        <div class="hero__text-wrap"><p class="text-size-medium">Стоматологическая клиника Евростом в Алексеевке, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Пн–Пт: 09:00–21:00, суббота и воскресенье — выходные.</p></div>
+                    <div data-w-id="a2e232d7-403d-42b7-b030-87db3d6674c6" style="opacity: 0;" class="hero__heading-wrap"><h1>{{ mb_strtoupper(config('clinic.name')) }}</h1>
+                        <div class="hero__text-wrap"><p class="text-size-medium">Стоматологическая клиника {{ config('clinic.name') }} по адресу {{ config('clinic.address') }}. Телефон {{ config('clinic.phone_display') }}. {{ config('clinic.hours_weekdays') }}, суббота и воскресенье: 10:00–17:00.</p></div>
                     </div>
                 </div>
             </div>
@@ -128,7 +126,7 @@
         <section class="section overflow-hidden">
             <div class="container">
                 <div class="services__content-wrap">
-                    <div data-w-id="f2014b47-4e0f-25ac-d1cb-9c1be0cfe1ee" class="heading__wrap" style="opacity: 0;"><h2 class="heading-4">Услуги стоматологии Евростом</h2>
+                    <div data-w-id="f2014b47-4e0f-25ac-d1cb-9c1be0cfe1ee" class="heading__wrap" style="opacity: 0;"><h2 class="heading-4">Услуги стоматологии {{ config('clinic.name') }}</h2>
                         <div class="text__wrap max-width-22"><p class="text-size-regular text-color-graphite">На странице собраны направления, которые показаны в галерее шаблона. Запись — по телефону клиники.</p></div>
                     </div>
                     <div class="collection__list-wrap mod--services w-dyn-list">
@@ -430,13 +428,13 @@
                             <div class="swiper-slide mod--benefits">
                                 <div class="swiper__slide-wrap mod--benefits"><img src="{{ asset('images/67ebe50845130aba938d8aaf_benefits__icon-1.svg') }}" loading="lazy" alt="card icon" class="icon width-64">
                                     <div class="benefits__text-wrap"><h3 class="heading-6 mobile-size-20 font-style-worksans">Оборудование</h3>
-                                        <p class="text-size-regular text-color-neutral_gray">В описании шаблона речь об оборудовании для диагностики и лечения. Точный список техники Евростом отдельно не опубликован.</p></div>
+                                        <p class="text-size-regular text-color-neutral_gray">В описании шаблона речь об оборудовании для диагностики и лечения. Точный список техники {{ config('clinic.name') }} отдельно не опубликован.</p></div>
                                 </div>
                             </div>
                             <div class="swiper-slide mod--benefits">
                                 <div class="swiper__slide-wrap mod--benefits"><img src="{{ asset('images/67ebe508a97dcabcb091dd6b_benefits__icon-2.svg') }}" loading="lazy" alt="card icon" class="icon width-64">
                                     <div class="benefits__text-wrap"><h3 class="heading-6 mobile-size-20 font-style-worksans">Специалисты</h3>
-                                        <p class="text-size-regular text-color-neutral_gray">На сайте показаны специалисты из макета клиники. Стаж и квалификация Евростом отдельно не подтверждены.</p></div>
+                                        <p class="text-size-regular text-color-neutral_gray">Кроме главного врача, на сайте показаны специалисты из макета. Их стаж отдельно не подтверждён.</p></div>
                                 </div>
                             </div>
                             <div class="swiper-slide mod--benefits">
@@ -481,7 +479,7 @@
                 <div class="section__content-wrap">
                     <div data-w-id="7eae70d1-5107-fec5-de25-040510ddc8e4" style="opacity: 0;" class="heading__wrap"><h2 class="heading-4">Специалисты</h2>
                         <div class="text__wrap max-width-38"><p class="text-size-regular text-color-graphite">
-                                Ночевкина Марина Раисовна — врач-стоматолог клиники. Остальные карточки сохранены из макета страницы.</p></div>
+                                Арус Погосян — главный врач клиники. Остальные карточки сохранены из макета страницы.</p></div>
                     </div>
                     <div class="specialists__swiper-wrap">
                         <div data-swiper="specialists-first" data-w-id="dbf19cfc-52b3-5147-53a0-fa791de664ed" style="opacity: 0;" class="swiper mod--specialists-first w-dyn-list">
@@ -517,7 +515,7 @@
             <div class="container">
                 <div class="section__content-wrap">
                     <div data-w-id="744b59d3-ff32-cee2-e603-b440ebbb5e13" style="opacity: 0;" class="heading__wrap"><h2 class="heading-4">Технологии и оборудование</h2>
-                        <div class="text__wrap max-width-25"><p class="text-size-regular text-color-graphite">В макете перечислено оборудование. Наличие этих приборов в Евростом отдельно не подтверждено:</p></div>
+                        <div class="text__wrap max-width-25"><p class="text-size-regular text-color-graphite">В макете перечислено оборудование. Наличие этих приборов в {{ config('clinic.name') }} отдельно не подтверждено:</p></div>
                     </div>
                     <div data-swiper="technology" data-w-id="d4dc43f0-1517-b798-c63c-eebb5e158908" style="opacity: 0;" class="swiper mod--technology">
                         <div class="swiper-wrapper mod--technology">
@@ -572,13 +570,13 @@
             <div class="container">
                 <div class="section__content-wrap">
                     <div data-w-id="a6af6425-77bd-ff4a-6050-c197d0d0ee08" style="opacity: 0;" class="heading__wrap"><h2 class="heading-4">О клинике</h2>
-                        <div class="text__wrap max-width-28"><p class="text-size-regular text-color-graphite">Клиника принимает пациентов в Алексеевке. Подробности записи — по телефону.</p></div>
+                        <div class="text__wrap max-width-28"><p class="text-size-regular text-color-graphite">Клиника принимает пациентов по адресу {{ config('clinic.address') }}. Подробности записи — по телефону.</p></div>
                     </div>
                     <div class="features__content">
                         <div data-w-id="0b16edb4-36d4-c081-7b37-d5286a468825" style="opacity: 0;" class="features__img-wrap"><img src="{{ asset('images/67ec1b6f4dc7d1da1b05e2f2_features__img.avif') }}" loading="lazy" alt="features wrap img" class="features__img">
                             <div class="features__text-wrap is1">
-                                <div class="features__text is1"><p class="text-size-medium mobile-size-14 text-weight-medium">Евростом — стоматологическая клиника в Алексеевке, Центральная улица, 58/1. Приём по записи, телефон +7 (347) 246-85-68.</p>
-                                    <p class="text-size-medium mobile-size-14 text-weight-medium">На приёме стараются объяснить ход лечения простыми словами. Отдельный перечень услуг Евростом не опубликован.</p></div>
+                                <div class="features__text is1"><p class="text-size-medium mobile-size-14 text-weight-medium">{{ config('clinic.name') }} — стоматологическая клиника по адресу {{ config('clinic.address') }}. Приём по записи, телефон {{ config('clinic.phone_display') }}.</p>
+                                    <p class="text-size-medium mobile-size-14 text-weight-medium">На приёме стараются объяснить ход лечения простыми словами. Отдельный перечень услуг {{ config('clinic.name') }} не опубликован.</p></div>
                             </div>
                         </div>
                         <div class="features__text-wrap is2">
@@ -586,11 +584,11 @@
                                 <h3 class="heading-5 font-style-worksans text-weight-normal">Что важно на приёме</h3>
                             </div>
                             <div data-w-id="e41df9bb-6565-2335-0e83-886b18898d14" style="opacity: 0;" class="features__text is2"><img src="{{ asset('images/67ec21dbf0c4c5c979f67e2f_features__icon-free.svg') }}" loading="lazy" alt="features free icon" class="icon width-24">
-                                <p class="text-size-medium mobile-size-14">В макете указаны сертифицированные материалы. Документы Евростом на сайте не выложены.</p></div>
+                                <p class="text-size-medium mobile-size-14">В макете указаны сертифицированные материалы. Документы {{ config('clinic.name') }} на сайте не выложены.</p></div>
                             <div data-w-id="022075e5-ea36-38c3-06ac-ef6adb67e8eb" style="opacity: 0;" class="features__text is2"><img src="{{ asset('images/67ec21dbf0c4c5c979f67e2f_features__icon-free.svg') }}" loading="lazy" alt="features free icon" class="icon width-24">
                                 <p class="text-size-medium mobile-size-14">Направления показаны карточками на этой странице и в разделе услуг.</p></div>
                             <div data-w-id="c6ef40a7-c700-46a4-6d33-7e1b6fd0f30d" style="opacity: 0;" class="features__text is2"><img src="{{ asset('images/67ec21dbf0c4c5c979f67e2f_features__icon-free.svg') }}" loading="lazy" alt="features free icon" class="icon width-24">
-                                <p class="text-size-medium mobile-size-14">Имена и стаж на карточках взяты из макета и не подтверждены как штат Евростом.</p></div>
+                                <p class="text-size-medium mobile-size-14">Кроме главного врача, имена и стаж на карточках взяты из макета и не подтверждены как штат клиники.</p></div>
                             <div data-w-id="8b30ec11-a049-5eaf-a2e0-664b390a7fb5" style="opacity: 0;" class="features__text is2"><img src="{{ asset('images/67ec21dbf0c4c5c979f67e2f_features__icon-free.svg') }}" loading="lazy" alt="features free icon" class="icon width-24">
                                 <p class="text-size-medium mobile-size-14">План лечения обсуждают по состоянию зубов и жалобам пациента.</p></div>
                             <div data-w-id="43ca8d01-df2c-d620-2b1b-39caedaf3664" style="opacity: 0;" class="features__text is2"><img src="{{ asset('images/67ec21dbf0c4c5c979f67e2f_features__icon-free.svg') }}" loading="lazy" alt="features free icon" class="icon width-24">
@@ -1027,7 +1025,7 @@
         <section class="section overflow-hidden">
             <div class="container">
                 <div class="section__content-wrap">
-                    <div data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d821061a" class="heading__wrap" style="opacity: 0;"><h2 class="heading-4">Пациенты о Евростом</h2>
+                    <div data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d821061a" class="heading__wrap" style="opacity: 0;"><h2 class="heading-4">Пациенты о {{ config('clinic.name') }}</h2>
                         <div class="text__wrap max-width-19"><p class="text-size-regular text-color-graphite">Тексты отзывов ниже — из макета сайта, это не отзывы с Яндекс Карт.</p></div>
                     </div>
                     <div data-hover="cursor" data-swiper="reviews" data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d8210620" class="swiper mod--reviews w-dyn-list" style="opacity: 0;">
@@ -1038,7 +1036,7 @@
                                             Олег Лазаренко</p>
                                         <p class="text-size-regular text-color-neutral_gray">11.02.2025</p></div>
                                 </div>
-                                <p class="text-size-medium mobile-size-14">Хожу в Евростом уже 3 года и доволен. Лечил здесь кариес, удалял зуб мудрости, делал чистку и ни разу не пожалел, что обратился именно сюда. Врачи знают своё дело и работают аккуратно. Советую тем, кому важны качество и спокойное отношение.</p></div>
+                                <p class="text-size-medium mobile-size-14">Хожу в {{ config('clinic.name') }} уже 3 года и доволен. Лечил здесь кариес, удалял зуб мудрости, делал чистку и ни разу не пожалел, что обратился именно сюда. Врачи знают своё дело и работают аккуратно. Советую тем, кому важны качество и спокойное отношение.</p></div>
                             <div role="group" class="swiper-slide mod--reviews w-dyn-item" aria-label="2 / 4">
                                 <div class="reviews__ava-wrap"><img src="{{ asset('images/68751e1dafa16bbc2ef5e5bf_ico-review-2.png') }}" loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
@@ -1052,7 +1050,7 @@
                                             Ирина Федунь</p>
                                         <p class="text-size-regular text-color-neutral_gray">04.06.2024</p></div>
                                 </div>
-                                <p class="text-size-medium mobile-size-14">Очень довольна визитом в Евростом. Пришла с сильной зубной болью, оказался пульпит. Лечение прошло профессионально, аккуратно и без боли. Врачи внимательные, в клинике спокойная атмосфера. Рекомендую.</p>
+                                <p class="text-size-medium mobile-size-14">Очень довольна визитом в {{ config('clinic.name') }}. Пришла с сильной зубной болью, оказался пульпит. Лечение прошло профессионально, аккуратно и без боли. Врачи внимательные, в клинике спокойная атмосфера. Рекомендую.</p>
                             </div>
                             <div role="group" class="swiper-slide mod--reviews w-dyn-item" aria-label="4 / 4">
                                 <div class="reviews__ava-wrap"><img src="{{ asset('images/68751de8d993b092fe3713a8_ico-review-4.png') }}" loading="lazy" alt="" class="reviews__icon">
@@ -1060,7 +1058,7 @@
                                             Назар Романчук</p>
                                         <p class="text-size-regular text-color-neutral_gray">14.05.2024</p></div>
                                 </div>
-                                <p class="text-size-medium mobile-size-14">Начал лечение на элайнерах, потому что хотел исправить прикус без брекетов. В Евростом всё организовано хорошо, врачи объясняют каждый шаг и следят за результатом. Элайнеры носить удобно, изменения уже видны. </p>
+                                <p class="text-size-medium mobile-size-14">Начал лечение на элайнерах, потому что хотел исправить прикус без брекетов. В {{ config('clinic.name') }} всё организовано хорошо, врачи объясняют каждый шаг и следят за результатом. Элайнеры носить удобно, изменения уже видны. </p>
                             </div>
                         </div>
                         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
@@ -1080,7 +1078,7 @@
                             </div>
                         </div>
                     </div>
-                    <div mobile-hide="" data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d8210636" class="button-wrap" style="opacity: 0;"><a href="https://yandex.ru/maps/org/yevrostom/27380149446/reviews/" target="_blank" rel="noopener" class="button is-large gray w-inline-block">
+                    <div mobile-hide="" data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d8210636" class="button-wrap" style="opacity: 0;"><a href="{{ config('clinic.map_url') }}" target="_blank" rel="noopener" class="button is-large gray w-inline-block">
                             <div>Отзывы на Яндекс Картах</div>
                         </a></div>
                 </div>
@@ -1090,23 +1088,23 @@
             <div class="container">
                 <div data-w-id="45100916-48bc-7640-6c7c-b98fa9470b5f" class="cta__content-wrap" style="opacity: 0;">
                     <div class="cta__heading-wrap">
-                        <div class="cta__text-wrap"><p class="text-size-regular">Позвоните и запишитесь на приём. Телефон +7 (347) 246-85-68.</p></div>
+                        <div class="cta__text-wrap"><p class="text-size-regular">Позвоните и запишитесь на приём. Телефон {{ config('clinic.phone_display') }}.</p></div>
                         <h2 class="heading-4">Запись на приём</h2></div>
                     <div class="cta__form">
                         <div class="cta__form-line"></div>
                         <div class="form__block cta w-form">
-                            <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form cta" onsubmit="window.location.href='tel:+73472468568';return false;" data-wf-page-id="67ea68f011b0fd6e4b26caea" data-wf-element-id="45100916-48bc-7640-6c7c-b98fa9470b69" aria-label="Форма записи"><p class="text-size-medium mobile-size-14 text-align-center">Первичный осмотр и консультация — по записи.<br>Онлайн-заявка не подключена. Позвоните, чтобы выбрать время.</p>
+                            <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form cta" onsubmit="window.location.href='tel:{{ config('clinic.phone_tel') }}';return false;" data-wf-page-id="67ea68f011b0fd6e4b26caea" data-wf-element-id="45100916-48bc-7640-6c7c-b98fa9470b69" aria-label="Форма записи"><p class="text-size-medium mobile-size-14 text-align-center">Первичный осмотр и консультация — по записи.<br>Онлайн-заявка не подключена. Позвоните, чтобы выбрать время.</p>
                                 <div class="text__field-wrap cta"><input class="text__field w-input" maxlength="256" name="Name" data-name="Name" placeholder="Ваше имя" type="text" id="Name" required=""><input class="text__field w-input" data-input-phone="" maxlength="256" name="Phone" data-name="Phone" placeholder="Ваш телефон" type="tel" id="Phone" required=""></div>
                                 <div class="button is-large gold"><input type="submit" data-wait="" class="submit__button w-button" value="">
                                     <div>Позвонить</div>
                                 </div>
                             </form>
                             <div class="success__message w-form-done" tabindex="-1" role="region" aria-label="Форма отправлена">
-                                <div class="text-size-medium">Спасибо, что выбираете Евростом. Мы перезвоним, чтобы выбрать удобное время. Ожидайте звонок.
+                                <div class="text-size-medium">Спасибо, что выбираете {{ config('clinic.name') }}. Мы перезвоним, чтобы выбрать удобное время. Ожидайте звонок.
                                 </div>
                             </div>
                             <div class="w-form-fail" tabindex="-1" role="region" aria-label="Email Form failure">
-                                <div>Заявка не отправляется. Позвоните: +7 (347) 246-85-68.</div>
+                                <div>Заявка не отправляется. Позвоните: {{ config('clinic.phone_display') }}.</div>
                             </div>
                         </div>
                     </div>
@@ -1136,7 +1134,7 @@
                                         </div>
                                         <div data-anim="" class="dropdown-list faq" style="height: 0px;">
                                             <div class="faq__text-wrap"><p class="text-size-medium mobile-size-14 text-color-neutral_gray">
-                                                    Зависит от случая. Пломба в макете указана как 30–60 минут. Протезирование и каналы — несколько визитов. Сроки и стоимость Евростом называет на приёме, прайс на сайте не опубликован.</p></div>
+                                                    Зависит от случая. Пломба в макете указана как 30–60 минут. Протезирование и каналы — несколько визитов. Сроки и стоимость {{ config('clinic.name') }} называет на приёме, прайс на сайте не опубликован.</p></div>
                                         </div>
                                     </div>
                                 </div>

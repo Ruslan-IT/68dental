@@ -4,13 +4,14 @@ return [
     'list' => [
         [
             'sort' => 10,
-            'name' => 'Ночевкина Марина Раисовна',
-            'role' => 'Врач-стоматолог',
+            'name' => 'Арус Погосян',
+            'role' => 'Главный врач клиники «Астериа», стоматолог-терапевт',
             'experience' => null,
-            'photo' => 'images/283449-481096-nochevkina_square.jpg',
+            'photo' => 'images/arus-pogosyan.webp',
             'photo_srcset' => [],
-            'photo_wide' => 'images/283449-481096-nochevkina_square.jpg',
+            'photo_wide' => 'images/arus-pogosyan.webp',
             'photo_wide_srcset' => [],
+            'photo_position' => 'center top',
         ],
         [
             'sort' => 20,

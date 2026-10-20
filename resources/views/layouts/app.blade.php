@@ -7,16 +7,20 @@
     <link href="https://cdnjs.cloudflare.com" rel="preconnect" crossorigin>
     <link href="https://d3e54v103j8qbb.cloudfront.net" rel="preconnect" crossorigin>
     @php
-        $pageTitle = trim($__env->yieldContent('title')) ?: 'Евростом — стоматологическая клиника';
-        $pageDescription = trim($__env->yieldContent('description')) ?: 'Евростом — стоматологическая клиника. Алексеевка, Уфимский район, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Пн–Пт: 09:00–21:00, суббота и воскресенье — выходные.';
+        // Метаданные читаются только из config/seo.php и не зависят от названия клиники.
+        $seoKey = trim(request()->path(), '/');
+        $seoKey = $seoKey === '' ? 'home' : $seoKey;
+        $seoPage = config('seo.pages.'.$seoKey) ?: config('seo.pages.home');
+        $pageTitle = $seoPage['title'];
+        $pageDescription = $seoPage['description'];
         $canonicalUrl = url()->current();
     @endphp
     <title>{{ $pageTitle }}</title>
     <meta name="description" content="{{ $pageDescription }}">
-    <meta name="keywords" content="Евростом, стоматологическая клиника, Алексеевка, Уфимский район">
+    <meta name="keywords" content="{{ config('seo.keywords') }}">
     <meta name="robots" content="@yield('robots', 'index, follow')">
     <link rel="canonical" href="{{ $canonicalUrl }}">
-    <meta property="og:site_name" content="Евростом">
+    <meta property="og:site_name" content="{{ config('seo.site_name') }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ $canonicalUrl }}">
     <meta property="og:title" content="{{ $pageTitle }}">
@@ -36,40 +40,23 @@
     <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}?v=5">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}?v=6">
     <script type="application/ld+json">
         {
             "@@context": "https://schema.org",
-            "@type": "Dentist",
-            "name": "Евростом",
+            "@type": "WebSite",
+            "name": @json(config('seo.pages.home.title')),
             "url": "{{ url('/') }}",
-            "telephone": "+73472468568",
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Центральная улица, 58/1",
-                "addressLocality": "Алексеевка",
-                "addressRegion": "Уфимский район, Республика Башкортостан",
-                "addressCountry": "RU"
+            "description": @json(config('seo.pages.home.description')),
+            "inLanguage": "ru",
+            "about": {
+                "@type": "Thing",
+                "name": @json(config('seo.category'))
             },
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 54.832217,
-                "longitude": 55.999982
-            },
-            "openingHoursSpecification": [
-                {
-                    "@type": "OpeningHoursSpecification",
-                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-                    "opens": "09:00",
-                    "closes": "21:00"
-                }
-            ],
-            "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.3",
-                "bestRating": "5",
-                "ratingCount": "22",
-                "reviewCount": "5"
+            "creator": {
+                "@type": "Organization",
+                "name": @json(config('seo.brand')),
+                "url": @json(config('seo.url'))
             }
         }
     </script>

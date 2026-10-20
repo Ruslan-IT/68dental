@@ -1,7 +1,5 @@
 @extends('layouts.app')
 
-@section('title', 'Блог клиники Евростом')
-@section('description', 'Заметки стоматологической клиники Евростом об уходе за зубами и визите к врачу. Алексеевка, Центральная улица, 58/1.')
 @section('wf-page', '681bc6e0e2182fd5263898da')
 
 @push('page-css')
@@ -20,7 +18,7 @@
                         <div class="about__icon-wrap is1"><img
                                 src="{{ asset('images/67ebe508f509b13f8c0b2e51_benefits__icon-4.svg') }}"
                                 loading="lazy" alt="Иконка" class="icon width-64">
-                            <p class="text-size-regular">Всё чаще пациенты выбирают Евростом</p></div>
+                            <p class="text-size-regular">Всё чаще пациенты выбирают {{ config('clinic.name') }}</p></div>
                         <div class="about__text-wrap is1"><p class="heading-4 mobile-size-48 font-style-inter">48576</p>
                             <p class="text-size-regular">Пациентов уже получили услуги</p></div>
                     </div>
@@ -30,7 +28,7 @@
                         <p class="text-size-medium mobile-size-14">Практические рекомендации для ваших зубов. Узнайте, как сохранить их здоровыми.</p></div>
                     <a data-w-id="0d5651a3-88c6-a4f4-619d-6eb9fab6e975"
                        style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                       href="tel:+73472468568" class="contact__phone-btn mod--price w-inline-block">
+                       href="tel:{{ config('clinic.phone_tel') }}" class="contact__phone-btn mod--price w-inline-block">
                         <div class="alt-for-link">Подробнее</div>
                     </a></div>
             </div>
@@ -53,7 +51,7 @@
                 <div class="form-block w-form">
                     <form id="email-form" name="email-form" data-name="Email Form" method="get"
                           fs-list-element="filters" data-wf-page-id="681bc6e0e2182fd5263898da"
-                          data-wf-element-id="35e76689-d4e4-189d-00bb-8c68c1d951ee" aria-label="Форма записи" onsubmit="window.location.href='tel:+73472468568';return false;">
+                          data-wf-element-id="35e76689-d4e4-189d-00bb-8c68c1d951ee" aria-label="Форма записи" onsubmit="window.location.href='tel:{{ config('clinic.phone_tel') }}';return false;">
                         <div class="blog__content-wrap is1">
                             <div fs-list-element="scroll-anchor-pagination"
                                  data-w-id="a5137a93-6ede-df6e-b778-cfb40a99afaf"
@@ -97,7 +95,7 @@
                         <div>Заявка принята. Мы перезвоним, чтобы выбрать удобное время.</div>
                     </div>
                     <div class="hide w-form-fail" tabindex="-1" role="region" aria-label="Ошибка отправки формы">
-                        <div>Не удалось отправить форму. Позвоните: +7 (347) 246-85-68.</div>
+                        <div>Не удалось отправить форму. Позвоните: {{ config('clinic.phone_display') }}.</div>
                     </div>
                 </div>
                 <div mobile-hide="" data-w-id="80852291-f0f8-a52a-d20a-3e7edfa35900"

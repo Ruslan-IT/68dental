@@ -1,7 +1,5 @@
 @extends('layouts.app')
 
-@section('title', 'Команда клиники Евростом')
-@section('description', 'Страница команды стоматологической клиники Евростом в Алексеевке, Центральная улица, 58/1. Запись по телефону +7 (347) 246-85-68.')
 @section('wf-page', '67fcb2e7c97b3a27aafaa8e9')
 
 @push('page-css')
@@ -39,7 +37,7 @@
                         <p class="text-size-medium mobile-size-14">Опытные стоматологи и внимательный персонал, которые создают спокойную <br>атмосферу для каждого пациента. </p></div>
                     <a data-w-id="0d5651a3-88c6-a4f4-619d-6eb9fab6e975"
                        style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
-                       href="tel:+73472468568" class="contact__phone-btn w-inline-block">
+                       href="tel:{{ config('clinic.phone_tel') }}" class="contact__phone-btn w-inline-block">
                         <div class="alt-for-link">Подробнее</div>
                     </a></div>
             </div>
@@ -596,7 +594,7 @@
                         <div class="form__block cta w-form">
                             <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form cta"
                                   data-wf-page-id="67fcb2e7c97b3a27aafaa8e9"
-                                  data-wf-element-id="45100916-48bc-7640-6c7c-b98fa9470b69" aria-label="Форма записи" onsubmit="window.location.href='tel:+73472468568';return false;"><p
+                                  data-wf-element-id="45100916-48bc-7640-6c7c-b98fa9470b69" aria-label="Форма записи" onsubmit="window.location.href='tel:{{ config('clinic.phone_tel') }}';return false;"><p
                                     class="text-size-medium mobile-size-14 text-align-center">Мы проводим первичный осмотр и консультацию. Оставьте заявку на сайте.<br>Мы перезвоним, чтобы выбрать удобное время.</p>
                                 <div class="text__field-wrap cta"><input class="text__field w-input" maxlength="256"
                                                                          name="Name" data-name="Name"
@@ -615,11 +613,11 @@
                             </form>
                             <div class="success__message w-form-done" tabindex="-1" role="region"
                                  aria-label="Форма отправлена">
-                                <div class="text-size-medium">Спасибо, что выбираете Евростом. Мы перезвоним, чтобы выбрать удобное время. Ожидайте звонок.
+                                <div class="text-size-medium">Спасибо, что выбираете {{ config('clinic.name') }}. Мы перезвоним, чтобы выбрать удобное время. Ожидайте звонок.
                                 </div>
                             </div>
                             <div class="w-form-fail" tabindex="-1" role="region" aria-label="Ошибка отправки формы">
-                                <div>Не удалось отправить форму. Позвоните: +7 (347) 246-85-68.</div>
+                                <div>Не удалось отправить форму. Позвоните: {{ config('clinic.phone_display') }}.</div>
                             </div>
                         </div>
                     </div>

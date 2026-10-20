@@ -3,7 +3,7 @@
             <div class="container">
                 <div class="header__content"><a href="/" @if(request()->is('/')) aria-current="page" @endif
                                                 class="header__col is1 w-inline-block @if(request()->is('/')) w--current @endif"><span
-                            class="header__logo header__logo-text">Евростом</span>
+                            class="header__logo header__logo-text">{{ config('clinic.name') }}</span>
                         <div class="alt-for-link"></div>
                     </a>
                     <div class="header__col is2">
@@ -16,10 +16,9 @@
                                         src="{{ asset('images/67eb937314e68f1665729dc8_icon__calendar.svg') }}"
                                         loading="lazy" alt="" class="header__contact-icon">
                                     <div class="header__contact-popup">
-                                        <div class="header__contact-popup-text"><p class="text-size-small">Пн–Пт:
-                                                09:00–21:00</p>
-                                            <p class="text-size-small">Сб: выходной</p>
-                                            <p class="text-size-small">Вс: выходной</p></div>
+                                        <div class="header__contact-popup-text"><p class="text-size-small">{{ config('clinic.hours_weekdays') }}</p>
+                                            <p class="text-size-small">{{ config('clinic.hours_saturday') }}</p>
+                                            <p class="text-size-small">{{ config('clinic.hours_sunday') }}</p></div>
                                     </div>
                                 </div>
                                 <div class="header__contact-link"><img
@@ -27,8 +26,8 @@
                                         loading="lazy" alt="" class="header__contact-icon">
                                     <div class="header__contact-popup">
                                         <div class="header__contact-popup-text"><a
-                                                href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank"
-                                                class="text-size-small">Алексеевка, Центральная ул., 58/1</a></div>
+                                                href="{{ config('clinic.map_url') }}" target="_blank"
+                                                class="text-size-small">{{ config('clinic.address') }}</a></div>
                                     </div>
                                 </div>
                                 <div class="header__contact-link"><img
@@ -36,15 +35,13 @@
                                         loading="lazy" alt="" class="header__contact-icon">
                                     <div class="header__contact-popup">
                                         <div class="header__contact-popup-wrap">
-                                            <div class="header__contact-popup-text"><a href="tel:+73472468568"
-                                                                                       class="text-size-small">+7 (347)
-                                                    246-85-68</a><a href="tel:+73472468568" class="text-size-small">+7
-                                                    (347) 246-85-68</a></div>
+                                            <div class="header__contact-popup-text"><a href="tel:{{ config('clinic.phone_tel') }}"
+                                                                                       class="text-size-small">{{ config('clinic.phone_display') }}</a><a href="mailto:{{ config('clinic.email') }}" class="text-size-small">{{ config('clinic.email') }}</a></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <a data-remodal-target="contact" href="tel:+73472468568"
+                            <a data-remodal-target="contact" href="tel:{{ config('clinic.phone_tel') }}"
                                class="button is-large gold w-inline-block">
                                 <div desktop-hide="">Позвонить</div>
                                 <div mobile-hide="">Телефон</div>
@@ -74,9 +71,9 @@
                             src="{{ asset('images/67eb937314e68f1665729dc8_icon__calendar.svg') }}"
                             loading="lazy" alt="" class="header__contact-icon">
                         <div class="header__contact-popup">
-                            <div class="header__contact-popup-text"><p class="text-size-small">Пн–Пт: 09:00–21:00</p>
-                                <p class="text-size-small">Сб: выходной</p>
-                                <p class="text-size-small">Вс: выходной</p></div>
+                            <div class="header__contact-popup-text"><p class="text-size-small">{{ config('clinic.hours_weekdays') }}</p>
+                                <p class="text-size-small">{{ config('clinic.hours_saturday') }}</p>
+                                <p class="text-size-small">{{ config('clinic.hours_sunday') }}</p></div>
                         </div>
                     </div>
                     <div class="header__contact-link"><img
@@ -84,8 +81,8 @@
                             loading="lazy" alt="" class="header__contact-icon">
                         <div class="header__contact-popup">
                             <div class="header__contact-popup-text"><a
-                                    href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank"
-                                    class="text-size-small">Алексеевка, Центральная ул., 58/1</a></div>
+                                    href="{{ config('clinic.map_url') }}" target="_blank"
+                                    class="text-size-small">{{ config('clinic.address') }}</a></div>
                         </div>
                     </div>
                     <div class="header__contact-link"><img
@@ -93,15 +90,13 @@
                             loading="lazy" alt="" class="header__contact-icon">
                         <div class="header__contact-popup">
                             <div class="header__contact-popup-wrap">
-                                <div class="header__contact-popup-text"><a href="tel:+73472468568"
-                                                                           class="text-size-small">+7 (347)
-                                        246-85-68</a><a href="tel:+73472468568" class="text-size-small">+7 (347)
-                                        246-85-68</a></div>
+                                <div class="header__contact-popup-text"><a href="tel:{{ config('clinic.phone_tel') }}"
+                                                                           class="text-size-small">{{ config('clinic.phone_display') }}</a><a href="mailto:{{ config('clinic.email') }}" class="text-size-small">{{ config('clinic.email') }}</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a data-remodal-target="contact" href="tel:+73472468568" class="button is-large gold w-inline-block">
+                <a data-remodal-target="contact" href="tel:{{ config('clinic.phone_tel') }}" class="button is-large gold w-inline-block">
                     <div desktop-hide="">Позвонить</div>
                     <div mobile-hide="">Телефон</div>
                     <img

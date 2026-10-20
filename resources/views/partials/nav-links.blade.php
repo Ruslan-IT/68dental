@@ -41,24 +41,24 @@
              loading="lazy" desktop-hide="" alt="" class="icon width-24">
     </a>--}}
     {{--<a
-        href="https://yandex.ru/maps/org/yevrostom/27380149446/gallery/" target="_blank" rel="noopener"
+        href="{{ config('clinic.map_url') }}" target="_blank" rel="noopener"
         class="button is-text w-inline-block nav-extra">
         <div>Фотографии</div>
         <img src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
              loading="lazy" desktop-hide="" alt="" class="icon width-24"></a>--}}
     {{--<a
-        href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank" rel="noopener"
+        href="{{ config('clinic.map_url') }}" target="_blank" rel="noopener"
         class="button is-text w-inline-block nav-extra">
         <div>Маршрут</div>
         <img src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
              loading="lazy" desktop-hide="" alt="" class="icon width-24"></a>--}}
     {{--<a
-        href="https://yandex.ru/maps/org/yevrostom/27380149446/reviews/" target="_blank" rel="noopener"
+        href="{{ config('clinic.map_url') }}" target="_blank" rel="noopener"
         class="button is-text w-inline-block nav-extra">
         <div>Отзывы</div>
         <img src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
              loading="lazy" desktop-hide="" alt="" class="icon width-24"></a>--}}
-    {{--<a href="tel:+73472468568"
+    {{--<a href="tel:{{ config('clinic.phone_tel') }}"
                                                                                 class="button is-text w-inline-block nav-extra">
         <div>Телефон</div>
         <img src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
