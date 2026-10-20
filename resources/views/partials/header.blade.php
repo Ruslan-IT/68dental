@@ -28,7 +28,7 @@
                                     <div class="header__contact-popup">
                                         <div class="header__contact-popup-text"><a
                                                 href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank"
-                                                class="text-size-small">д. Алексеевка, Центральная ул., 58/1</a></div>
+                                                class="text-size-small">Алексеевка, Центральная ул., 58/1</a></div>
                                     </div>
                                 </div>
                                 <div class="header__contact-link"><img
@@ -85,7 +85,7 @@
                         <div class="header__contact-popup">
                             <div class="header__contact-popup-text"><a
                                     href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank"
-                                    class="text-size-small">д. Алексеевка, Центральная ул., 58/1</a></div>
+                                    class="text-size-small">Алексеевка, Центральная ул., 58/1</a></div>
                         </div>
                     </div>
                     <div class="header__contact-link"><img

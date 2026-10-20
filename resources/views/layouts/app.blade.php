@@ -7,10 +7,10 @@
     <link href="https://cdnjs.cloudflare.com" rel="preconnect" crossorigin>
     <link href="https://d3e54v103j8qbb.cloudfront.net" rel="preconnect" crossorigin>
     <title>@yield('title', 'Евростом — стоматологическая клиника')</title>
-    <meta name="description" content="@yield('description', 'Евростом — стоматологическая клиника. Деревня Алексеевка, Уфимский район, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Пн–Пт: 09:00–21:00, суббота и воскресенье — выходные.')">
+    <meta name="description" content="@yield('description', 'Евростом — стоматологическая клиника. Алексеевка, Уфимский район, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Пн–Пт: 09:00–21:00, суббота и воскресенье — выходные.')">
     <meta name="keywords" content="Евростом, стоматологическая клиника, Алексеевка, Уфимский район">
     <meta property="og:title" content="@yield('title', 'Евростом — стоматологическая клиника')">
-    <meta property="og:description" content="@yield('description', 'Стоматологическая клиника Евростом. Деревня Алексеевка, Центральная улица, 58/1. Телефон +7 (347) 246-85-68.')">
+    <meta property="og:description" content="@yield('description', 'Стоматологическая клиника Евростом. Алексеевка, Центральная улица, 58/1. Телефон +7 (347) 246-85-68.')">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
     <link href="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/css/dentalux-project.webflow.shared.7f4e53650.min.css" rel="stylesheet" type="text/css">
@@ -24,7 +24,7 @@
     <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}?v=4">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}?v=5">
     <link rel="canonical" href="@yield('canonical', 'http://68dental.local/')">
     <script type="application/ld+json">
         {
@@ -36,7 +36,7 @@
             "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Центральная улица, 58/1",
-                "addressLocality": "деревня Алексеевка",
+                "addressLocality": "Алексеевка",
                 "addressRegion": "Уфимский район, Республика Башкортостан",
                 "addressCountry": "RU"
             },

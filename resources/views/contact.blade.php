@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Контакты — Евростом')
-@section('description', 'Контакты клиники Евростом: деревня Алексеевка, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Пн–Пт: 09:00–21:00.')
+@section('description', 'Контакты клиники Евростом: Алексеевка, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Пн–Пт: 09:00–21:00.')
 @section('canonical', 'http://68dental.local/contact')
 @section('wf-page', '68231d17b77fe9cbbcbfa1f9')
 
@@ -72,7 +72,7 @@
                                     src="{{ asset('images/67ed3f052b8d6a02e20242ba_icon__place.svg') }}"
                                     loading="lazy" alt="Адрес" class="contact__icon is1"><a
                                     href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank"
-                                    class="text-size-regular text-color-white">д. Алексеевка,<br>Центральная ул., 58/1</a>
+                                    class="text-size-regular text-color-white">Алексеевка,<br>Центральная ул., 58/1</a>
                             </div>
                         </div>
                         <div id="w-node-_32611652-2785-6d05-c2ec-1a42cbe52b84-bcbfa1f9" class="contact__col social">

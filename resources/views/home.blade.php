@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Евростом — стоматологическая клиника')
-@section('description', 'Евростом — стоматологическая клиника в деревне Алексеевка, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Пн–Пт: 09:00–21:00.')
+@section('description', 'Евростом — стоматологическая клиника в Алексеевке, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Пн–Пт: 09:00–21:00.')
 @section('canonical', 'http://68dental.local/')
 @section('wf-page', '67ea68f011b0fd6e4b26caea')
 
@@ -123,7 +123,7 @@
                         </div>
                     </div>
                     <div data-w-id="a2e232d7-403d-42b7-b030-87db3d6674c6" style="opacity: 0;" class="hero__heading-wrap"><h1>ЕВРОСТОМ</h1>
-                        <div class="hero__text-wrap"><p class="text-size-medium">Стоматологическая клиника Евростом в деревне Алексеевка, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Пн–Пт: 09:00–21:00, суббота и воскресенье — выходные.</p></div>
+                        <div class="hero__text-wrap"><p class="text-size-medium">Стоматологическая клиника Евростом в Алексеевке, Центральная улица, 58/1. Телефон +7 (347) 246-85-68. Пн–Пт: 09:00–21:00, суббота и воскресенье — выходные.</p></div>
                     </div>
                 </div>
             </div>
@@ -612,12 +612,12 @@
             <div class="container">
                 <div class="section__content-wrap">
                     <div data-w-id="a6af6425-77bd-ff4a-6050-c197d0d0ee08" style="opacity: 0;" class="heading__wrap"><h2 class="heading-4">О клинике</h2>
-                        <div class="text__wrap max-width-28"><p class="text-size-regular text-color-graphite">Клиника принимает пациентов в деревне Алексеевка. Подробности записи — по телефону.</p></div>
+                        <div class="text__wrap max-width-28"><p class="text-size-regular text-color-graphite">Клиника принимает пациентов в Алексеевке. Подробности записи — по телефону.</p></div>
                     </div>
                     <div class="features__content">
                         <div data-w-id="0b16edb4-36d4-c081-7b37-d5286a468825" style="opacity: 0;" class="features__img-wrap"><img src="{{ asset('images/67ec1b6f4dc7d1da1b05e2f2_features__img.avif') }}" loading="lazy" alt="features wrap img" class="features__img">
                             <div class="features__text-wrap is1">
-                                <div class="features__text is1"><p class="text-size-medium mobile-size-14 text-weight-medium">Евростом — стоматологическая клиника в деревне Алексеевка, Центральная улица, 58/1. Приём по записи, телефон +7 (347) 246-85-68.</p>
+                                <div class="features__text is1"><p class="text-size-medium mobile-size-14 text-weight-medium">Евростом — стоматологическая клиника в Алексеевке, Центральная улица, 58/1. Приём по записи, телефон +7 (347) 246-85-68.</p>
                                     <p class="text-size-medium mobile-size-14 text-weight-medium">На приёме стараются объяснить ход лечения простыми словами. Отдельный перечень услуг Евростом не опубликован.</p></div>
                             </div>
                         </div>

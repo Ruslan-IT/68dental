@@ -34,7 +34,7 @@
                                     src="{{ asset('images/67ed3f052b8d6a02e20242ba_icon__place.svg') }}"
                                     loading="lazy" alt="" class="icon width-22"><a
                                     href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank"
-                                    class="text-size-regular text-color-white">д. Алексеевка, Центральная ул., 58/1</a>
+                                    class="text-size-regular text-color-white">Алексеевка, Центральная ул., 58/1</a>
                             </div>
                         </div>
                         <div class="footer__social-wrap"><a href="https://yandex.ru/maps/org/yevrostom/27380149446/"
