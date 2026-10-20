@@ -9,7 +9,7 @@
     <title>Price</title>
     <meta content="Price" property="og:title">
     <meta
-        content="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/682ddb07beefbed991897ab7_bd804e9b026c9678575a497d0edf29a9_Opengraph.jpg"
+        content="{{ asset('images/682ddb07beefbed991897ab7_bd804e9b026c9678575a497d0edf29a9_Opengraph.jpg') }}"
         property="og:image">
     <meta content="Price" name="twitter:title">
     <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -27,9 +27,9 @@
             var n = c.documentElement, t = " w-mod-";
             n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
         }(window, document);</script>
-    <link href="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/682dda8d4f034c89750f8cee_Favicon.svg"
+    <link href="{{ asset('images/682dda8d4f034c89750f8cee_Favicon.svg') }}"
           rel="shortcut icon" type="image/x-icon">
-    <link href="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/682ddaefc5ff199e1fb3b758_Webclip.svg"
+    <link href="{{ asset('images/682ddaefc5ff199e1fb3b758_Webclip.svg') }}"
           rel="apple-touch-icon"><!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || [];
@@ -344,13 +344,13 @@
         </style>
     </div>
     <img
-        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67f23bdcc2541e7ba0ef93d5_cursor__hover-img.svg"
+        src="{{ asset('images/67f23bdcc2541e7ba0ef93d5_cursor__hover-img.svg') }}"
         loading="lazy" alt="icon__cursor" class="custom-cursor" style="opacity: 0;">
     <header class="header">
         <section class="section mod--header">
             <div class="container">
                 <div class="header__content"><a href="/" class="header__col is1 w-inline-block"><img
-                            src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ea87c78055cd9cda88578d_cc7b9626d82128d09766a658fe6aeeb7_header__logo.svg"
+                            src="{{ asset('images/67ea87c78055cd9cda88578d_cc7b9626d82128d09766a658fe6aeeb7_header__logo.svg') }}"
                             loading="lazy" alt="" class="header__logo">
                         <div class="alt-for-link"></div>
                     </a>
@@ -358,45 +358,45 @@
                         <div class="header__col-menu is1"><a href="/about" class="button is-text w-inline-block">
                                 <div>Про нас</div>
                                 <img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67f37d510c95ce420677814c_btn__icon-arrow-right.svg"
+                                    src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
                                     loading="lazy" desktop-hide="" alt="" class="icon width-24"></a><a href="/services"
                                                                                                        class="button is-text w-inline-block">
                                 <div>Послуги</div>
                                 <img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67f37d510c95ce420677814c_btn__icon-arrow-right.svg"
+                                    src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
                                     loading="lazy" desktop-hide="" alt="" class="icon width-24"></a><a href="/team"
                                                                                                        class="button is-text w-inline-block">
                                 <div>Команда</div>
                                 <img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67f37d510c95ce420677814c_btn__icon-arrow-right.svg"
+                                    src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
                                     loading="lazy" desktop-hide="" alt="" class="icon width-24"></a><a href="/works"
                                                                                                        class="button is-text w-inline-block">
                                 <div>Роботи</div>
                                 <img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67f37d510c95ce420677814c_btn__icon-arrow-right.svg"
+                                    src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
                                     loading="lazy" desktop-hide="" alt="" class="icon width-24"></a><a href="/price"
                                                                                                        aria-current="page"
                                                                                                        class="button is-text w-inline-block w--current">
                                 <div>Ціни</div>
                                 <img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67f37d510c95ce420677814c_btn__icon-arrow-right.svg"
+                                    src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
                                     loading="lazy" desktop-hide="" alt="" class="icon width-24"></a><a href="/blog"
                                                                                                        class="button is-text w-inline-block">
                                 <div>Блог</div>
                                 <img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67f37d510c95ce420677814c_btn__icon-arrow-right.svg"
+                                    src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
                                     loading="lazy" desktop-hide="" alt="" class="icon width-24"></a><a href="/contact"
                                                                                                        class="button is-text w-inline-block">
                                 <div>Контакти</div>
                                 <img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67f37d510c95ce420677814c_btn__icon-arrow-right.svg"
+                                    src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
                                     loading="lazy" desktop-hide="" alt="" class="icon width-24"></a></div>
                     </div>
                     <div class="header__col is3">
                         <div class="header__col-menu is2">
                             <div class="header__contact">
                                 <div class="header__contact-link"><img
-                                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb937314e68f1665729dc8_icon__calendar.svg"
+                                        src="{{ asset('images/67eb937314e68f1665729dc8_icon__calendar.svg') }}"
                                         loading="lazy" alt="" class="header__contact-icon">
                                     <div class="header__contact-popup">
                                         <div class="header__contact-popup-text"><p class="text-size-small">Пн-Пт: 09:00
@@ -406,7 +406,7 @@
                                     </div>
                                 </div>
                                 <div class="header__contact-link"><img
-                                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb93730254dadf0bc87490_icon__place.svg"
+                                        src="{{ asset('images/67eb93730254dadf0bc87490_icon__place.svg') }}"
                                         loading="lazy" alt="" class="header__contact-icon">
                                     <div class="header__contact-popup">
                                         <div class="header__contact-popup-text"><a
@@ -415,7 +415,7 @@
                                     </div>
                                 </div>
                                 <div class="header__contact-link"><img
-                                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb93731aa6a8772d43e557_icon__call.svg"
+                                        src="{{ asset('images/67eb93731aa6a8772d43e557_icon__call.svg') }}"
                                         loading="lazy" alt="" class="header__contact-icon">
                                     <div class="header__contact-popup">
                                         <div class="header__contact-popup-wrap">
@@ -432,7 +432,7 @@
                                 <div desktop-hide="">Записатись на прийом</div>
                                 <div mobile-hide="">Запис на прийом</div>
                                 <img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                    src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                     loading="lazy" alt="icon__arrow-up" class="button__icon-arrow"></a></div>
                     </div>
                     <div fs-scrolldisable-element="toggle" data-w-id="5e736623-74ac-60f8-09ce-dfaa226a8924"
@@ -453,43 +453,43 @@
             <div class="header__col-menu is1"><a href="/about" class="button is-text w-inline-block">
                     <div>Про нас</div>
                     <img
-                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67f37d510c95ce420677814c_btn__icon-arrow-right.svg"
+                        src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
                         loading="lazy" desktop-hide="" alt="" class="icon width-24"></a><a href="/services"
                                                                                            class="button is-text w-inline-block">
                     <div>Послуги</div>
                     <img
-                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67f37d510c95ce420677814c_btn__icon-arrow-right.svg"
+                        src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
                         loading="lazy" desktop-hide="" alt="" class="icon width-24"></a><a href="/team"
                                                                                            class="button is-text w-inline-block">
                     <div>Команда</div>
                     <img
-                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67f37d510c95ce420677814c_btn__icon-arrow-right.svg"
+                        src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
                         loading="lazy" desktop-hide="" alt="" class="icon width-24"></a><a href="/works"
                                                                                            class="button is-text w-inline-block">
                     <div>Роботи</div>
                     <img
-                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67f37d510c95ce420677814c_btn__icon-arrow-right.svg"
+                        src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
                         loading="lazy" desktop-hide="" alt="" class="icon width-24"></a><a href="/price"
                                                                                            aria-current="page"
                                                                                            class="button is-text w-inline-block w--current">
                     <div>Ціни</div>
                     <img
-                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67f37d510c95ce420677814c_btn__icon-arrow-right.svg"
+                        src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
                         loading="lazy" desktop-hide="" alt="" class="icon width-24"></a><a href="/blog"
                                                                                            class="button is-text w-inline-block">
                     <div>Блог</div>
                     <img
-                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67f37d510c95ce420677814c_btn__icon-arrow-right.svg"
+                        src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
                         loading="lazy" desktop-hide="" alt="" class="icon width-24"></a><a href="/contact"
                                                                                            class="button is-text w-inline-block">
                     <div>Контакти</div>
                     <img
-                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67f37d510c95ce420677814c_btn__icon-arrow-right.svg"
+                        src="{{ asset('images/67f37d510c95ce420677814c_btn__icon-arrow-right.svg') }}"
                         loading="lazy" desktop-hide="" alt="" class="icon width-24"></a></div>
             <div class="header__col-menu is2">
                 <div class="header__contact">
                     <div class="header__contact-link"><img
-                            src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb937314e68f1665729dc8_icon__calendar.svg"
+                            src="{{ asset('images/67eb937314e68f1665729dc8_icon__calendar.svg') }}"
                             loading="lazy" alt="" class="header__contact-icon">
                         <div class="header__contact-popup">
                             <div class="header__contact-popup-text"><p class="text-size-small">Пн-Пт: 09:00 - 19:00</p>
@@ -498,7 +498,7 @@
                         </div>
                     </div>
                     <div class="header__contact-link"><img
-                            src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb93730254dadf0bc87490_icon__place.svg"
+                            src="{{ asset('images/67eb93730254dadf0bc87490_icon__place.svg') }}"
                             loading="lazy" alt="" class="header__contact-icon">
                         <div class="header__contact-popup">
                             <div class="header__contact-popup-text"><a href="https://maps.app.goo.gl/2DihshoLgHyuZKiY9"
@@ -507,7 +507,7 @@
                         </div>
                     </div>
                     <div class="header__contact-link"><img
-                            src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb93731aa6a8772d43e557_icon__call.svg"
+                            src="{{ asset('images/67eb93731aa6a8772d43e557_icon__call.svg') }}"
                             loading="lazy" alt="" class="header__contact-icon">
                         <div class="header__contact-popup">
                             <div class="header__contact-popup-wrap">
@@ -523,7 +523,7 @@
                     <div desktop-hide="">Записатись на прийом</div>
                     <div mobile-hide="">Запис на прийом</div>
                     <img
-                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                        src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                         loading="lazy" alt="icon__arrow-up" class="button__icon-arrow"></a></div>
         </div>
     </header>
@@ -535,7 +535,7 @@
                          style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                          class="services__hero-col mod--price">
                         <div class="about__icon-wrap is1"><img
-                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ebe508f509b13f8c0b2e51_benefits__icon-4.svg"
+                                src="{{ asset('images/67ebe508f509b13f8c0b2e51_benefits__icon-4.svg') }}"
                                 loading="lazy" alt="card icon" class="icon width-64">
                             <p class="text-size-regular">Все частіше клієнти обирають Dentalux</p></div>
                         <div class="about__text-wrap is1"><p class="heading-4 mobile-size-48 font-style-inter">48576</p>
@@ -554,10 +554,10 @@
                     </a></div>
             </div>
             <img
-                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6808b3ba4c361568e30089a3_de4bf47e5e182b2b3964fe0d1efe9804_price__img-hero.avif"
+                src="{{ asset('images/6808b3ba4c361568e30089a3_de4bf47e5e182b2b3964fe0d1efe9804_price__img-hero.avif') }}"
                 loading="lazy" style="opacity: 1;" data-w-id="d2fd1c8d-6d93-8572-9b65-23d7ea0ff3b5"
                 alt="price illustration background" mobile-hide="" class="services__img-bg"><img
-                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6813d8b524ffc2061771bbeb_price__img-bg-mob.avif"
+                src="{{ asset('images/6813d8b524ffc2061771bbeb_price__img-bg-mob.avif') }}"
                 loading="lazy" style="opacity: 1;" data-w-id="ab244ad4-1744-485f-58eb-dd3f2961fa35"
                 alt="price illustration background" desktop-hide="" class="services__img-bg">
             <div class="bread-crumbs"><a href="/" class="bread-crumbs__text">Головна сторінка</a>
@@ -573,7 +573,7 @@
                             повний спектр послуг для вашого здоров’я та краси вашої посмішки.</p></div>
                 </div>
                 <div data-w-id="ae0f24e0-6602-6c54-2e83-e197116138a4" style="opacity: 0;" class="price__warning"><img
-                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6808b4c91b3e050f53959d82_icon__warning.svg"
+                        src="{{ asset('images/6808b4c91b3e050f53959d82_icon__warning.svg') }}"
                         loading="lazy" alt="icon warning" class="icon width-64">
                     <div class="price__warning-text"><p class="heading-6 mobile-size-20">Увага!</p>
                         <p class="text-size-regular text-color-neutral_gray">Ціна на послуги може вийти за рамки
@@ -584,7 +584,7 @@
                     <h3>Heading 3</h3>
                     <figure class="w-richtext-align-center w-richtext-figure-type-image">
                         <div><img
-                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6808b4c91b3e050f53959d82_icon__warning.svg"
+                                src="{{ asset('images/6808b4c91b3e050f53959d82_icon__warning.svg') }}"
                                 loading="lazy" alt="icon warning"></div>
                     </figure>
                     <h4>Heading 4</h4><h5>Heading 5</h5><h6>Heading 6</h6>
@@ -625,7 +625,7 @@
                                                 class="button is-large gold w-inline-block">
                                                 <div>Записатись</div>
                                                 <img loading="lazy"
-                                                     src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                                     src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                                      alt="icon__arrow-up" class="button__icon-arrow"></a></div>
                                         <div data-anim="" class="faq__drop-btn">
                                             <div data-anim="" class="faq__drop-btn-ellipse">
@@ -784,7 +784,7 @@
                                                 class="button is-large gold w-inline-block">
                                                 <div>Записатись</div>
                                                 <img loading="lazy"
-                                                     src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                                     src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                                      alt="icon__arrow-up" class="button__icon-arrow"></a></div>
                                         <div data-anim="" class="faq__drop-btn">
                                             <div data-anim="" class="faq__drop-btn-ellipse">
@@ -922,7 +922,7 @@
                                                 class="button is-large gold w-inline-block">
                                                 <div>Записатись</div>
                                                 <img loading="lazy"
-                                                     src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                                     src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                                      alt="icon__arrow-up" class="button__icon-arrow"></a></div>
                                         <div data-anim="" class="faq__drop-btn">
                                             <div data-anim="" class="faq__drop-btn-ellipse">
@@ -1226,7 +1226,7 @@
                                                 class="button is-large gold w-inline-block">
                                                 <div>Записатись</div>
                                                 <img loading="lazy"
-                                                     src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                                     src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                                      alt="icon__arrow-up" class="button__icon-arrow"></a></div>
                                         <div data-anim="" class="faq__drop-btn">
                                             <div data-anim="" class="faq__drop-btn-ellipse">
@@ -1532,7 +1532,7 @@
                                                 class="button is-large gold w-inline-block">
                                                 <div>Записатись</div>
                                                 <img loading="lazy"
-                                                     src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                                     src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                                      alt="icon__arrow-up" class="button__icon-arrow"></a></div>
                                         <div data-anim="" class="faq__drop-btn">
                                             <div data-anim="" class="faq__drop-btn-ellipse">
@@ -1628,7 +1628,7 @@
                                                 class="button is-large gold w-inline-block">
                                                 <div>Записатись</div>
                                                 <img loading="lazy"
-                                                     src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                                     src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                                      alt="icon__arrow-up" class="button__icon-arrow"></a></div>
                                         <div data-anim="" class="faq__drop-btn">
                                             <div data-anim="" class="faq__drop-btn-ellipse">
@@ -1724,7 +1724,7 @@
                                                 class="button is-large gold w-inline-block">
                                                 <div>Записатись</div>
                                                 <img loading="lazy"
-                                                     src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                                     src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                                      alt="icon__arrow-up" class="button__icon-arrow"></a></div>
                                         <div data-anim="" class="faq__drop-btn">
                                             <div data-anim="" class="faq__drop-btn-ellipse">
@@ -2010,7 +2010,7 @@
                                                 class="button is-large gold w-inline-block">
                                                 <div>Записатись</div>
                                                 <img loading="lazy"
-                                                     src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                                     src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                                      alt="icon__arrow-up" class="button__icon-arrow"></a></div>
                                         <div data-anim="" class="faq__drop-btn">
                                             <div data-anim="" class="faq__drop-btn-ellipse">
@@ -2127,7 +2127,7 @@
                                                 class="button is-large gold w-inline-block">
                                                 <div>Записатись</div>
                                                 <img loading="lazy"
-                                                     src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                                     src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                                      alt="icon__arrow-up" class="button__icon-arrow"></a></div>
                                         <div data-anim="" class="faq__drop-btn">
                                             <div data-anim="" class="faq__drop-btn-ellipse">
@@ -2244,7 +2244,7 @@
                                                 class="button is-large gold w-inline-block">
                                                 <div>Записатись</div>
                                                 <img loading="lazy"
-                                                     src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                                     src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                                      alt="icon__arrow-up" class="button__icon-arrow"></a></div>
                                         <div data-anim="" class="faq__drop-btn">
                                             <div data-anim="" class="faq__drop-btn-ellipse">
@@ -2298,7 +2298,7 @@
                                                 class="button is-large gold w-inline-block">
                                                 <div>Записатись</div>
                                                 <img loading="lazy"
-                                                     src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                                     src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                                      alt="icon__arrow-up" class="button__icon-arrow"></a></div>
                                         <div data-anim="" class="faq__drop-btn">
                                             <div data-anim="" class="faq__drop-btn-ellipse">
@@ -2352,7 +2352,7 @@
                                                 class="button is-large gold w-inline-block">
                                                 <div>Записатись</div>
                                                 <img loading="lazy"
-                                                     src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                                     src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                                      alt="icon__arrow-up" class="button__icon-arrow"></a></div>
                                         <div data-anim="" class="faq__drop-btn">
                                             <div data-anim="" class="faq__drop-btn-ellipse">
@@ -2406,7 +2406,7 @@
                                                 class="button is-large gold w-inline-block">
                                                 <div>Записатись</div>
                                                 <img loading="lazy"
-                                                     src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                                     src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                                      alt="icon__arrow-up" class="button__icon-arrow"></a></div>
                                         <div data-anim="" class="faq__drop-btn">
                                             <div data-anim="" class="faq__drop-btn-ellipse">
@@ -2481,7 +2481,7 @@
                                                 class="button is-large gold w-inline-block">
                                                 <div>Записатись</div>
                                                 <img loading="lazy"
-                                                     src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                                     src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                                      alt="icon__arrow-up" class="button__icon-arrow"></a></div>
                                         <div data-anim="" class="faq__drop-btn">
                                             <div data-anim="" class="faq__drop-btn-ellipse">
@@ -2544,7 +2544,7 @@
                                             class="button is-large gold w-inline-block">
                                             <div>Записатись</div>
                                             <img loading="lazy"
-                                                 src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                                 src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                                  alt="icon__arrow-up" class="button__icon-arrow"></a></div>
                                 </div>
                             </div>
@@ -2570,7 +2570,7 @@
                             <div role="group" class="swiper-slide mod--reviews w-dyn-item swiper-slide-active"
                                  style="width: 348.167px; margin-right: 16px;" aria-label="1 / 4">
                                 <div class="reviews__ava-wrap"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68751e2f5e05bf26d84b822e_ico-review-1.png"
+                                        src="{{ asset('images/68751e2f5e05bf26d84b822e_ico-review-1.png') }}"
                                         loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
                                             Олег Лазаренко</p>
@@ -2583,7 +2583,7 @@
                             <div role="group" class="swiper-slide mod--reviews w-dyn-item swiper-slide-next"
                                  style="width: 348.167px; margin-right: 16px;" aria-label="2 / 4">
                                 <div class="reviews__ava-wrap"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68751e1dafa16bbc2ef5e5bf_ico-review-2.png"
+                                        src="{{ asset('images/68751e1dafa16bbc2ef5e5bf_ico-review-2.png') }}"
                                         loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
                                             Олена Кульчицька</p>
@@ -2596,7 +2596,7 @@
                             <div role="group" class="swiper-slide mod--reviews w-dyn-item"
                                  style="width: 348.167px; margin-right: 16px;" aria-label="3 / 4">
                                 <div class="reviews__ava-wrap"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68751e0bf9380177ca218441_ico-review-3.png"
+                                        src="{{ asset('images/68751e0bf9380177ca218441_ico-review-3.png') }}"
                                         loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
                                             Ірина Федунь</p>
@@ -2609,7 +2609,7 @@
                             <div role="group" class="swiper-slide mod--reviews w-dyn-item" aria-label="4 / 4"
                                  style="width: 348.167px; margin-right: 16px;">
                                 <div class="reviews__ava-wrap"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68751de8d993b092fe3713a8_ico-review-4.png"
+                                        src="{{ asset('images/68751de8d993b092fe3713a8_ico-review-4.png') }}"
                                         loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
                                             Назар Романчук</p>
@@ -2641,7 +2641,7 @@
                          style="opacity: 0;"><a
                             href="https://www.google.com/search?sca_esv=2d4d8ffc55fcccf2&amp;cs=1&amp;output=search&amp;kgmid=/g/11f3dwh_y1&amp;q=%D0%94%D0%B5%D0%BD%D1%82%D0%B0-%D0%9B%D1%8E%D0%BA%D1%81&amp;shndl=30&amp;shem=lcuae,uaasie&amp;source=sh/x/loc/uni/m1/1&amp;kgs=8dba0fd432479592#lrd=0x40d95860701016a5:0x3a3032a5ebccece0,1,,,,"
                             target="_blank" class="button is-large gray w-inline-block"><img
-                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed28adb59c1de594c623ed_icon-google.svg"
+                                src="{{ asset('images/67ed28adb59c1de594c623ed_icon-google.svg') }}"
                                 loading="lazy" alt="" class="icon width-24">
                             <div>Переглянути всі відгуки</div>
                         </a></div>
@@ -2701,7 +2701,7 @@
                 <div class="footer__content-wrap">
                     <div class="footer__content is1"><a id="w-node-_0031a786-f590-9c67-4177-da6fe2287d04-e2287cff"
                                                         href="/" class="footer__col is1 w-inline-block"><img
-                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6887e57eee65b0d121ce73ca_img__logo-light.svg"
+                                src="{{ asset('images/6887e57eee65b0d121ce73ca_img__logo-light.svg') }}"
                                 loading="lazy" alt="" class="footer__logo"></a>
                         <div class="footer__col is2"><a href="/about" class="footer__text-link">Про нас</a><a
                                 href="/works" class="footer__text-link">Роботи</a><a href="/services"
@@ -2712,20 +2712,20 @@
                                 desktop-hide="" href="#" class="footer__text-link">Політика конфіденційності</a></div>
                         <div id="w-node-_0031a786-f590-9c67-4177-da6fe2287d13-e2287cff" class="footer__col is3">
                             <div class="footer__text-wrap is1"><img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed3f0561fca9c14fccc574_icon__calendar.svg"
+                                    src="{{ asset('images/67ed3f0561fca9c14fccc574_icon__calendar.svg') }}"
                                     loading="lazy" alt="icon calendar" class="icon width-22">
                                 <p class="text-size-regular">Пн-Пт: 09:00 - 19:00</p>
                                 <p class="text-size-regular">Сб: 09:00 - 17:00</p>
                                 <p class="text-size-regular">Нд: вихідний</p></div>
                             <div class="footer__text-wrap is1"><img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed3f04f8d1941bbc010459_icon__phone.svg"
+                                    src="{{ asset('images/67ed3f04f8d1941bbc010459_icon__phone.svg') }}"
                                     loading="lazy" alt="icon phone" class="icon width-22"><a href="tel:+380993544194"
                                                                                              class="text-size-regular text-color-white">+38
                                     (099) 354-41-94</a><a href="tel:+380677003487"
                                                           class="text-size-regular text-color-white">+38 (067)
                                     700-34-87</a></div>
                             <div class="footer__text-wrap is1"><img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed3f052b8d6a02e20242ba_icon__place.svg"
+                                    src="{{ asset('images/67ed3f052b8d6a02e20242ba_icon__place.svg') }}"
                                     loading="lazy" alt="icon place" class="icon width-22"><a
                                     href="https://maps.app.goo.gl/o1sgqiWLRmqfMckM9" target="_blank"
                                     class="text-size-regular text-color-white">м. Дніпро, проспект Слобожанський, 69</a>
@@ -2733,18 +2733,18 @@
                         </div>
                         <div class="footer__social-wrap"><a href="https://www.facebook.com/dentaluxstomatology/"
                                                             target="_blank" class="footer__social w-inline-block"><img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed38babab72294e770dbe5_icon__facebook.svg"
+                                    src="{{ asset('images/67ed38babab72294e770dbe5_icon__facebook.svg') }}"
                                     loading="lazy" alt="icon facebook" class="icon width-36"></a><a
                                 href="https://www.instagram.com/denta_lux_clinic?igsh=ZmJ4MnNwbG00MDFq&amp;utm_source=qr"
                                 target="_blank" class="footer__social w-inline-block"><img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed38ba08dca978557bd2fe_icon__inst.svg"
+                                    src="{{ asset('images/67ed38ba08dca978557bd2fe_icon__inst.svg') }}"
                                     loading="lazy" alt="icon inst" class="icon width-36"></a></div>
                         <a id="w-node-_0031a786-f590-9c67-4177-da6fe2287d2b-e2287cff"
                            href="https://maps.app.goo.gl/o1sgqiWLRmqfMckM9" target="_blank"
                            class="footer__col is4 w-inline-block"><img
-                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed366cf47e53bf475ac0ec_footer__img-map.avif"
+                                src="{{ asset('images/67ed366cf47e53bf475ac0ec_footer__img-map.avif') }}"
                                 loading="lazy" sizes="(max-width: 1280px) 100vw, 1280px"
-                                srcset="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed366cf47e53bf475ac0ec_footer__img-map-p-500.avif 500w, https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed366cf47e53bf475ac0ec_footer__img-map.avif 1280w"
+                                srcset="{{ asset('images/67ed366cf47e53bf475ac0ec_footer__img-map-p-500.avif') }} 500w, {{ asset('images/67ed366cf47e53bf475ac0ec_footer__img-map.avif') }} 1280w"
                                 alt="" class="footer__img"></a></div>
                     <div class="footer__content is2"><p class="text-size-medium mod--custom">ⓒ <span
                                 data-copyright-year="">2026</span></p>
@@ -3012,7 +3012,7 @@
                 </form>
                 <div class="success__message w-form-done" tabindex="-1" role="region" aria-label="contact form success">
                     <img
-                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/68809c5cf84e1c7af2f5a35b_icon-checkbox.svg"
+                        src="{{ asset('images/68809c5cf84e1c7af2f5a35b_icon-checkbox.svg') }}"
                         loading="lazy" alt="" class="form__icon modal">
                     <div class="form__text-wrap is1"><p class="heading-6 mobile-size-20">Вашу заявку відправлено</p>
                         <p class="text-size-medium">Ваш запит успішно надіслано, ми зв’яжемося з Вами найближчим

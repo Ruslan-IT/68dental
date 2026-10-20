@@ -29,7 +29,7 @@
                                 <div class="alt-for-link">Подробнее</div>
                             </a></div>
                         <div class="team__hero-text-wrap is1"><img
-                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67fcb4f35e6731101ddb84f4_team__img-group.avif"
+                                src="{{ asset('images/67fcb4f35e6731101ddb84f4_team__img-group.avif') }}"
                                 loading="lazy" alt="Фото команды" class="team__hero-img">
                             <p class="text-size-regular">Опытные специалисты<br>с большим стажем</p></div>
                     </div>
@@ -42,11 +42,11 @@
                     </a></div>
             </div>
             <img class="services__img-bg"
-                 src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/681a6e45a583d82809ebb89d_works__img-bg.avif"
+                 src="{{ asset('images/681a6e45a583d82809ebb89d_works__img-bg.avif') }}"
                  alt="Иллюстрация" mobile-hide="" style="opacity: 0;" sizes="(max-width: 2880px) 100vw, 2880px"
                  data-w-id="d2fd1c8d-6d93-8572-9b65-23d7ea0ff3b5" loading="lazy"
-                 srcset="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/681a6e45a583d82809ebb89d_works__img-bg-p-500.avif 500w, https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/681a6e45a583d82809ebb89d_works__img-bg-p-800.avif 800w, https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/681a6e45a583d82809ebb89d_works__img-bg-p-1080.avif 1080w, https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/681a6e45a583d82809ebb89d_works__img-bg.avif 2880w"><img
-                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/681a6e4416e926c7d0b352e6_works__img-bg-mob.avif"
+                 srcset="{{ asset('images/681a6e45a583d82809ebb89d_works__img-bg-p-500.avif') }} 500w, {{ asset('images/681a6e45a583d82809ebb89d_works__img-bg-p-800.avif') }} 800w, {{ asset('images/681a6e45a583d82809ebb89d_works__img-bg-p-1080.avif') }} 1080w, {{ asset('images/681a6e45a583d82809ebb89d_works__img-bg.avif') }} 2880w"><img
+                src="{{ asset('images/681a6e4416e926c7d0b352e6_works__img-bg-mob.avif') }}"
                 loading="lazy" style="opacity: 0;" data-w-id="ab244ad4-1744-485f-58eb-dd3f2961fa35"
                 alt="Иллюстрация" desktop-hide="" class="services__img-bg">
             <div class="bread-crumbs"><a href="/" class="bread-crumbs__text">Главная</a>
@@ -129,136 +129,136 @@
                          class="collection__item-wrap mod--works w-dyn-list">
                         <div fs-list-element="list" role="list" class="collection__list mod--works w-dyn-items">
                             <div role="listitem" class="collection__item mod--works w-dyn-item"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926fde6683f92db4c5800b_keramichna-koronka-w01-pisla.webp"
+                                    src="{{ asset('images/68926fde6683f92db4c5800b_keramichna-koronka-w01-pisla.webp') }}"
                                     loading="lazy" alt="Керамическая коронка, после" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926fde6683f92db4c5800b_keramichna-koronka-w01-pisla-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926fde6683f92db4c5800b_keramichna-koronka-w01-pisla-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926fde6683f92db4c5800b_keramichna-koronka-w01-pisla-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926fde6683f92db4c5800b_keramichna-koronka-w01-pisla.webp 1182w"
+                                    srcset="{{ asset('images/68926fde6683f92db4c5800b_keramichna-koronka-w01-pisla-p-500.webp') }} 500w, {{ asset('images/68926fde6683f92db4c5800b_keramichna-koronka-w01-pisla-p-800.webp') }} 800w, {{ asset('images/68926fde6683f92db4c5800b_keramichna-koronka-w01-pisla-p-1080.webp') }} 1080w, {{ asset('images/68926fde6683f92db4c5800b_keramichna-koronka-w01-pisla.webp') }} 1182w"
                                     class="works__img-after"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926fda3a26b07f8e59e62f_keramichna-koronka-w01-do.webp"
+                                    src="{{ asset('images/68926fda3a26b07f8e59e62f_keramichna-koronka-w01-do.webp') }}"
                                     loading="lazy" alt="Керамическая коронка, до" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926fda3a26b07f8e59e62f_keramichna-koronka-w01-do-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926fda3a26b07f8e59e62f_keramichna-koronka-w01-do-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926fda3a26b07f8e59e62f_keramichna-koronka-w01-do-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926fda3a26b07f8e59e62f_keramichna-koronka-w01-do.webp 1182w"
+                                    srcset="{{ asset('images/68926fda3a26b07f8e59e62f_keramichna-koronka-w01-do-p-500.webp') }} 500w, {{ asset('images/68926fda3a26b07f8e59e62f_keramichna-koronka-w01-do-p-800.webp') }} 800w, {{ asset('images/68926fda3a26b07f8e59e62f_keramichna-koronka-w01-do-p-1080.webp') }} 1080w, {{ asset('images/68926fda3a26b07f8e59e62f_keramichna-koronka-w01-do.webp') }} 1182w"
                                     class="works__img-before">
                                 <div class="works__work-progressbar"><img
-                                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67feb272c23f3beb30d8417f_team__icon-arrows.svg"
+                                        src="{{ asset('images/67feb272c23f3beb30d8417f_team__icon-arrows.svg') }}"
                                         loading="lazy" alt="" class="team__work-progress-icon"></div>
                                 <div class="works__work-title">Керамическая коронка</div>
                                 <div fs-list-field="category" class="hide">Ортопедия</div>
                             </div>
                             <div role="listitem" class="collection__item mod--works w-dyn-item"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926f1954ce4193220bd384_prof-chystka-zubiv-w01-pisla.webp"
+                                    src="{{ asset('images/68926f1954ce4193220bd384_prof-chystka-zubiv-w01-pisla.webp') }}"
                                     loading="lazy" alt="Профилактическая чистка зубов, после" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926f1954ce4193220bd384_prof-chystka-zubiv-w01-pisla-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926f1954ce4193220bd384_prof-chystka-zubiv-w01-pisla-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926f1954ce4193220bd384_prof-chystka-zubiv-w01-pisla-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926f1954ce4193220bd384_prof-chystka-zubiv-w01-pisla.webp 1182w"
+                                    srcset="{{ asset('images/68926f1954ce4193220bd384_prof-chystka-zubiv-w01-pisla-p-500.webp') }} 500w, {{ asset('images/68926f1954ce4193220bd384_prof-chystka-zubiv-w01-pisla-p-800.webp') }} 800w, {{ asset('images/68926f1954ce4193220bd384_prof-chystka-zubiv-w01-pisla-p-1080.webp') }} 1080w, {{ asset('images/68926f1954ce4193220bd384_prof-chystka-zubiv-w01-pisla.webp') }} 1182w"
                                     class="works__img-after"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926f14973fd057c81c086b_prof-chystka-zubiv-w01-do.webp"
+                                    src="{{ asset('images/68926f14973fd057c81c086b_prof-chystka-zubiv-w01-do.webp') }}"
                                     loading="lazy" alt="Профилактическая чистка зубов, до" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926f14973fd057c81c086b_prof-chystka-zubiv-w01-do-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926f14973fd057c81c086b_prof-chystka-zubiv-w01-do-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926f14973fd057c81c086b_prof-chystka-zubiv-w01-do-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926f14973fd057c81c086b_prof-chystka-zubiv-w01-do.webp 1182w"
+                                    srcset="{{ asset('images/68926f14973fd057c81c086b_prof-chystka-zubiv-w01-do-p-500.webp') }} 500w, {{ asset('images/68926f14973fd057c81c086b_prof-chystka-zubiv-w01-do-p-800.webp') }} 800w, {{ asset('images/68926f14973fd057c81c086b_prof-chystka-zubiv-w01-do-p-1080.webp') }} 1080w, {{ asset('images/68926f14973fd057c81c086b_prof-chystka-zubiv-w01-do.webp') }} 1182w"
                                     class="works__img-before">
                                 <div class="works__work-progressbar"><img
-                                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67feb272c23f3beb30d8417f_team__icon-arrows.svg"
+                                        src="{{ asset('images/67feb272c23f3beb30d8417f_team__icon-arrows.svg') }}"
                                         loading="lazy" alt="" class="team__work-progress-icon"></div>
                                 <div class="works__work-title">Профилактическая чистка зубов</div>
                                 <div fs-list-field="category" class="hide">Профилактика</div>
                             </div>
                             <div role="listitem" class="collection__item mod--works w-dyn-item"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926d8be39573e28c1101ee_all-on-4-w01-pisla.webp"
+                                    src="{{ asset('images/68926d8be39573e28c1101ee_all-on-4-w01-pisla.webp') }}"
                                     loading="lazy" alt="Имплантация All-on-4, после" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926d8be39573e28c1101ee_all-on-4-w01-pisla-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926d8be39573e28c1101ee_all-on-4-w01-pisla-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926d8be39573e28c1101ee_all-on-4-w01-pisla-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926d8be39573e28c1101ee_all-on-4-w01-pisla.webp 1182w"
+                                    srcset="{{ asset('images/68926d8be39573e28c1101ee_all-on-4-w01-pisla-p-500.webp') }} 500w, {{ asset('images/68926d8be39573e28c1101ee_all-on-4-w01-pisla-p-800.webp') }} 800w, {{ asset('images/68926d8be39573e28c1101ee_all-on-4-w01-pisla-p-1080.webp') }} 1080w, {{ asset('images/68926d8be39573e28c1101ee_all-on-4-w01-pisla.webp') }} 1182w"
                                     class="works__img-after"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926d87ca269a77b892968b_all-on-4-w01-do.webp"
+                                    src="{{ asset('images/68926d87ca269a77b892968b_all-on-4-w01-do.webp') }}"
                                     loading="lazy" alt="Имплантация All-on-4, до" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926d87ca269a77b892968b_all-on-4-w01-do-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926d87ca269a77b892968b_all-on-4-w01-do-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926d87ca269a77b892968b_all-on-4-w01-do-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68926d87ca269a77b892968b_all-on-4-w01-do.webp 1182w"
+                                    srcset="{{ asset('images/68926d87ca269a77b892968b_all-on-4-w01-do-p-500.webp') }} 500w, {{ asset('images/68926d87ca269a77b892968b_all-on-4-w01-do-p-800.webp') }} 800w, {{ asset('images/68926d87ca269a77b892968b_all-on-4-w01-do-p-1080.webp') }} 1080w, {{ asset('images/68926d87ca269a77b892968b_all-on-4-w01-do.webp') }} 1182w"
                                     class="works__img-before">
                                 <div class="works__work-progressbar"><img
-                                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67feb272c23f3beb30d8417f_team__icon-arrows.svg"
+                                        src="{{ asset('images/67feb272c23f3beb30d8417f_team__icon-arrows.svg') }}"
                                         loading="lazy" alt="" class="team__work-progress-icon"></div>
                                 <div class="works__work-title">Имплантация All-on-4</div>
                                 <div fs-list-field="category" class="hide">Имплантация</div>
                             </div>
                             <div role="listitem" class="collection__item mod--works w-dyn-item"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688369809260c87505a396f1_implantatciya-pislya-w02.webp"
+                                    src="{{ asset('images/688369809260c87505a396f1_implantatciya-pislya-w02.webp') }}"
                                     loading="lazy" alt="Имплантация 3 зубов, после" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688369809260c87505a396f1_implantatciya-pislya-w02-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688369809260c87505a396f1_implantatciya-pislya-w02-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688369809260c87505a396f1_implantatciya-pislya-w02-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688369809260c87505a396f1_implantatciya-pislya-w02.webp 1182w"
+                                    srcset="{{ asset('images/688369809260c87505a396f1_implantatciya-pislya-w02-p-500.webp') }} 500w, {{ asset('images/688369809260c87505a396f1_implantatciya-pislya-w02-p-800.webp') }} 800w, {{ asset('images/688369809260c87505a396f1_implantatciya-pislya-w02-p-1080.webp') }} 1080w, {{ asset('images/688369809260c87505a396f1_implantatciya-pislya-w02.webp') }} 1182w"
                                     class="works__img-after"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68836984e5f372cbbf6dc4ed_implantatciya-do-w02.webp"
+                                    src="{{ asset('images/68836984e5f372cbbf6dc4ed_implantatciya-do-w02.webp') }}"
                                     loading="lazy" alt="Имплантация 3 зубов, до" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68836984e5f372cbbf6dc4ed_implantatciya-do-w02-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68836984e5f372cbbf6dc4ed_implantatciya-do-w02-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68836984e5f372cbbf6dc4ed_implantatciya-do-w02-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68836984e5f372cbbf6dc4ed_implantatciya-do-w02.webp 1182w"
+                                    srcset="{{ asset('images/68836984e5f372cbbf6dc4ed_implantatciya-do-w02-p-500.webp') }} 500w, {{ asset('images/68836984e5f372cbbf6dc4ed_implantatciya-do-w02-p-800.webp') }} 800w, {{ asset('images/68836984e5f372cbbf6dc4ed_implantatciya-do-w02-p-1080.webp') }} 1080w, {{ asset('images/68836984e5f372cbbf6dc4ed_implantatciya-do-w02.webp') }} 1182w"
                                     class="works__img-before">
                                 <div class="works__work-progressbar"><img
-                                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67feb272c23f3beb30d8417f_team__icon-arrows.svg"
+                                        src="{{ asset('images/67feb272c23f3beb30d8417f_team__icon-arrows.svg') }}"
                                         loading="lazy" alt="" class="team__work-progress-icon"></div>
                                 <div class="works__work-title">Имплантация 3 зубов</div>
                                 <div fs-list-field="category" class="hide">Имплантация</div>
                             </div>
                             <div role="listitem" class="collection__item mod--works w-dyn-item"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688367abed9eb2ef9f10e2f1_karies-pislya-w05.webp"
+                                    src="{{ asset('images/688367abed9eb2ef9f10e2f1_karies-pislya-w05.webp') }}"
                                     loading="lazy" alt="Лечение глубокого кариеса, после" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688367abed9eb2ef9f10e2f1_karies-pislya-w05-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688367abed9eb2ef9f10e2f1_karies-pislya-w05-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688367abed9eb2ef9f10e2f1_karies-pislya-w05-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688367abed9eb2ef9f10e2f1_karies-pislya-w05.webp 1182w"
+                                    srcset="{{ asset('images/688367abed9eb2ef9f10e2f1_karies-pislya-w05-p-500.webp') }} 500w, {{ asset('images/688367abed9eb2ef9f10e2f1_karies-pislya-w05-p-800.webp') }} 800w, {{ asset('images/688367abed9eb2ef9f10e2f1_karies-pislya-w05-p-1080.webp') }} 1080w, {{ asset('images/688367abed9eb2ef9f10e2f1_karies-pislya-w05.webp') }} 1182w"
                                     class="works__img-after"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688367a6af87b3f93f0d3e4f_karies-do-w05.webp"
+                                    src="{{ asset('images/688367a6af87b3f93f0d3e4f_karies-do-w05.webp') }}"
                                     loading="lazy" alt="Лечение глубокого кариеса, до" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688367a6af87b3f93f0d3e4f_karies-do-w05-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688367a6af87b3f93f0d3e4f_karies-do-w05-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688367a6af87b3f93f0d3e4f_karies-do-w05-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688367a6af87b3f93f0d3e4f_karies-do-w05.webp 1182w"
+                                    srcset="{{ asset('images/688367a6af87b3f93f0d3e4f_karies-do-w05-p-500.webp') }} 500w, {{ asset('images/688367a6af87b3f93f0d3e4f_karies-do-w05-p-800.webp') }} 800w, {{ asset('images/688367a6af87b3f93f0d3e4f_karies-do-w05-p-1080.webp') }} 1080w, {{ asset('images/688367a6af87b3f93f0d3e4f_karies-do-w05.webp') }} 1182w"
                                     class="works__img-before">
                                 <div class="works__work-progressbar"><img
-                                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67feb272c23f3beb30d8417f_team__icon-arrows.svg"
+                                        src="{{ asset('images/67feb272c23f3beb30d8417f_team__icon-arrows.svg') }}"
                                         loading="lazy" alt="" class="team__work-progress-icon"></div>
                                 <div class="works__work-title">Лечение глубокого кариеса</div>
                                 <div fs-list-field="category" class="hide">Терапия</div>
                             </div>
                             <div role="listitem" class="collection__item mod--works w-dyn-item"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883664b2b4afa60cde5376e_implantatciya-pislya-w01.webp"
+                                    src="{{ asset('images/6883664b2b4afa60cde5376e_implantatciya-pislya-w01.webp') }}"
                                     loading="lazy" alt="Имплантация зубов, после" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883664b2b4afa60cde5376e_implantatciya-pislya-w01-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883664b2b4afa60cde5376e_implantatciya-pislya-w01-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883664b2b4afa60cde5376e_implantatciya-pislya-w01-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883664b2b4afa60cde5376e_implantatciya-pislya-w01.webp 1182w"
+                                    srcset="{{ asset('images/6883664b2b4afa60cde5376e_implantatciya-pislya-w01-p-500.webp') }} 500w, {{ asset('images/6883664b2b4afa60cde5376e_implantatciya-pislya-w01-p-800.webp') }} 800w, {{ asset('images/6883664b2b4afa60cde5376e_implantatciya-pislya-w01-p-1080.webp') }} 1080w, {{ asset('images/6883664b2b4afa60cde5376e_implantatciya-pislya-w01.webp') }} 1182w"
                                     class="works__img-after"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688366472a038cffacab367e_implantatciya-do-w01.webp"
+                                    src="{{ asset('images/688366472a038cffacab367e_implantatciya-do-w01.webp') }}"
                                     loading="lazy" alt="Имплантация зубов, до" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688366472a038cffacab367e_implantatciya-do-w01-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688366472a038cffacab367e_implantatciya-do-w01-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688366472a038cffacab367e_implantatciya-do-w01-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688366472a038cffacab367e_implantatciya-do-w01.webp 1182w"
+                                    srcset="{{ asset('images/688366472a038cffacab367e_implantatciya-do-w01-p-500.webp') }} 500w, {{ asset('images/688366472a038cffacab367e_implantatciya-do-w01-p-800.webp') }} 800w, {{ asset('images/688366472a038cffacab367e_implantatciya-do-w01-p-1080.webp') }} 1080w, {{ asset('images/688366472a038cffacab367e_implantatciya-do-w01.webp') }} 1182w"
                                     class="works__img-before">
                                 <div class="works__work-progressbar"><img
-                                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67feb272c23f3beb30d8417f_team__icon-arrows.svg"
+                                        src="{{ asset('images/67feb272c23f3beb30d8417f_team__icon-arrows.svg') }}"
                                         loading="lazy" alt="" class="team__work-progress-icon"></div>
                                 <div class="works__work-title">Имплантация зубов</div>
                                 <div fs-list-field="category" class="hide">Имплантация</div>
                             </div>
                             <div role="listitem" class="collection__item mod--works w-dyn-item"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883659f11ba1848d11b3bef_profesiyna-hihiyena-zubiv-pislya-w01.webp"
+                                    src="{{ asset('images/6883659f11ba1848d11b3bef_profesiyna-hihiyena-zubiv-pislya-w01.webp') }}"
                                     loading="lazy" alt="Профессиональная гигиена зубов, после" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883659f11ba1848d11b3bef_profesiyna-hihiyena-zubiv-pislya-w01-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883659f11ba1848d11b3bef_profesiyna-hihiyena-zubiv-pislya-w01-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883659f11ba1848d11b3bef_profesiyna-hihiyena-zubiv-pislya-w01-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883659f11ba1848d11b3bef_profesiyna-hihiyena-zubiv-pislya-w01.webp 1182w"
+                                    srcset="{{ asset('images/6883659f11ba1848d11b3bef_profesiyna-hihiyena-zubiv-pislya-w01-p-500.webp') }} 500w, {{ asset('images/6883659f11ba1848d11b3bef_profesiyna-hihiyena-zubiv-pislya-w01-p-800.webp') }} 800w, {{ asset('images/6883659f11ba1848d11b3bef_profesiyna-hihiyena-zubiv-pislya-w01-p-1080.webp') }} 1080w, {{ asset('images/6883659f11ba1848d11b3bef_profesiyna-hihiyena-zubiv-pislya-w01.webp') }} 1182w"
                                     class="works__img-after"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883659ce6e698960f37d60b_profesiyna-hihiyena-zubiv-do-w01.webp"
+                                    src="{{ asset('images/6883659ce6e698960f37d60b_profesiyna-hihiyena-zubiv-do-w01.webp') }}"
                                     loading="lazy" alt="Профессиональная гигиена зубов, до" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883659ce6e698960f37d60b_profesiyna-hihiyena-zubiv-do-w01-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883659ce6e698960f37d60b_profesiyna-hihiyena-zubiv-do-w01-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883659ce6e698960f37d60b_profesiyna-hihiyena-zubiv-do-w01-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883659ce6e698960f37d60b_profesiyna-hihiyena-zubiv-do-w01.webp 1182w"
+                                    srcset="{{ asset('images/6883659ce6e698960f37d60b_profesiyna-hihiyena-zubiv-do-w01-p-500.webp') }} 500w, {{ asset('images/6883659ce6e698960f37d60b_profesiyna-hihiyena-zubiv-do-w01-p-800.webp') }} 800w, {{ asset('images/6883659ce6e698960f37d60b_profesiyna-hihiyena-zubiv-do-w01-p-1080.webp') }} 1080w, {{ asset('images/6883659ce6e698960f37d60b_profesiyna-hihiyena-zubiv-do-w01.webp') }} 1182w"
                                     class="works__img-before">
                                 <div class="works__work-progressbar"><img
-                                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67feb272c23f3beb30d8417f_team__icon-arrows.svg"
+                                        src="{{ asset('images/67feb272c23f3beb30d8417f_team__icon-arrows.svg') }}"
                                         loading="lazy" alt="" class="team__work-progress-icon"></div>
                                 <div class="works__work-title">Профессиональная гигиена зубов</div>
                                 <div fs-list-field="category" class="hide">Профилактика</div>
                             </div>
                             <div role="listitem" class="collection__item mod--works w-dyn-item"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688363cb89b5176f2cc621a5_karies-pislya-w01.webp"
+                                    src="{{ asset('images/688363cb89b5176f2cc621a5_karies-pislya-w01.webp') }}"
                                     loading="lazy" alt="Лечение кариеса, после" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688363cb89b5176f2cc621a5_karies-pislya-w01-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688363cb89b5176f2cc621a5_karies-pislya-w01-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688363cb89b5176f2cc621a5_karies-pislya-w01-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688363cb89b5176f2cc621a5_karies-pislya-w01.webp 1182w"
+                                    srcset="{{ asset('images/688363cb89b5176f2cc621a5_karies-pislya-w01-p-500.webp') }} 500w, {{ asset('images/688363cb89b5176f2cc621a5_karies-pislya-w01-p-800.webp') }} 800w, {{ asset('images/688363cb89b5176f2cc621a5_karies-pislya-w01-p-1080.webp') }} 1080w, {{ asset('images/688363cb89b5176f2cc621a5_karies-pislya-w01.webp') }} 1182w"
                                     class="works__img-after"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688363c3935e15e0a8d1eb2d_karies-do-w01.webp"
+                                    src="{{ asset('images/688363c3935e15e0a8d1eb2d_karies-do-w01.webp') }}"
                                     loading="lazy" alt="Лечение кариеса, до" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688363c3935e15e0a8d1eb2d_karies-do-w01-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688363c3935e15e0a8d1eb2d_karies-do-w01-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688363c3935e15e0a8d1eb2d_karies-do-w01-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/688363c3935e15e0a8d1eb2d_karies-do-w01.webp 1182w"
+                                    srcset="{{ asset('images/688363c3935e15e0a8d1eb2d_karies-do-w01-p-500.webp') }} 500w, {{ asset('images/688363c3935e15e0a8d1eb2d_karies-do-w01-p-800.webp') }} 800w, {{ asset('images/688363c3935e15e0a8d1eb2d_karies-do-w01-p-1080.webp') }} 1080w, {{ asset('images/688363c3935e15e0a8d1eb2d_karies-do-w01.webp') }} 1182w"
                                     class="works__img-before">
                                 <div class="works__work-progressbar"><img
-                                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67feb272c23f3beb30d8417f_team__icon-arrows.svg"
+                                        src="{{ asset('images/67feb272c23f3beb30d8417f_team__icon-arrows.svg') }}"
                                         loading="lazy" alt="" class="team__work-progress-icon"></div>
                                 <div class="works__work-title">Лечение кариеса</div>
                                 <div fs-list-field="category" class="hide">Терапия</div>
                             </div>
                             <div role="listitem" class="collection__item mod--works w-dyn-item"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68836463276305f0873a05fb_naroshchuvannya-zubiv-pislya-01.webp"
+                                    src="{{ asset('images/68836463276305f0873a05fb_naroshchuvannya-zubiv-pislya-01.webp') }}"
                                     loading="lazy" alt="Наращивание зубов, после" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68836463276305f0873a05fb_naroshchuvannya-zubiv-pislya-01-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68836463276305f0873a05fb_naroshchuvannya-zubiv-pislya-01-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68836463276305f0873a05fb_naroshchuvannya-zubiv-pislya-01-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68836463276305f0873a05fb_naroshchuvannya-zubiv-pislya-01.webp 1182w"
+                                    srcset="{{ asset('images/68836463276305f0873a05fb_naroshchuvannya-zubiv-pislya-01-p-500.webp') }} 500w, {{ asset('images/68836463276305f0873a05fb_naroshchuvannya-zubiv-pislya-01-p-800.webp') }} 800w, {{ asset('images/68836463276305f0873a05fb_naroshchuvannya-zubiv-pislya-01-p-1080.webp') }} 1080w, {{ asset('images/68836463276305f0873a05fb_naroshchuvannya-zubiv-pislya-01.webp') }} 1182w"
                                     class="works__img-after"><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883646037663009b5fe3846_naroshchuvannya-zubiv-do-01.webp"
+                                    src="{{ asset('images/6883646037663009b5fe3846_naroshchuvannya-zubiv-do-01.webp') }}"
                                     loading="lazy" alt="Наращивание зубов, до" sizes="(max-width: 767px) 100vw, 720px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883646037663009b5fe3846_naroshchuvannya-zubiv-do-01-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883646037663009b5fe3846_naroshchuvannya-zubiv-do-01-p-800.webp 800w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883646037663009b5fe3846_naroshchuvannya-zubiv-do-01-p-1080.webp 1080w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6883646037663009b5fe3846_naroshchuvannya-zubiv-do-01.webp 1182w"
+                                    srcset="{{ asset('images/6883646037663009b5fe3846_naroshchuvannya-zubiv-do-01-p-500.webp') }} 500w, {{ asset('images/6883646037663009b5fe3846_naroshchuvannya-zubiv-do-01-p-800.webp') }} 800w, {{ asset('images/6883646037663009b5fe3846_naroshchuvannya-zubiv-do-01-p-1080.webp') }} 1080w, {{ asset('images/6883646037663009b5fe3846_naroshchuvannya-zubiv-do-01.webp') }} 1182w"
                                     class="works__img-before">
                                 <div class="works__work-progressbar"><img
-                                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67feb272c23f3beb30d8417f_team__icon-arrows.svg"
+                                        src="{{ asset('images/67feb272c23f3beb30d8417f_team__icon-arrows.svg') }}"
                                         loading="lazy" alt="" class="team__work-progress-icon"></div>
                                 <div class="works__work-title">Наращивание зубов</div>
                                 <div fs-list-field="category" class="hide"></div>
@@ -272,7 +272,7 @@
                             <div desktop-hide="">Записаться на приём</div>
                             <div mobile-hide="">Записаться на приём</div>
                             <img
-                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                 loading="lazy" alt="Стрелка вверх" class="button__icon-arrow"></a></div>
                 </div>
             </div>
@@ -294,7 +294,7 @@
                             <div role="group" class="swiper-slide mod--reviews w-dyn-item swiper-slide-active"
                                  style="width: 348.167px; margin-right: 16px;" aria-label="1 / 4">
                                 <div class="reviews__ava-wrap"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68751e2f5e05bf26d84b822e_ico-review-1.png"
+                                        src="{{ asset('images/68751e2f5e05bf26d84b822e_ico-review-1.png') }}"
                                         loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
                                             Олег Лазаренко</p>
@@ -304,7 +304,7 @@
                             <div role="group" class="swiper-slide mod--reviews w-dyn-item swiper-slide-next"
                                  style="width: 348.167px; margin-right: 16px;" aria-label="2 / 4">
                                 <div class="reviews__ava-wrap"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68751e1dafa16bbc2ef5e5bf_ico-review-2.png"
+                                        src="{{ asset('images/68751e1dafa16bbc2ef5e5bf_ico-review-2.png') }}"
                                         loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
                                             Елена Кульчицкая</p>
@@ -314,7 +314,7 @@
                             <div role="group" class="swiper-slide mod--reviews w-dyn-item"
                                  style="width: 348.167px; margin-right: 16px;" aria-label="3 / 4">
                                 <div class="reviews__ava-wrap"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68751e0bf9380177ca218441_ico-review-3.png"
+                                        src="{{ asset('images/68751e0bf9380177ca218441_ico-review-3.png') }}"
                                         loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
                                             Ирина Федунь</p>
@@ -325,7 +325,7 @@
                             <div role="group" class="swiper-slide mod--reviews w-dyn-item" aria-label="4 / 4"
                                  style="width: 348.167px; margin-right: 16px;">
                                 <div class="reviews__ava-wrap"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68751de8d993b092fe3713a8_ico-review-4.png"
+                                        src="{{ asset('images/68751de8d993b092fe3713a8_ico-review-4.png') }}"
                                         loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
                                             Назар Романчук</p>
@@ -355,7 +355,7 @@
                          style="opacity: 0;"><a
                             href="https://www.google.com/search?sca_esv=2d4d8ffc55fcccf2&amp;cs=1&amp;output=search&amp;kgmid=/g/11f3dwh_y1&amp;q=%D0%94%D0%B5%D0%BD%D1%82%D0%B0-%D0%9B%D1%8E%D0%BA%D1%81&amp;shndl=30&amp;shem=lcuae,uaasie&amp;source=sh/x/loc/uni/m1/1&amp;kgs=8dba0fd432479592#lrd=0x40d95860701016a5:0x3a3032a5ebccece0,1,,,,"
                             target="_blank" class="button is-large gray w-inline-block"><img
-                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed28adb59c1de594c623ed_icon-google.svg"
+                                src="{{ asset('images/67ed28adb59c1de594c623ed_icon-google.svg') }}"
                                 loading="lazy" alt="" class="icon width-24">
                             <div>Смотреть все отзывы</div>
                         </a></div>

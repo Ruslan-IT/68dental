@@ -30,7 +30,7 @@
                                 <div class="alt-for-link">Подробнее</div>
                             </a></div>
                         <div class="team__hero-text-wrap is1"><img
-                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67fcb4f35e6731101ddb84f4_team__img-group.avif"
+                                src="{{ asset('images/67fcb4f35e6731101ddb84f4_team__img-group.avif') }}"
                                 loading="lazy" alt="Фото команды" class="team__hero-img">
                             <p class="text-size-regular">Опытные специалисты<br>с большим стажем</p></div>
                     </div>
@@ -45,10 +45,10 @@
                     </a></div>
             </div>
             <img
-                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67fcb32ae732a0dc80dd3177_team__img-hero.avif"
+                src="{{ asset('images/67fcb32ae732a0dc80dd3177_team__img-hero.avif') }}"
                 loading="lazy" style="opacity: 1;" data-w-id="d2fd1c8d-6d93-8572-9b65-23d7ea0ff3b5" alt="Фото команды"
                 mobile-hide="" class="services__img-bg"><img
-                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67fcbecb49a4ab25e888a175_team__img-hero-mob.avif"
+                src="{{ asset('images/67fcbecb49a4ab25e888a175_team__img-hero-mob.avif') }}"
                 loading="lazy" style="opacity: 1;" data-w-id="ab244ad4-1744-485f-58eb-dd3f2961fa35"
                 alt="Фото команды" desktop-hide="" class="services__img-bg">
             <div class="bread-crumbs"><a href="/" class="bread-crumbs__text">Главная</a>
@@ -73,9 +73,9 @@
                                  style="width: 129.667px; margin-right: 16px;" aria-label="1 / 4">
                                 <div class="collection__item-wrap mod--specialists-third">
                                     <div class="specialists__img-wrap is1"><img
-                                            src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/67ebff7260357e68b0c6248f_specialist__img-mob-1.jpg"
+                                            src="{{ asset('images/67ebff7260357e68b0c6248f_specialist__img-mob-1.jpg') }}"
                                             loading="lazy" alt="" sizes="100vw"
-                                            srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/67ebff7260357e68b0c6248f_specialist__img-mob-1-p-500.jpg 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/67ebff7260357e68b0c6248f_specialist__img-mob-1.jpg 700w"
+                                            srcset="{{ asset('images/67ebff7260357e68b0c6248f_specialist__img-mob-1-p-500.jpg') }} 500w, {{ asset('images/67ebff7260357e68b0c6248f_specialist__img-mob-1.jpg') }} 700w"
                                             class="specialists__img is3">
                                         <div class="specialists__tag absolute">20+ лет опыта</div>
                                         <a href="/team"
@@ -97,9 +97,9 @@
                                  style="width: 129.667px; margin-right: 16px;" aria-label="2 / 4">
                                 <div class="collection__item-wrap mod--specialists-third">
                                     <div class="specialists__img-wrap is1"><img
-                                            src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68304810ff1e57eb5bbff7ea_img-mob-2.jpg"
+                                            src="{{ asset('images/68304810ff1e57eb5bbff7ea_img-mob-2.jpg') }}"
                                             loading="lazy" alt="" sizes="100vw"
-                                            srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68304810ff1e57eb5bbff7ea_img-mob-2-p-500.jpg 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68304810ff1e57eb5bbff7ea_img-mob-2.jpg 700w"
+                                            srcset="{{ asset('images/68304810ff1e57eb5bbff7ea_img-mob-2-p-500.jpg') }} 500w, {{ asset('images/68304810ff1e57eb5bbff7ea_img-mob-2.jpg') }} 700w"
                                             class="specialists__img is3">
                                         <div class="specialists__tag absolute">13+ лет опыта</div>
                                         <a href="/team"
@@ -121,9 +121,9 @@
                                  style="width: 129.667px; margin-right: 16px;" aria-label="3 / 4">
                                 <div class="collection__item-wrap mod--specialists-third">
                                     <div class="specialists__img-wrap is1"><img
-                                            src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6830474e5efd5123069deea0_img-mob-700.jpg"
+                                            src="{{ asset('images/6830474e5efd5123069deea0_img-mob-700.jpg') }}"
                                             loading="lazy" alt="" sizes="100vw"
-                                            srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6830474e5efd5123069deea0_img-mob-700-p-500.jpg 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6830474e5efd5123069deea0_img-mob-700.jpg 700w"
+                                            srcset="{{ asset('images/6830474e5efd5123069deea0_img-mob-700-p-500.jpg') }} 500w, {{ asset('images/6830474e5efd5123069deea0_img-mob-700.jpg') }} 700w"
                                             class="specialists__img is3">
                                         <div class="specialists__tag absolute w-dyn-bind-empty"></div>
                                         <a href="/team"
@@ -145,9 +145,9 @@
                                  style="width: 129.667px; margin-right: 16px;">
                                 <div class="collection__item-wrap mod--specialists-third">
                                     <div class="specialists__img-wrap is1"><img
-                                            src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6830481a65088923183d9ff4_img-mob-3.jpg"
+                                            src="{{ asset('images/6830481a65088923183d9ff4_img-mob-3.jpg') }}"
                                             loading="lazy" alt="" sizes="100vw"
-                                            srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6830481a65088923183d9ff4_img-mob-3-p-500.jpg 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6830481a65088923183d9ff4_img-mob-3.jpg 700w"
+                                            srcset="{{ asset('images/6830481a65088923183d9ff4_img-mob-3-p-500.jpg') }} 500w, {{ asset('images/6830481a65088923183d9ff4_img-mob-3.jpg') }} 700w"
                                             class="specialists__img is3">
                                         <div class="specialists__tag absolute">25+ лет работы</div>
                                         <a href="/team"
@@ -188,7 +188,7 @@
                                                 class="button is-large gold w-inline-block">
                             <div>Записаться на приём</div>
                             <img loading="lazy"
-                                 src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                 src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                  alt="Стрелка вверх" class="button__icon-arrow"></a></div>
                 </div>
             </div>
@@ -211,14 +211,14 @@
                                                                                                     class="w-inline-block w-lightbox"
                                                                                                     aria-label="Открыть фото"
                                                                                                     aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768f2f9439f10b5755c003_petrenko-kirill-setificat05.webp"
+                                        src="{{ asset('images/68768f2f9439f10b5755c003_petrenko-kirill-setificat05.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768f2f9439f10b5755c003_petrenko-kirill-setificat05-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768f2f9439f10b5755c003_petrenko-kirill-setificat05.webp 578w"
+                                        srcset="{{ asset('images/68768f2f9439f10b5755c003_petrenko-kirill-setificat05-p-500.webp') }} 500w, {{ asset('images/68768f2f9439f10b5755c003_petrenko-kirill-setificat05.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768f2f9439f10b5755c003_petrenko-kirill-setificat05.webp",
+      "url": "{{ asset('images/68768f2f9439f10b5755c003_petrenko-kirill-setificat05.webp') }}",
       "type": "image"
     }
   ],
@@ -226,23 +226,23 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768f2f9439f10b5755c003_petrenko-kirill-setificat05.webp"
+                                    src="{{ asset('images/68768f2f9439f10b5755c003_petrenko-kirill-setificat05.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768f2f9439f10b5755c003_petrenko-kirill-setificat05-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768f2f9439f10b5755c003_petrenko-kirill-setificat05.webp 578w"
+                                    srcset="{{ asset('images/68768f2f9439f10b5755c003_petrenko-kirill-setificat05-p-500.webp') }} 500w, {{ asset('images/68768f2f9439f10b5755c003_petrenko-kirill-setificat05.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item swiper-slide-next"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="2 / 19"><a href="#"
                                                                                                     class="w-inline-block w-lightbox"
                                                                                                     aria-label="Открыть фото"
                                                                                                     aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768e26eddb178a2fae8dd9_mildner-maryana-sertificat06.webp"
+                                        src="{{ asset('images/68768e26eddb178a2fae8dd9_mildner-maryana-sertificat06.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768e26eddb178a2fae8dd9_mildner-maryana-sertificat06-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768e26eddb178a2fae8dd9_mildner-maryana-sertificat06.webp 578w"
+                                        srcset="{{ asset('images/68768e26eddb178a2fae8dd9_mildner-maryana-sertificat06-p-500.webp') }} 500w, {{ asset('images/68768e26eddb178a2fae8dd9_mildner-maryana-sertificat06.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768e26eddb178a2fae8dd9_mildner-maryana-sertificat06.webp",
+      "url": "{{ asset('images/68768e26eddb178a2fae8dd9_mildner-maryana-sertificat06.webp') }}",
       "type": "image"
     }
   ],
@@ -250,23 +250,23 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768e26eddb178a2fae8dd9_mildner-maryana-sertificat06.webp"
+                                    src="{{ asset('images/68768e26eddb178a2fae8dd9_mildner-maryana-sertificat06.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768e26eddb178a2fae8dd9_mildner-maryana-sertificat06-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768e26eddb178a2fae8dd9_mildner-maryana-sertificat06.webp 578w"
+                                    srcset="{{ asset('images/68768e26eddb178a2fae8dd9_mildner-maryana-sertificat06-p-500.webp') }} 500w, {{ asset('images/68768e26eddb178a2fae8dd9_mildner-maryana-sertificat06.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="3 / 19"><a href="#"
                                                                                                     class="w-inline-block w-lightbox"
                                                                                                     aria-label="Открыть фото"
                                                                                                     aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768df99456cfa518658e95_mildner-maryana-sertificat04.webp"
+                                        src="{{ asset('images/68768df99456cfa518658e95_mildner-maryana-sertificat04.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768df99456cfa518658e95_mildner-maryana-sertificat04-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768df99456cfa518658e95_mildner-maryana-sertificat04.webp 578w"
+                                        srcset="{{ asset('images/68768df99456cfa518658e95_mildner-maryana-sertificat04-p-500.webp') }} 500w, {{ asset('images/68768df99456cfa518658e95_mildner-maryana-sertificat04.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768df99456cfa518658e95_mildner-maryana-sertificat04.webp",
+      "url": "{{ asset('images/68768df99456cfa518658e95_mildner-maryana-sertificat04.webp') }}",
       "type": "image"
     }
   ],
@@ -274,23 +274,23 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768df99456cfa518658e95_mildner-maryana-sertificat04.webp"
+                                    src="{{ asset('images/68768df99456cfa518658e95_mildner-maryana-sertificat04.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768df99456cfa518658e95_mildner-maryana-sertificat04-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768df99456cfa518658e95_mildner-maryana-sertificat04.webp 578w"
+                                    srcset="{{ asset('images/68768df99456cfa518658e95_mildner-maryana-sertificat04-p-500.webp') }} 500w, {{ asset('images/68768df99456cfa518658e95_mildner-maryana-sertificat04.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="4 / 19"><a href="#"
                                                                                                     class="w-inline-block w-lightbox"
                                                                                                     aria-label="Открыть фото"
                                                                                                     aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768dddfe4447df59f03854_mildner-maryana-sertificat03.webp"
+                                        src="{{ asset('images/68768dddfe4447df59f03854_mildner-maryana-sertificat03.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768dddfe4447df59f03854_mildner-maryana-sertificat03-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768dddfe4447df59f03854_mildner-maryana-sertificat03.webp 578w"
+                                        srcset="{{ asset('images/68768dddfe4447df59f03854_mildner-maryana-sertificat03-p-500.webp') }} 500w, {{ asset('images/68768dddfe4447df59f03854_mildner-maryana-sertificat03.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768dddfe4447df59f03854_mildner-maryana-sertificat03.webp",
+      "url": "{{ asset('images/68768dddfe4447df59f03854_mildner-maryana-sertificat03.webp') }}",
       "type": "image"
     }
   ],
@@ -298,23 +298,23 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768dddfe4447df59f03854_mildner-maryana-sertificat03.webp"
+                                    src="{{ asset('images/68768dddfe4447df59f03854_mildner-maryana-sertificat03.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768dddfe4447df59f03854_mildner-maryana-sertificat03-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768dddfe4447df59f03854_mildner-maryana-sertificat03.webp 578w"
+                                    srcset="{{ asset('images/68768dddfe4447df59f03854_mildner-maryana-sertificat03-p-500.webp') }} 500w, {{ asset('images/68768dddfe4447df59f03854_mildner-maryana-sertificat03.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="5 / 19"><a href="#"
                                                                                                     class="w-inline-block w-lightbox"
                                                                                                     aria-label="Открыть фото"
                                                                                                     aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768db91672b60cee271f30_mildner-maryana-sertificat05.webp"
+                                        src="{{ asset('images/68768db91672b60cee271f30_mildner-maryana-sertificat05.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768db91672b60cee271f30_mildner-maryana-sertificat05-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768db91672b60cee271f30_mildner-maryana-sertificat05.webp 578w"
+                                        srcset="{{ asset('images/68768db91672b60cee271f30_mildner-maryana-sertificat05-p-500.webp') }} 500w, {{ asset('images/68768db91672b60cee271f30_mildner-maryana-sertificat05.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768db91672b60cee271f30_mildner-maryana-sertificat05.webp",
+      "url": "{{ asset('images/68768db91672b60cee271f30_mildner-maryana-sertificat05.webp') }}",
       "type": "image"
     }
   ],
@@ -322,23 +322,23 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768db91672b60cee271f30_mildner-maryana-sertificat05.webp"
+                                    src="{{ asset('images/68768db91672b60cee271f30_mildner-maryana-sertificat05.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768db91672b60cee271f30_mildner-maryana-sertificat05-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768db91672b60cee271f30_mildner-maryana-sertificat05.webp 578w"
+                                    srcset="{{ asset('images/68768db91672b60cee271f30_mildner-maryana-sertificat05-p-500.webp') }} 500w, {{ asset('images/68768db91672b60cee271f30_mildner-maryana-sertificat05.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="6 / 19"><a href="#"
                                                                                                     class="w-inline-block w-lightbox"
                                                                                                     aria-label="Открыть фото"
                                                                                                     aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d8d02f2a5f31f691e25_mildner-maryana-sertificat02.webp"
+                                        src="{{ asset('images/68768d8d02f2a5f31f691e25_mildner-maryana-sertificat02.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d8d02f2a5f31f691e25_mildner-maryana-sertificat02-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d8d02f2a5f31f691e25_mildner-maryana-sertificat02.webp 578w"
+                                        srcset="{{ asset('images/68768d8d02f2a5f31f691e25_mildner-maryana-sertificat02-p-500.webp') }} 500w, {{ asset('images/68768d8d02f2a5f31f691e25_mildner-maryana-sertificat02.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d8d02f2a5f31f691e25_mildner-maryana-sertificat02.webp",
+      "url": "{{ asset('images/68768d8d02f2a5f31f691e25_mildner-maryana-sertificat02.webp') }}",
       "type": "image"
     }
   ],
@@ -346,23 +346,23 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d8d02f2a5f31f691e25_mildner-maryana-sertificat02.webp"
+                                    src="{{ asset('images/68768d8d02f2a5f31f691e25_mildner-maryana-sertificat02.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d8d02f2a5f31f691e25_mildner-maryana-sertificat02-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d8d02f2a5f31f691e25_mildner-maryana-sertificat02.webp 578w"
+                                    srcset="{{ asset('images/68768d8d02f2a5f31f691e25_mildner-maryana-sertificat02-p-500.webp') }} 500w, {{ asset('images/68768d8d02f2a5f31f691e25_mildner-maryana-sertificat02.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="7 / 19"><a href="#"
                                                                                                     class="w-inline-block w-lightbox"
                                                                                                     aria-label="Открыть фото"
                                                                                                     aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d5a51e224fda26c7d7b_mildner-maryana-sertificat01.webp"
+                                        src="{{ asset('images/68768d5a51e224fda26c7d7b_mildner-maryana-sertificat01.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d5a51e224fda26c7d7b_mildner-maryana-sertificat01-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d5a51e224fda26c7d7b_mildner-maryana-sertificat01.webp 578w"
+                                        srcset="{{ asset('images/68768d5a51e224fda26c7d7b_mildner-maryana-sertificat01-p-500.webp') }} 500w, {{ asset('images/68768d5a51e224fda26c7d7b_mildner-maryana-sertificat01.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d5a51e224fda26c7d7b_mildner-maryana-sertificat01.webp",
+      "url": "{{ asset('images/68768d5a51e224fda26c7d7b_mildner-maryana-sertificat01.webp') }}",
       "type": "image"
     }
   ],
@@ -370,23 +370,23 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d5a51e224fda26c7d7b_mildner-maryana-sertificat01.webp"
+                                    src="{{ asset('images/68768d5a51e224fda26c7d7b_mildner-maryana-sertificat01.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d5a51e224fda26c7d7b_mildner-maryana-sertificat01-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d5a51e224fda26c7d7b_mildner-maryana-sertificat01.webp 578w"
+                                    srcset="{{ asset('images/68768d5a51e224fda26c7d7b_mildner-maryana-sertificat01-p-500.webp') }} 500w, {{ asset('images/68768d5a51e224fda26c7d7b_mildner-maryana-sertificat01.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="8 / 19"><a href="#"
                                                                                                     class="w-inline-block w-lightbox"
                                                                                                     aria-label="Открыть фото"
                                                                                                     aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d1fd29c5cf2725b459b_buhrim-anna-sertificat02.webp"
+                                        src="{{ asset('images/68768d1fd29c5cf2725b459b_buhrim-anna-sertificat02.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d1fd29c5cf2725b459b_buhrim-anna-sertificat02-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d1fd29c5cf2725b459b_buhrim-anna-sertificat02.webp 578w"
+                                        srcset="{{ asset('images/68768d1fd29c5cf2725b459b_buhrim-anna-sertificat02-p-500.webp') }} 500w, {{ asset('images/68768d1fd29c5cf2725b459b_buhrim-anna-sertificat02.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d1fd29c5cf2725b459b_buhrim-anna-sertificat02.webp",
+      "url": "{{ asset('images/68768d1fd29c5cf2725b459b_buhrim-anna-sertificat02.webp') }}",
       "type": "image"
     }
   ],
@@ -394,23 +394,23 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d1fd29c5cf2725b459b_buhrim-anna-sertificat02.webp"
+                                    src="{{ asset('images/68768d1fd29c5cf2725b459b_buhrim-anna-sertificat02.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d1fd29c5cf2725b459b_buhrim-anna-sertificat02-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768d1fd29c5cf2725b459b_buhrim-anna-sertificat02.webp 578w"
+                                    srcset="{{ asset('images/68768d1fd29c5cf2725b459b_buhrim-anna-sertificat02-p-500.webp') }} 500w, {{ asset('images/68768d1fd29c5cf2725b459b_buhrim-anna-sertificat02.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="9 / 19"><a href="#"
                                                                                                     class="w-inline-block w-lightbox"
                                                                                                     aria-label="Открыть фото"
                                                                                                     aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768cfbe31927b50f72177d_buhrim-anna-sertificat01.webp"
+                                        src="{{ asset('images/68768cfbe31927b50f72177d_buhrim-anna-sertificat01.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768cfbe31927b50f72177d_buhrim-anna-sertificat01-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768cfbe31927b50f72177d_buhrim-anna-sertificat01.webp 578w"
+                                        srcset="{{ asset('images/68768cfbe31927b50f72177d_buhrim-anna-sertificat01-p-500.webp') }} 500w, {{ asset('images/68768cfbe31927b50f72177d_buhrim-anna-sertificat01.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768cfbe31927b50f72177d_buhrim-anna-sertificat01.webp",
+      "url": "{{ asset('images/68768cfbe31927b50f72177d_buhrim-anna-sertificat01.webp') }}",
       "type": "image"
     }
   ],
@@ -418,23 +418,23 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768cfbe31927b50f72177d_buhrim-anna-sertificat01.webp"
+                                    src="{{ asset('images/68768cfbe31927b50f72177d_buhrim-anna-sertificat01.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768cfbe31927b50f72177d_buhrim-anna-sertificat01-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68768cfbe31927b50f72177d_buhrim-anna-sertificat01.webp 578w"
+                                    srcset="{{ asset('images/68768cfbe31927b50f72177d_buhrim-anna-sertificat01-p-500.webp') }} 500w, {{ asset('images/68768cfbe31927b50f72177d_buhrim-anna-sertificat01.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="10 / 19"><a href="#"
                                                                                                      class="w-inline-block w-lightbox"
                                                                                                      aria-label="Открыть фото"
                                                                                                      aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677fc5b1319b3c327bb68_petrenko-kirill-setificat04.webp"
+                                        src="{{ asset('images/687677fc5b1319b3c327bb68_petrenko-kirill-setificat04.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677fc5b1319b3c327bb68_petrenko-kirill-setificat04-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677fc5b1319b3c327bb68_petrenko-kirill-setificat04.webp 578w"
+                                        srcset="{{ asset('images/687677fc5b1319b3c327bb68_petrenko-kirill-setificat04-p-500.webp') }} 500w, {{ asset('images/687677fc5b1319b3c327bb68_petrenko-kirill-setificat04.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677fc5b1319b3c327bb68_petrenko-kirill-setificat04.webp",
+      "url": "{{ asset('images/687677fc5b1319b3c327bb68_petrenko-kirill-setificat04.webp') }}",
       "type": "image"
     }
   ],
@@ -442,23 +442,23 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677fc5b1319b3c327bb68_petrenko-kirill-setificat04.webp"
+                                    src="{{ asset('images/687677fc5b1319b3c327bb68_petrenko-kirill-setificat04.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677fc5b1319b3c327bb68_petrenko-kirill-setificat04-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677fc5b1319b3c327bb68_petrenko-kirill-setificat04.webp 578w"
+                                    srcset="{{ asset('images/687677fc5b1319b3c327bb68_petrenko-kirill-setificat04-p-500.webp') }} 500w, {{ asset('images/687677fc5b1319b3c327bb68_petrenko-kirill-setificat04.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="11 / 19"><a href="#"
                                                                                                      class="w-inline-block w-lightbox"
                                                                                                      aria-label="Открыть фото"
                                                                                                      aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677cc16ee12d2a5d23f71_petrenko-kirill-setificat03.webp"
+                                        src="{{ asset('images/687677cc16ee12d2a5d23f71_petrenko-kirill-setificat03.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677cc16ee12d2a5d23f71_petrenko-kirill-setificat03-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677cc16ee12d2a5d23f71_petrenko-kirill-setificat03.webp 578w"
+                                        srcset="{{ asset('images/687677cc16ee12d2a5d23f71_petrenko-kirill-setificat03-p-500.webp') }} 500w, {{ asset('images/687677cc16ee12d2a5d23f71_petrenko-kirill-setificat03.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677cc16ee12d2a5d23f71_petrenko-kirill-setificat03.webp",
+      "url": "{{ asset('images/687677cc16ee12d2a5d23f71_petrenko-kirill-setificat03.webp') }}",
       "type": "image"
     }
   ],
@@ -466,23 +466,23 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677cc16ee12d2a5d23f71_petrenko-kirill-setificat03.webp"
+                                    src="{{ asset('images/687677cc16ee12d2a5d23f71_petrenko-kirill-setificat03.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677cc16ee12d2a5d23f71_petrenko-kirill-setificat03-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677cc16ee12d2a5d23f71_petrenko-kirill-setificat03.webp 578w"
+                                    srcset="{{ asset('images/687677cc16ee12d2a5d23f71_petrenko-kirill-setificat03-p-500.webp') }} 500w, {{ asset('images/687677cc16ee12d2a5d23f71_petrenko-kirill-setificat03.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="12 / 19"><a href="#"
                                                                                                      class="w-inline-block w-lightbox"
                                                                                                      aria-label="Открыть фото"
                                                                                                      aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677a6ed001495ecb7bfb4_petrenko-kirill-setificat02.webp"
+                                        src="{{ asset('images/687677a6ed001495ecb7bfb4_petrenko-kirill-setificat02.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677a6ed001495ecb7bfb4_petrenko-kirill-setificat02-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677a6ed001495ecb7bfb4_petrenko-kirill-setificat02.webp 578w"
+                                        srcset="{{ asset('images/687677a6ed001495ecb7bfb4_petrenko-kirill-setificat02-p-500.webp') }} 500w, {{ asset('images/687677a6ed001495ecb7bfb4_petrenko-kirill-setificat02.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677a6ed001495ecb7bfb4_petrenko-kirill-setificat02.webp",
+      "url": "{{ asset('images/687677a6ed001495ecb7bfb4_petrenko-kirill-setificat02.webp') }}",
       "type": "image"
     }
   ],
@@ -490,23 +490,23 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677a6ed001495ecb7bfb4_petrenko-kirill-setificat02.webp"
+                                    src="{{ asset('images/687677a6ed001495ecb7bfb4_petrenko-kirill-setificat02.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677a6ed001495ecb7bfb4_petrenko-kirill-setificat02-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677a6ed001495ecb7bfb4_petrenko-kirill-setificat02.webp 578w"
+                                    srcset="{{ asset('images/687677a6ed001495ecb7bfb4_petrenko-kirill-setificat02-p-500.webp') }} 500w, {{ asset('images/687677a6ed001495ecb7bfb4_petrenko-kirill-setificat02.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="13 / 19"><a href="#"
                                                                                                      class="w-inline-block w-lightbox"
                                                                                                      aria-label="Открыть фото"
                                                                                                      aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6876776e13eafba8da5fbc2d_petrenko-kirill-setificat01.webp"
+                                        src="{{ asset('images/6876776e13eafba8da5fbc2d_petrenko-kirill-setificat01.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6876776e13eafba8da5fbc2d_petrenko-kirill-setificat01-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6876776e13eafba8da5fbc2d_petrenko-kirill-setificat01.webp 578w"
+                                        srcset="{{ asset('images/6876776e13eafba8da5fbc2d_petrenko-kirill-setificat01-p-500.webp') }} 500w, {{ asset('images/6876776e13eafba8da5fbc2d_petrenko-kirill-setificat01.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6876776e13eafba8da5fbc2d_petrenko-kirill-setificat01.webp",
+      "url": "{{ asset('images/6876776e13eafba8da5fbc2d_petrenko-kirill-setificat01.webp') }}",
       "type": "image"
     }
   ],
@@ -514,23 +514,23 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6876776e13eafba8da5fbc2d_petrenko-kirill-setificat01.webp"
+                                    src="{{ asset('images/6876776e13eafba8da5fbc2d_petrenko-kirill-setificat01.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6876776e13eafba8da5fbc2d_petrenko-kirill-setificat01-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6876776e13eafba8da5fbc2d_petrenko-kirill-setificat01.webp 578w"
+                                    srcset="{{ asset('images/6876776e13eafba8da5fbc2d_petrenko-kirill-setificat01-p-500.webp') }} 500w, {{ asset('images/6876776e13eafba8da5fbc2d_petrenko-kirill-setificat01.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="14 / 19"><a href="#"
                                                                                                      class="w-inline-block w-lightbox"
                                                                                                      aria-label="Открыть фото"
                                                                                                      aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677371404a67aef55eaf6_petrenko-olga-setificat06.webp"
+                                        src="{{ asset('images/687677371404a67aef55eaf6_petrenko-olga-setificat06.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677371404a67aef55eaf6_petrenko-olga-setificat06-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677371404a67aef55eaf6_petrenko-olga-setificat06.webp 578w"
+                                        srcset="{{ asset('images/687677371404a67aef55eaf6_petrenko-olga-setificat06-p-500.webp') }} 500w, {{ asset('images/687677371404a67aef55eaf6_petrenko-olga-setificat06.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677371404a67aef55eaf6_petrenko-olga-setificat06.webp",
+      "url": "{{ asset('images/687677371404a67aef55eaf6_petrenko-olga-setificat06.webp') }}",
       "type": "image"
     }
   ],
@@ -538,23 +538,23 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677371404a67aef55eaf6_petrenko-olga-setificat06.webp"
+                                    src="{{ asset('images/687677371404a67aef55eaf6_petrenko-olga-setificat06.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677371404a67aef55eaf6_petrenko-olga-setificat06-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687677371404a67aef55eaf6_petrenko-olga-setificat06.webp 578w"
+                                    srcset="{{ asset('images/687677371404a67aef55eaf6_petrenko-olga-setificat06-p-500.webp') }} 500w, {{ asset('images/687677371404a67aef55eaf6_petrenko-olga-setificat06.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="15 / 19"><a href="#"
                                                                                                      class="w-inline-block w-lightbox"
                                                                                                      aria-label="Открыть фото"
                                                                                                      aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68767724f35a2067b86c07bb_petrenko-olga-setificat05.webp"
+                                        src="{{ asset('images/68767724f35a2067b86c07bb_petrenko-olga-setificat05.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68767724f35a2067b86c07bb_petrenko-olga-setificat05-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68767724f35a2067b86c07bb_petrenko-olga-setificat05.webp 578w"
+                                        srcset="{{ asset('images/68767724f35a2067b86c07bb_petrenko-olga-setificat05-p-500.webp') }} 500w, {{ asset('images/68767724f35a2067b86c07bb_petrenko-olga-setificat05.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68767724f35a2067b86c07bb_petrenko-olga-setificat05.webp",
+      "url": "{{ asset('images/68767724f35a2067b86c07bb_petrenko-olga-setificat05.webp') }}",
       "type": "image"
     }
   ],
@@ -562,23 +562,23 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68767724f35a2067b86c07bb_petrenko-olga-setificat05.webp"
+                                    src="{{ asset('images/68767724f35a2067b86c07bb_petrenko-olga-setificat05.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68767724f35a2067b86c07bb_petrenko-olga-setificat05-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68767724f35a2067b86c07bb_petrenko-olga-setificat05.webp 578w"
+                                    srcset="{{ asset('images/68767724f35a2067b86c07bb_petrenko-olga-setificat05-p-500.webp') }} 500w, {{ asset('images/68767724f35a2067b86c07bb_petrenko-olga-setificat05.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="16 / 19"><a href="#"
                                                                                                      class="w-inline-block w-lightbox"
                                                                                                      aria-label="Открыть фото"
                                                                                                      aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68767718d1e500cce5f3f0aa_petrenko-olga-setificat04.webp"
+                                        src="{{ asset('images/68767718d1e500cce5f3f0aa_petrenko-olga-setificat04.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68767718d1e500cce5f3f0aa_petrenko-olga-setificat04-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68767718d1e500cce5f3f0aa_petrenko-olga-setificat04.webp 578w"
+                                        srcset="{{ asset('images/68767718d1e500cce5f3f0aa_petrenko-olga-setificat04-p-500.webp') }} 500w, {{ asset('images/68767718d1e500cce5f3f0aa_petrenko-olga-setificat04.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68767718d1e500cce5f3f0aa_petrenko-olga-setificat04.webp",
+      "url": "{{ asset('images/68767718d1e500cce5f3f0aa_petrenko-olga-setificat04.webp') }}",
       "type": "image"
     }
   ],
@@ -586,23 +586,23 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68767718d1e500cce5f3f0aa_petrenko-olga-setificat04.webp"
+                                    src="{{ asset('images/68767718d1e500cce5f3f0aa_petrenko-olga-setificat04.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68767718d1e500cce5f3f0aa_petrenko-olga-setificat04-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68767718d1e500cce5f3f0aa_petrenko-olga-setificat04.webp 578w"
+                                    srcset="{{ asset('images/68767718d1e500cce5f3f0aa_petrenko-olga-setificat04-p-500.webp') }} 500w, {{ asset('images/68767718d1e500cce5f3f0aa_petrenko-olga-setificat04.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="17 / 19"><a href="#"
                                                                                                      class="w-inline-block w-lightbox"
                                                                                                      aria-label="Открыть фото"
                                                                                                      aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6876770da63fe0578df34f37_petrenko-olga-setificat03.webp"
+                                        src="{{ asset('images/6876770da63fe0578df34f37_petrenko-olga-setificat03.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6876770da63fe0578df34f37_petrenko-olga-setificat03-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6876770da63fe0578df34f37_petrenko-olga-setificat03.webp 578w"
+                                        srcset="{{ asset('images/6876770da63fe0578df34f37_petrenko-olga-setificat03-p-500.webp') }} 500w, {{ asset('images/6876770da63fe0578df34f37_petrenko-olga-setificat03.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6876770da63fe0578df34f37_petrenko-olga-setificat03.webp",
+      "url": "{{ asset('images/6876770da63fe0578df34f37_petrenko-olga-setificat03.webp') }}",
       "type": "image"
     }
   ],
@@ -610,24 +610,24 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6876770da63fe0578df34f37_petrenko-olga-setificat03.webp"
+                                    src="{{ asset('images/6876770da63fe0578df34f37_petrenko-olga-setificat03.webp') }}"
                                     loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6876770da63fe0578df34f37_petrenko-olga-setificat03-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/6876770da63fe0578df34f37_petrenko-olga-setificat03.webp 578w"
+                                    srcset="{{ asset('images/6876770da63fe0578df34f37_petrenko-olga-setificat03-p-500.webp') }} 500w, {{ asset('images/6876770da63fe0578df34f37_petrenko-olga-setificat03.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item"
                                  style="width: 202.5px; margin-right: 16px;" aria-label="18 / 19"><a href="#"
                                                                                                      class="w-inline-block w-lightbox"
                                                                                                      aria-label="Открыть фото"
                                                                                                      aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp"
+                                        src="{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }}"
                                         loading="lazy" alt="Сертификат Ольги Петренко — диагностика и планирование"
                                         sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687676a893b837b7d5f9c703_petrenko-olga-setificat02-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp 578w"
+                                        srcset="{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02-p-500.webp') }} 500w, {{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp",
+      "url": "{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }}",
       "type": "image"
     }
   ],
@@ -635,26 +635,26 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp"
+                                    src="{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }}"
                                     loading="lazy" alt="Сертификат Ольги Петренко — диагностика и планирование"
                                     sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687676a893b837b7d5f9c703_petrenko-olga-setificat02-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp 578w"
+                                    srcset="{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02-p-500.webp') }} 500w, {{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }} 578w"
                                     class="certificate__img hide"></div>
                             <div role="group" class="swiper-slide mod--certificate w-dyn-item" aria-label="19 / 19"
                                  style="width: 202.5px; margin-right: 16px;"><a href="#"
                                                                                 class="w-inline-block w-lightbox"
                                                                                 aria-label="Открыть фото"
                                                                                 aria-haspopup="dialog"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp"
+                                        src="{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }}"
                                         loading="lazy"
                                         alt="Сертификат Ольги Петренко — артикулятор в клинике и лаборатории"
                                         sizes="(max-width: 767px) 70vw, 300px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687676436821f00fc5c068f7_petrenko-olga-setificat01-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp 578w"
+                                        srcset="{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01-p-500.webp') }} 500w, {{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }} 578w"
                                         class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
-      "url": "https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp",
+      "url": "{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }}",
       "type": "image"
     }
   ],
@@ -662,10 +662,10 @@
 }
                                     </script>
                                 </a><img
-                                    src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp"
+                                    src="{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }}"
                                     loading="lazy" alt="Сертификат Ольги Петренко — артикулятор в клинике и лаборатории"
                                     sizes="(max-width: 767px) 70vw, 300px"
-                                    srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687676436821f00fc5c068f7_petrenko-olga-setificat01-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp 578w"
+                                    srcset="{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01-p-500.webp') }} 500w, {{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }} 578w"
                                     class="certificate__img hide"></div>
                         </div>
                         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>

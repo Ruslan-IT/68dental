@@ -25,7 +25,7 @@
                 </form>
                 <div class="success__message w-form-done" tabindex="-1" role="region" aria-label="Сообщение отправлено">
                     <img
-                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/68809c5cf84e1c7af2f5a35b_icon-checkbox.svg"
+                        src="{{ asset('images/68809c5cf84e1c7af2f5a35b_icon-checkbox.svg') }}"
                         loading="lazy" alt="" class="form__icon modal">
                     <div class="form__text-wrap is1"><p class="heading-6 mobile-size-20">Заявка не отправлена</p>
                         <p class="text-size-medium">Заявка не отправляется. Позвоните: +7 (347) 246-85-68.</p></div>

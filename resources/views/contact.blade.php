@@ -55,13 +55,13 @@
                     <div data-w-id="da61cce3-6f70-7fb7-7a19-a9a26a1fbca1" style="opacity: 0;" class="contact__columns">
                         <div class="contact__col">
                             <div class="contact__col-wrap"><img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed3f04f8d1941bbc010459_icon__phone.svg"
+                                    src="{{ asset('images/67ed3f04f8d1941bbc010459_icon__phone.svg') }}"
                                     loading="lazy" alt="Телефон" class="contact__icon is1"><a
                                     href="tel:+73472468568" class="text-size-regular text-color-white">+7 (347) 246-85-68</a><a href="tel:+73472468568" class="text-size-regular text-color-white">+7 (347) 246-85-68</a></div>
                         </div>
                         <div class="contact__col">
                             <div class="contact__col-wrap"><img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed3f0561fca9c14fccc574_icon__calendar.svg"
+                                    src="{{ asset('images/67ed3f0561fca9c14fccc574_icon__calendar.svg') }}"
                                     loading="lazy" alt="Календарь" class="contact__icon">
                                 <p class="text-size-regular text-color-white">Пн–Пт: 09:00–21:00</p>
                                 <p class="text-size-regular text-color-white">Сб: выходной</p>
@@ -69,7 +69,7 @@
                         </div>
                         <div id="w-node-_79a22015-ab8f-4b54-5d77-d8cdeb15c4e3-bcbfa1f9" class="contact__col">
                             <div class="contact__col-wrap"><img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed3f052b8d6a02e20242ba_icon__place.svg"
+                                    src="{{ asset('images/67ed3f052b8d6a02e20242ba_icon__place.svg') }}"
                                     loading="lazy" alt="Адрес" class="contact__icon is1"><a
                                     href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank"
                                     class="text-size-regular text-color-white">д. Алексеевка,<br>Центральная ул., 58/1</a>
@@ -80,15 +80,15 @@
                                 <div class="contact__social-wrap"><a
                                         href="tel:+73472468568"
                                         class="contact__social w-inline-block"><img
-                                            src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6823227ffa96345d047f07a6_icon-email.svg"
+                                            src="{{ asset('images/6823227ffa96345d047f07a6_icon-email.svg') }}"
                                             loading="lazy" alt="Почта" class="icon width-36"></a><a
                                         href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank"
                                         class="contact__social w-inline-block"><img
-                                            src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed38babab72294e770dbe5_icon__facebook.svg"
+                                            src="{{ asset('images/67ed38babab72294e770dbe5_icon__facebook.svg') }}"
                                             loading="lazy" alt="Карта" class="icon width-36"></a><a
                                         href="https://wa.me/79174172079"
                                         target="_blank" class="contact__social w-inline-block"><img
-                                            src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed38ba08dca978557bd2fe_icon__inst.svg"
+                                            src="{{ asset('images/67ed38ba08dca978557bd2fe_icon__inst.svg') }}"
                                             loading="lazy" alt="WhatsApp" class="icon width-36"></a></div>
                                 <p desktop-hide="" class="text-size-regular text-color-white">Как с нами связаться</p>
                             </div>
@@ -101,11 +101,11 @@
                     </a></div>
             </div>
             <img class="services__img-bg"
-                 src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/68231da8269dead80b6c5d04_contact__img-bg.avif"
+                 src="{{ asset('images/68231da8269dead80b6c5d04_contact__img-bg.avif') }}"
                  alt="Фон" mobile-hide="" style="opacity: 1;" sizes="100vw"
                  data-w-id="d2fd1c8d-6d93-8572-9b65-23d7ea0ff3b5" loading="lazy"
-                 srcset="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/68231da8269dead80b6c5d04_contact__img-bg-p-500.avif 500w, https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/68231da8269dead80b6c5d04_contact__img-bg-p-800.avif 800w, https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/68231da8269dead80b6c5d04_contact__img-bg-p-1080.avif 1080w, https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/68231da8269dead80b6c5d04_contact__img-bg.avif 2880w"><img
-                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/68231da71a3174630803d993_contact__img-bg-mob.avif"
+                 srcset="{{ asset('images/68231da8269dead80b6c5d04_contact__img-bg-p-500.avif') }} 500w, {{ asset('images/68231da8269dead80b6c5d04_contact__img-bg-p-800.avif') }} 800w, {{ asset('images/68231da8269dead80b6c5d04_contact__img-bg-p-1080.avif') }} 1080w, {{ asset('images/68231da8269dead80b6c5d04_contact__img-bg.avif') }} 2880w"><img
+                src="{{ asset('images/68231da71a3174630803d993_contact__img-bg-mob.avif') }}"
                 loading="lazy" style="opacity: 1;" data-w-id="ab244ad4-1744-485f-58eb-dd3f2961fa35"
                 alt="Фон" desktop-hide="" class="services__img-bg"></section>
     </main>

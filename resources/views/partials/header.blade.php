@@ -13,7 +13,7 @@
                         <div class="header__col-menu is2">
                             <div class="header__contact">
                                 <div class="header__contact-link"><img
-                                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb937314e68f1665729dc8_icon__calendar.svg"
+                                        src="{{ asset('images/67eb937314e68f1665729dc8_icon__calendar.svg') }}"
                                         loading="lazy" alt="" class="header__contact-icon">
                                     <div class="header__contact-popup">
                                         <div class="header__contact-popup-text"><p class="text-size-small">Пн–Пт:
@@ -23,7 +23,7 @@
                                     </div>
                                 </div>
                                 <div class="header__contact-link"><img
-                                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb93730254dadf0bc87490_icon__place.svg"
+                                        src="{{ asset('images/67eb93730254dadf0bc87490_icon__place.svg') }}"
                                         loading="lazy" alt="" class="header__contact-icon">
                                     <div class="header__contact-popup">
                                         <div class="header__contact-popup-text"><a
@@ -32,7 +32,7 @@
                                     </div>
                                 </div>
                                 <div class="header__contact-link"><img
-                                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb93731aa6a8772d43e557_icon__call.svg"
+                                        src="{{ asset('images/67eb93731aa6a8772d43e557_icon__call.svg') }}"
                                         loading="lazy" alt="" class="header__contact-icon">
                                     <div class="header__contact-popup">
                                         <div class="header__contact-popup-wrap">
@@ -49,7 +49,7 @@
                                 <div desktop-hide="">Позвонить</div>
                                 <div mobile-hide="">Телефон</div>
                                 <img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                                    src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                                     loading="lazy" alt="" class="button__icon-arrow"></a></div>
                     </div>
                     <div fs-scrolldisable-element="toggle" data-w-id="5e736623-74ac-60f8-09ce-dfaa226a8924"
@@ -71,7 +71,7 @@
             <div class="header__col-menu is2">
                 <div class="header__contact">
                     <div class="header__contact-link"><img
-                            src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb937314e68f1665729dc8_icon__calendar.svg"
+                            src="{{ asset('images/67eb937314e68f1665729dc8_icon__calendar.svg') }}"
                             loading="lazy" alt="" class="header__contact-icon">
                         <div class="header__contact-popup">
                             <div class="header__contact-popup-text"><p class="text-size-small">Пн–Пт: 09:00–21:00</p>
@@ -80,7 +80,7 @@
                         </div>
                     </div>
                     <div class="header__contact-link"><img
-                            src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb93730254dadf0bc87490_icon__place.svg"
+                            src="{{ asset('images/67eb93730254dadf0bc87490_icon__place.svg') }}"
                             loading="lazy" alt="" class="header__contact-icon">
                         <div class="header__contact-popup">
                             <div class="header__contact-popup-text"><a
@@ -89,7 +89,7 @@
                         </div>
                     </div>
                     <div class="header__contact-link"><img
-                            src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb93731aa6a8772d43e557_icon__call.svg"
+                            src="{{ asset('images/67eb93731aa6a8772d43e557_icon__call.svg') }}"
                             loading="lazy" alt="" class="header__contact-icon">
                         <div class="header__contact-popup">
                             <div class="header__contact-popup-wrap">
@@ -105,7 +105,7 @@
                     <div desktop-hide="">Позвонить</div>
                     <div mobile-hide="">Телефон</div>
                     <img
-                        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg"
+                        src="{{ asset('images/67eb90c4a1cfd46744ea36ba_icon__arrow-up.svg') }}"
                         loading="lazy" alt="" class="button__icon-arrow"></a></div>
         </div>
     </header>

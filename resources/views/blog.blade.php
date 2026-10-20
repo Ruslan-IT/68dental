@@ -19,7 +19,7 @@
                          style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                          class="services__hero-col mod--price">
                         <div class="about__icon-wrap is1"><img
-                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ebe508f509b13f8c0b2e51_benefits__icon-4.svg"
+                                src="{{ asset('images/67ebe508f509b13f8c0b2e51_benefits__icon-4.svg') }}"
                                 loading="lazy" alt="Иконка" class="icon width-64">
                             <p class="text-size-regular">Всё чаще пациенты выбирают Евростом</p></div>
                         <div class="about__text-wrap is1"><p class="heading-4 mobile-size-48 font-style-inter">48576</p>
@@ -36,14 +36,14 @@
                     </a></div>
             </div>
             <img
-                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/681bc7a70b6f7ce6c30c9db9_blog__img-bg.avif"
+                src="{{ asset('images/681bc7a70b6f7ce6c30c9db9_blog__img-bg.avif') }}"
                 loading="lazy" style="opacity: 1;" data-w-id="d2fd1c8d-6d93-8572-9b65-23d7ea0ff3b5"
                 alt="Фон" mobile-hide="" class="services__img-bg"><img
                 class="services__img-bg"
-                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/681bc7a6eba13a61860f0d88_blog__img-bg-mob.avif"
+                src="{{ asset('images/681bc7a6eba13a61860f0d88_blog__img-bg-mob.avif') }}"
                 alt="Фон" style="opacity: 1;" sizes="100vw" desktop-hide=""
                 data-w-id="ab244ad4-1744-485f-58eb-dd3f2961fa35" loading="lazy"
-                srcset="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/681bc7a6eba13a61860f0d88_blog__img-bg-mob-p-500.avif 500w, https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/681bc7a6eba13a61860f0d88_blog__img-bg-mob.avif 780w">
+                srcset="{{ asset('images/681bc7a6eba13a61860f0d88_blog__img-bg-mob-p-500.avif') }} 500w, {{ asset('images/681bc7a6eba13a61860f0d88_blog__img-bg-mob.avif') }} 780w">
             <div class="bread-crumbs"><a href="/" class="bread-crumbs__text">Главная</a>
                 <div class="bread-crumbs__text">/</div>
                 <div class="bread-crumbs__text active">Блог</div>
@@ -111,9 +111,9 @@
                                 <div class="blog-card__tag">Терапия</div>
                                 <a href="/blog"
                                    class="blog-card__link w-inline-block"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9ba55608ab91b5e9b9763_likuvannya-zubiv-vagitnist-sc.webp"
+                                        src="{{ asset('images/68a9ba55608ab91b5e9b9763_likuvannya-zubiv-vagitnist-sc.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 100vw, 380px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9ba55608ab91b5e9b9763_likuvannya-zubiv-vagitnist-sc-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9ba55608ab91b5e9b9763_likuvannya-zubiv-vagitnist-sc.webp 746w"
+                                        srcset="{{ asset('images/68a9ba55608ab91b5e9b9763_likuvannya-zubiv-vagitnist-sc-p-500.webp') }} 500w, {{ asset('images/68a9ba55608ab91b5e9b9763_likuvannya-zubiv-vagitnist-sc.webp') }} 746w"
                                         class="blog-card__img">
                                     <div class="alt-for-link">Подробнее</div>
                                 </a><a href="/blog"
@@ -137,11 +137,11 @@
                                     </div>
                                     <div class="blog-card__text-info">
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846de00afadb49af5cd8_icon_calendar.svg"
+                                                src="{{ asset('images/6820846de00afadb49af5cd8_icon_calendar.svg') }}"
                                                 loading="lazy" alt="Календарь" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">30 июля 2025</p></div>
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846df6739c334390524c_icon_time.svg"
+                                                src="{{ asset('images/6820846df6739c334390524c_icon_time.svg') }}"
                                                 loading="lazy" alt="Время" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">8</p></div>
                                     </div>
@@ -153,9 +153,9 @@
                             <div class="blog-card">
                                 <div class="blog-card__tag">Гигиена полости рта</div>
                                 <a href="/blog" class="blog-card__link w-inline-block"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9b5b8da9af2f6b9b84cbf_zuby-40-plus-sc.webp"
+                                        src="{{ asset('images/68a9b5b8da9af2f6b9b84cbf_zuby-40-plus-sc.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 100vw, 380px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9b5b8da9af2f6b9b84cbf_zuby-40-plus-sc-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9b5b8da9af2f6b9b84cbf_zuby-40-plus-sc.webp 746w"
+                                        srcset="{{ asset('images/68a9b5b8da9af2f6b9b84cbf_zuby-40-plus-sc-p-500.webp') }} 500w, {{ asset('images/68a9b5b8da9af2f6b9b84cbf_zuby-40-plus-sc.webp') }} 746w"
                                         class="blog-card__img">
                                     <div class="alt-for-link">Подробнее</div>
                                 </a><a href="/blog"
@@ -178,11 +178,11 @@
                                         <p class="text-size-regular text-color-neutral_gray">Потеря зубов у взрослых — это не только перспектива 70–80 лет. Первые проблемы могут начаться раньше, и они не всегда связаны со старостью.</p></div>
                                     <div class="blog-card__text-info">
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846de00afadb49af5cd8_icon_calendar.svg"
+                                                src="{{ asset('images/6820846de00afadb49af5cd8_icon_calendar.svg') }}"
                                                 loading="lazy" alt="Календарь" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">5 августа 2025</p></div>
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846df6739c334390524c_icon_time.svg"
+                                                src="{{ asset('images/6820846df6739c334390524c_icon_time.svg') }}"
                                                 loading="lazy" alt="Время" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">8</p></div>
                                     </div>
@@ -194,9 +194,9 @@
                             <div class="blog-card">
                                 <div class="blog-card__tag">Гигиена полости рта</div>
                                 <a href="/blog" class="blog-card__link w-inline-block"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9b26442516b7458ca87f5_poloskannya-zubix-sc.webp"
+                                        src="{{ asset('images/68a9b26442516b7458ca87f5_poloskannya-zubix-sc.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 100vw, 380px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9b26442516b7458ca87f5_poloskannya-zubix-sc-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9b26442516b7458ca87f5_poloskannya-zubix-sc.webp 746w"
+                                        srcset="{{ asset('images/68a9b26442516b7458ca87f5_poloskannya-zubix-sc-p-500.webp') }} 500w, {{ asset('images/68a9b26442516b7458ca87f5_poloskannya-zubix-sc.webp') }} 746w"
                                         class="blog-card__img">
                                     <div class="alt-for-link">Подробнее</div>
                                 </a><a href="/blog" class="button is-icon mod--blog w-inline-block">
@@ -218,11 +218,11 @@
                                         <p class="text-size-regular text-color-neutral_gray">Полоскать рот — одна из самых простых привычек, которая снижает риск проблем с дёснами, кариесом и неприятным запахом. </p></div>
                                     <div class="blog-card__text-info">
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846de00afadb49af5cd8_icon_calendar.svg"
+                                                src="{{ asset('images/6820846de00afadb49af5cd8_icon_calendar.svg') }}"
                                                 loading="lazy" alt="Календарь" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">10 августа 2025</p></div>
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846df6739c334390524c_icon_time.svg"
+                                                src="{{ asset('images/6820846df6739c334390524c_icon_time.svg') }}"
                                                 loading="lazy" alt="Время" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">5</p></div>
                                     </div>
@@ -235,9 +235,9 @@
                                 <div class="blog-card__tag">Эстетическая стоматология</div>
                                 <a href="/blog"
                                    class="blog-card__link w-inline-block"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9acadc7c76b0ed68035bb_diastema-sc.webp"
+                                        src="{{ asset('images/68a9acadc7c76b0ed68035bb_diastema-sc.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 100vw, 380px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9acadc7c76b0ed68035bb_diastema-sc-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9acadc7c76b0ed68035bb_diastema-sc.webp 746w"
+                                        srcset="{{ asset('images/68a9acadc7c76b0ed68035bb_diastema-sc-p-500.webp') }} 500w, {{ asset('images/68a9acadc7c76b0ed68035bb_diastema-sc.webp') }} 746w"
                                         class="blog-card__img">
                                     <div class="alt-for-link">Подробнее</div>
                                 </a><a href="/blog"
@@ -260,11 +260,11 @@
                                         <p class="text-size-regular text-color-neutral_gray">Диастема — заметный промежуток, обычно между двумя передними резцами. Лечить её или нет, решают индивидуально, вместе с врачом.</p></div>
                                     <div class="blog-card__text-info">
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846de00afadb49af5cd8_icon_calendar.svg"
+                                                src="{{ asset('images/6820846de00afadb49af5cd8_icon_calendar.svg') }}"
                                                 loading="lazy" alt="Календарь" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">15 августа 2025</p></div>
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846df6739c334390524c_icon_time.svg"
+                                                src="{{ asset('images/6820846df6739c334390524c_icon_time.svg') }}"
                                                 loading="lazy" alt="Время" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">7</p></div>
                                     </div>
@@ -276,9 +276,9 @@
                             <div class="blog-card">
                                 <div class="blog-card__tag">Гигиена полости рта</div>
                                 <a href="/blog" class="blog-card__link w-inline-block"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9a5be983bd56d00b3bb8e_zubniy-kamin.webp"
+                                        src="{{ asset('images/68a9a5be983bd56d00b3bb8e_zubniy-kamin.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 100vw, 380px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9a5be983bd56d00b3bb8e_zubniy-kamin-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9a5be983bd56d00b3bb8e_zubniy-kamin.webp 746w"
+                                        srcset="{{ asset('images/68a9a5be983bd56d00b3bb8e_zubniy-kamin-p-500.webp') }} 500w, {{ asset('images/68a9a5be983bd56d00b3bb8e_zubniy-kamin.webp') }} 746w"
                                         class="blog-card__img">
                                     <div class="alt-for-link">Подробнее</div>
                                 </a><a href="/blog" class="button is-icon mod--blog w-inline-block">
@@ -300,11 +300,11 @@
                                         <p class="text-size-regular text-color-neutral_gray">Когда пациенты спрашивают, как выглядит зубной камень, мы показываем снимки: это не только желтоватые или тёмные пятна.</p></div>
                                     <div class="blog-card__text-info">
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846de00afadb49af5cd8_icon_calendar.svg"
+                                                src="{{ asset('images/6820846de00afadb49af5cd8_icon_calendar.svg') }}"
                                                 loading="lazy" alt="Календарь" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">20 августа 2025</p></div>
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846df6739c334390524c_icon_time.svg"
+                                                src="{{ asset('images/6820846df6739c334390524c_icon_time.svg') }}"
                                                 loading="lazy" alt="Время" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">7</p></div>
                                     </div>
@@ -331,9 +331,9 @@
                                 <div class="blog-card__tag">Терапия</div>
                                 <a href="/blog"
                                    class="blog-card__link w-inline-block"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9ba55608ab91b5e9b9763_likuvannya-zubiv-vagitnist-sc.webp"
+                                        src="{{ asset('images/68a9ba55608ab91b5e9b9763_likuvannya-zubiv-vagitnist-sc.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 100vw, 380px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9ba55608ab91b5e9b9763_likuvannya-zubiv-vagitnist-sc-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9ba55608ab91b5e9b9763_likuvannya-zubiv-vagitnist-sc.webp 746w"
+                                        srcset="{{ asset('images/68a9ba55608ab91b5e9b9763_likuvannya-zubiv-vagitnist-sc-p-500.webp') }} 500w, {{ asset('images/68a9ba55608ab91b5e9b9763_likuvannya-zubiv-vagitnist-sc.webp') }} 746w"
                                         class="blog-card__img">
                                     <div class="alt-for-link">Подробнее</div>
                                 </a>
@@ -347,11 +347,11 @@
                                     </div>
                                     <div class="blog-card__text-info">
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846de00afadb49af5cd8_icon_calendar.svg"
+                                                src="{{ asset('images/6820846de00afadb49af5cd8_icon_calendar.svg') }}"
                                                 loading="lazy" alt="Календарь" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">30 июля 2025</p></div>
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846df6739c334390524c_icon_time.svg"
+                                                src="{{ asset('images/6820846df6739c334390524c_icon_time.svg') }}"
                                                 loading="lazy" alt="Время" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">8</p></div>
                                     </div>
@@ -374,9 +374,9 @@
                             <div class="blog-card">
                                 <div class="blog-card__tag">Гигиена полости рта</div>
                                 <a href="/blog" class="blog-card__link w-inline-block"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9b5b8da9af2f6b9b84cbf_zuby-40-plus-sc.webp"
+                                        src="{{ asset('images/68a9b5b8da9af2f6b9b84cbf_zuby-40-plus-sc.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 100vw, 380px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9b5b8da9af2f6b9b84cbf_zuby-40-plus-sc-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9b5b8da9af2f6b9b84cbf_zuby-40-plus-sc.webp 746w"
+                                        srcset="{{ asset('images/68a9b5b8da9af2f6b9b84cbf_zuby-40-plus-sc-p-500.webp') }} 500w, {{ asset('images/68a9b5b8da9af2f6b9b84cbf_zuby-40-plus-sc.webp') }} 746w"
                                         class="blog-card__img">
                                     <div class="alt-for-link">Подробнее</div>
                                 </a>
@@ -389,11 +389,11 @@
                                         <p class="text-size-regular text-color-neutral_gray">Потеря зубов у взрослых — это не только перспектива 70–80 лет. Первые проблемы могут начаться раньше, и они не всегда связаны со старостью.</p></div>
                                     <div class="blog-card__text-info">
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846de00afadb49af5cd8_icon_calendar.svg"
+                                                src="{{ asset('images/6820846de00afadb49af5cd8_icon_calendar.svg') }}"
                                                 loading="lazy" alt="Календарь" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">5 августа 2025</p></div>
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846df6739c334390524c_icon_time.svg"
+                                                src="{{ asset('images/6820846df6739c334390524c_icon_time.svg') }}"
                                                 loading="lazy" alt="Время" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">8</p></div>
                                     </div>
@@ -415,9 +415,9 @@
                             <div class="blog-card">
                                 <div class="blog-card__tag">Гигиена полости рта</div>
                                 <a href="/blog" class="blog-card__link w-inline-block"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9b26442516b7458ca87f5_poloskannya-zubix-sc.webp"
+                                        src="{{ asset('images/68a9b26442516b7458ca87f5_poloskannya-zubix-sc.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 100vw, 380px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9b26442516b7458ca87f5_poloskannya-zubix-sc-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9b26442516b7458ca87f5_poloskannya-zubix-sc.webp 746w"
+                                        srcset="{{ asset('images/68a9b26442516b7458ca87f5_poloskannya-zubix-sc-p-500.webp') }} 500w, {{ asset('images/68a9b26442516b7458ca87f5_poloskannya-zubix-sc.webp') }} 746w"
                                         class="blog-card__img">
                                     <div class="alt-for-link">Подробнее</div>
                                 </a>
@@ -430,11 +430,11 @@
                                         <p class="text-size-regular text-color-neutral_gray">Полоскать рот — одна из самых простых привычек, которая снижает риск проблем с дёснами, кариесом и неприятным запахом. </p></div>
                                     <div class="blog-card__text-info">
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846de00afadb49af5cd8_icon_calendar.svg"
+                                                src="{{ asset('images/6820846de00afadb49af5cd8_icon_calendar.svg') }}"
                                                 loading="lazy" alt="Календарь" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">10 августа 2025</p></div>
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846df6739c334390524c_icon_time.svg"
+                                                src="{{ asset('images/6820846df6739c334390524c_icon_time.svg') }}"
                                                 loading="lazy" alt="Время" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">5</p></div>
                                     </div>
@@ -457,9 +457,9 @@
                                 <div class="blog-card__tag">Эстетическая стоматология</div>
                                 <a href="/blog"
                                    class="blog-card__link w-inline-block"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9acadc7c76b0ed68035bb_diastema-sc.webp"
+                                        src="{{ asset('images/68a9acadc7c76b0ed68035bb_diastema-sc.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 100vw, 380px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9acadc7c76b0ed68035bb_diastema-sc-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9acadc7c76b0ed68035bb_diastema-sc.webp 746w"
+                                        srcset="{{ asset('images/68a9acadc7c76b0ed68035bb_diastema-sc-p-500.webp') }} 500w, {{ asset('images/68a9acadc7c76b0ed68035bb_diastema-sc.webp') }} 746w"
                                         class="blog-card__img">
                                     <div class="alt-for-link">Подробнее</div>
                                 </a>
@@ -472,11 +472,11 @@
                                         <p class="text-size-regular text-color-neutral_gray">Диастема — заметный промежуток, обычно между двумя передними резцами. Лечить её или нет, решают индивидуально, вместе с врачом.</p></div>
                                     <div class="blog-card__text-info">
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846de00afadb49af5cd8_icon_calendar.svg"
+                                                src="{{ asset('images/6820846de00afadb49af5cd8_icon_calendar.svg') }}"
                                                 loading="lazy" alt="Календарь" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">15 августа 2025</p></div>
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846df6739c334390524c_icon_time.svg"
+                                                src="{{ asset('images/6820846df6739c334390524c_icon_time.svg') }}"
                                                 loading="lazy" alt="Время" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">7</p></div>
                                     </div>
@@ -499,9 +499,9 @@
                             <div class="blog-card">
                                 <div class="blog-card__tag">Гигиена полости рта</div>
                                 <a href="/blog" class="blog-card__link w-inline-block"><img
-                                        src="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9a5be983bd56d00b3bb8e_zubniy-kamin.webp"
+                                        src="{{ asset('images/68a9a5be983bd56d00b3bb8e_zubniy-kamin.webp') }}"
                                         loading="lazy" alt="" sizes="(max-width: 767px) 100vw, 380px"
-                                        srcset="https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9a5be983bd56d00b3bb8e_zubniy-kamin-p-500.webp 500w, https://cdn.prod.website-files.com/67ebc6f8b625e182a8232980/68a9a5be983bd56d00b3bb8e_zubniy-kamin.webp 746w"
+                                        srcset="{{ asset('images/68a9a5be983bd56d00b3bb8e_zubniy-kamin-p-500.webp') }} 500w, {{ asset('images/68a9a5be983bd56d00b3bb8e_zubniy-kamin.webp') }} 746w"
                                         class="blog-card__img">
                                     <div class="alt-for-link">Подробнее</div>
                                 </a>
@@ -514,11 +514,11 @@
                                         <p class="text-size-regular text-color-neutral_gray">Когда пациенты спрашивают, как выглядит зубной камень, мы показываем снимки: это не только желтоватые или тёмные пятна.</p></div>
                                     <div class="blog-card__text-info">
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846de00afadb49af5cd8_icon_calendar.svg"
+                                                src="{{ asset('images/6820846de00afadb49af5cd8_icon_calendar.svg') }}"
                                                 loading="lazy" alt="Календарь" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">20 августа 2025</p></div>
                                         <div class="text-info__inner"><img
-                                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6820846df6739c334390524c_icon_time.svg"
+                                                src="{{ asset('images/6820846df6739c334390524c_icon_time.svg') }}"
                                                 loading="lazy" alt="Время" class="icon width-16">
                                             <p class="text-size-regular text-color-dim-gray">7</p></div>
                                     </div>

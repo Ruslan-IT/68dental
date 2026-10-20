@@ -5,7 +5,7 @@
                     <div class="footer__content is1"><a id="w-node-_0031a786-f590-9c67-4177-da6fe2287d04-e2287cff"
                                                         href="/" @if(request()->is('/')) aria-current="page" @endif
                                                         class="footer__col is1 w-inline-block @if(request()->is('/')) w--current @endif"><img
-                                src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/6887e57eee65b0d121ce73ca_img__logo-light.svg"
+                                src="{{ asset('images/6887e57eee65b0d121ce73ca_img__logo-light.svg') }}"
                                 loading="lazy" alt="" class="footer__logo"></a>
                         <div class="footer__col is2"><a href="/about" class="footer__text-link">О нас</a><a
                                 href="https://yandex.ru/maps/org/yevrostom/27380149446/gallery/" target="_blank"
@@ -18,20 +18,20 @@
                                 на Яндекс Картах</a></div>
                         <div id="w-node-_0031a786-f590-9c67-4177-da6fe2287d13-e2287cff" class="footer__col is3">
                             <div class="footer__text-wrap is1"><img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed3f0561fca9c14fccc574_icon__calendar.svg"
+                                    src="{{ asset('images/67ed3f0561fca9c14fccc574_icon__calendar.svg') }}"
                                     loading="lazy" alt="" class="icon width-22">
                                 <p class="text-size-regular">Пн–Пт: 09:00–21:00</p>
                                 <p class="text-size-regular">Сб: выходной</p>
                                 <p class="text-size-regular">Вс: выходной</p></div>
                             <div class="footer__text-wrap is1"><img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed3f04f8d1941bbc010459_icon__phone.svg"
+                                    src="{{ asset('images/67ed3f04f8d1941bbc010459_icon__phone.svg') }}"
                                     loading="lazy" alt="" class="icon width-22"><a href="tel:+73472468568"
                                                                                    class="text-size-regular text-color-white">+7
                                     (347) 246-85-68</a><a href="tel:+73472468568"
                                                           class="text-size-regular text-color-white">+7 (347)
                                     246-85-68</a></div>
                             <div class="footer__text-wrap is1"><img
-                                    src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67ed3f052b8d6a02e20242ba_icon__place.svg"
+                                    src="{{ asset('images/67ed3f052b8d6a02e20242ba_icon__place.svg') }}"
                                     loading="lazy" alt="" class="icon width-22"><a
                                     href="https://yandex.ru/maps/org/yevrostom/27380149446/" target="_blank"
                                     class="text-size-regular text-color-white">д. Алексеевка, Центральная ул., 58/1</a>

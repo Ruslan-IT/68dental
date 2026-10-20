@@ -67,7 +67,7 @@
 <body class="body">
 <div class="page-wrapper">
     <img
-        src="https://cdn.prod.website-files.com/67ea68f011b0fd6e4b26caf8/67f23bdcc2541e7ba0ef93d5_cursor__hover-img.svg"
+        src="{{ asset('images/67f23bdcc2541e7ba0ef93d5_cursor__hover-img.svg') }}"
         loading="lazy" alt="" class="custom-cursor" style="opacity: 0;">
     @include('partials.header')
     @yield('content')
