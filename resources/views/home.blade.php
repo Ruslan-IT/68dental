@@ -82,7 +82,7 @@
                 <div class="hero__content-wrap">
                     <div data-w-id="111a76b8-88a4-5909-45b6-da2035208866" style="opacity: 0;" class="hero__contact"><a href="tel:{{ config('clinic.phone_tel') }}" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67eb93731aa6a8772d43e557_icon__call.svg') }}" loading="lazy" alt="Телефон" class="hero__contact-icon">
                             <div class="alt-for-link"></div>
-                        </a><a href="{{ config('clinic.map_url') }}" target="_blank" rel="noopener" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67eb93730254dadf0bc87490_icon__place.svg') }}" loading="lazy" alt="Яндекс Карты" class="hero__contact-icon">
+                        </a><a href="{{ config('clinic.map_url') }}" target="_blank" rel="noopener" class="hero__contact-link w-inline-block"><img src="{{ asset('images/67eb93730254dadf0bc87490_icon__place.svg') }}" loading="lazy" alt="Адрес" class="hero__contact-icon">
                             <div class="alt-for-link"></div>
                         </a></div>
                     <div data-w-id="88aae577-de30-5b11-5650-7807387ad5ff" style="opacity: 0;" class="hero__swiper-wrap">
@@ -479,7 +479,7 @@
                 <div class="section__content-wrap">
                     <div data-w-id="7eae70d1-5107-fec5-de25-040510ddc8e4" style="opacity: 0;" class="heading__wrap"><h2 class="heading-4">Специалисты</h2>
                         <div class="text__wrap max-width-38"><p class="text-size-regular text-color-graphite">
-                                Арус Погосян — главный врач клиники. Остальные карточки сохранены из макета страницы.</p></div>
+                                Демонстрационные карточки. Фотографии из макета страницы, это не сотрудники реальной клиники.</p></div>
                     </div>
                     <div class="specialists__swiper-wrap">
                         <div data-swiper="specialists-first" data-w-id="dbf19cfc-52b3-5147-53a0-fa791de664ed" style="opacity: 0;" class="swiper mod--specialists-first w-dyn-list">
@@ -971,7 +971,7 @@
 }
                                     </script>
                                 </a><img src="{{ asset('images/6876770da63fe0578df34f37_petrenko-olga-setificat03.webp') }}" loading="lazy" alt="" sizes="(max-width: 767px) 70vw, 300px" srcset="{{ asset('images/6876770da63fe0578df34f37_petrenko-olga-setificat03-p-500.webp') }} 500w, {{ asset('images/6876770da63fe0578df34f37_petrenko-olga-setificat03.webp') }} 578w" class="certificate__img hide"></div>
-                            <div role="group" class="swiper-slide mod--certificate w-dyn-item" aria-label="18 / 19"><a href="#" class="w-inline-block w-lightbox" aria-label="Открыть фото" aria-haspopup="dialog"><img src="{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }}" loading="lazy" alt=" Сертификат Ольги Петренко — диагностика и планирование" sizes="(max-width: 767px) 70vw, 300px" srcset="{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02-p-500.webp') }} 500w, {{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }} 578w" class="certificate__img">
+                            <div role="group" class="swiper-slide mod--certificate w-dyn-item" aria-label="18 / 19"><a href="#" class="w-inline-block w-lightbox" aria-label="Открыть фото" aria-haspopup="dialog"><img src="{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }}" loading="lazy" alt=" Демонстрационный сертификат" sizes="(max-width: 767px) 70vw, 300px" srcset="{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02-p-500.webp') }} 500w, {{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }} 578w" class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
@@ -982,8 +982,8 @@
   "group": "certificate"
 }
                                     </script>
-                                </a><img src="{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }}" loading="lazy" alt=" Сертификат Ольги Петренко — диагностика и планирование" sizes="(max-width: 767px) 70vw, 300px" srcset="{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02-p-500.webp') }} 500w, {{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }} 578w" class="certificate__img hide"></div>
-                            <div role="group" class="swiper-slide mod--certificate w-dyn-item" aria-label="19 / 19"><a href="#" class="w-inline-block w-lightbox" aria-label="Открыть фото" aria-haspopup="dialog"><img src="{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }}" loading="lazy" alt=" Сертификат Ольги Петренко — артикулятор в клинике и лаборатории" sizes="(max-width: 767px) 70vw, 300px" srcset="{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01-p-500.webp') }} 500w, {{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }} 578w" class="certificate__img">
+                                </a><img src="{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }}" loading="lazy" alt=" Демонстрационный сертификат" sizes="(max-width: 767px) 70vw, 300px" srcset="{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02-p-500.webp') }} 500w, {{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }} 578w" class="certificate__img hide"></div>
+                            <div role="group" class="swiper-slide mod--certificate w-dyn-item" aria-label="19 / 19"><a href="#" class="w-inline-block w-lightbox" aria-label="Открыть фото" aria-haspopup="dialog"><img src="{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }}" loading="lazy" alt=" Демонстрационный сертификат" sizes="(max-width: 767px) 70vw, 300px" srcset="{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01-p-500.webp') }} 500w, {{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }} 578w" class="certificate__img">
                                     <script type="application/json" class="w-json">{
   "items": [
     {
@@ -994,7 +994,7 @@
   "group": "certificate"
 }
                                     </script>
-                                </a><img src="{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }}" loading="lazy" alt=" Сертификат Ольги Петренко — артикулятор в клинике и лаборатории" sizes="(max-width: 767px) 70vw, 300px" srcset="{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01-p-500.webp') }} 500w, {{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }} 578w" class="certificate__img hide"></div>
+                                </a><img src="{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }}" loading="lazy" alt=" Демонстрационный сертификат" sizes="(max-width: 767px) 70vw, 300px" srcset="{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01-p-500.webp') }} 500w, {{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }} 578w" class="certificate__img hide"></div>
                         </div>
                         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
                     <div class="swiper__pagination mod--mobile">
@@ -1025,29 +1025,29 @@
         <section class="section overflow-hidden">
             <div class="container">
                 <div class="section__content-wrap">
-                    <div data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d821061a" class="heading__wrap" style="opacity: 0;"><h2 class="heading-4">Пациенты о {{ config('clinic.name') }}</h2>
-                        <div class="text__wrap max-width-19"><p class="text-size-regular text-color-graphite">Тексты отзывов ниже — из макета сайта, это не отзывы с Яндекс Карт.</p></div>
+                    <div id="reviews-demo" data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d821061a" class="heading__wrap" style="opacity: 0;"><h2 class="heading-4">Пациенты о {{ config('clinic.name') }}</h2>
+                        <div class="text__wrap max-width-19"><p class="text-size-regular text-color-graphite">Демонстрационные тексты из макета. Это не отзывы реальных пациентов.</p></div>
                     </div>
                     <div data-hover="cursor" data-swiper="reviews" data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d8210620" class="swiper mod--reviews w-dyn-list" style="opacity: 0;">
                         <div role="list" class="swiper-wrapper mod--reviews w-dyn-items" id="swiper-wrapper-5310f10db5106afc41e" aria-live="polite">
                             <div role="group" class="swiper-slide mod--reviews w-dyn-item" aria-label="1 / 4">
                                 <div class="reviews__ava-wrap"><img src="{{ asset('images/68751e2f5e05bf26d84b822e_ico-review-1.png') }}" loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
-                                            Олег Лазаренко</p>
+                                            Алексей Орлов</p>
                                         <p class="text-size-regular text-color-neutral_gray">11.02.2025</p></div>
                                 </div>
                                 <p class="text-size-medium mobile-size-14">Хожу в {{ config('clinic.name') }} уже 3 года и доволен. Лечил здесь кариес, удалял зуб мудрости, делал чистку и ни разу не пожалел, что обратился именно сюда. Врачи знают своё дело и работают аккуратно. Советую тем, кому важны качество и спокойное отношение.</p></div>
                             <div role="group" class="swiper-slide mod--reviews w-dyn-item" aria-label="2 / 4">
                                 <div class="reviews__ava-wrap"><img src="{{ asset('images/68751e1dafa16bbc2ef5e5bf_ico-review-2.png') }}" loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
-                                            Елена Кульчицкая</p>
+                                            Мария Лебедева</p>
                                         <p class="text-size-regular text-color-neutral_gray">02.08.2024</p></div>
                                 </div>
                                 <p class="text-size-medium mobile-size-14">Пришла с ребёнком на приём. Понравилось всё, начиная с того, как нас встретили. Врач была спокойная и внимательная, объясняла просто и понятно. Лечение прошло нормально, без слёз и крика. Видно, что умеют работать с детьми.</p></div>
                             <div role="group" class="swiper-slide mod--reviews w-dyn-item" aria-label="3 / 4">
                                 <div class="reviews__ava-wrap"><img src="{{ asset('images/68751e0bf9380177ca218441_ico-review-3.png') }}" loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
-                                            Ирина Федунь</p>
+                                            Светлана Крылова</p>
                                         <p class="text-size-regular text-color-neutral_gray">04.06.2024</p></div>
                                 </div>
                                 <p class="text-size-medium mobile-size-14">Очень довольна визитом в {{ config('clinic.name') }}. Пришла с сильной зубной болью, оказался пульпит. Лечение прошло профессионально, аккуратно и без боли. Врачи внимательные, в клинике спокойная атмосфера. Рекомендую.</p>
@@ -1055,7 +1055,7 @@
                             <div role="group" class="swiper-slide mod--reviews w-dyn-item" aria-label="4 / 4">
                                 <div class="reviews__ava-wrap"><img src="{{ asset('images/68751de8d993b092fe3713a8_ico-review-4.png') }}" loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
-                                            Назар Романчук</p>
+                                            Павел Новиков</p>
                                         <p class="text-size-regular text-color-neutral_gray">14.05.2024</p></div>
                                 </div>
                                 <p class="text-size-medium mobile-size-14">Начал лечение на элайнерах, потому что хотел исправить прикус без брекетов. В {{ config('clinic.name') }} всё организовано хорошо, врачи объясняют каждый шаг и следят за результатом. Элайнеры носить удобно, изменения уже видны. </p>
@@ -1078,8 +1078,8 @@
                             </div>
                         </div>
                     </div>
-                    <div mobile-hide="" data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d8210636" class="button-wrap" style="opacity: 0;"><a href="{{ config('clinic.map_url') }}" target="_blank" rel="noopener" class="button is-large gray w-inline-block">
-                            <div>Отзывы на Яндекс Картах</div>
+                    <div mobile-hide="" data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d8210636" class="button-wrap" style="opacity: 0;"><a href="#reviews-demo" class="button is-large gray w-inline-block">
+                            <div>Демонстрационные отзывы</div>
                         </a></div>
                 </div>
             </div>
@@ -1100,7 +1100,7 @@
                                 </div>
                             </form>
                             <div class="success__message w-form-done" tabindex="-1" role="region" aria-label="Форма отправлена">
-                                <div class="text-size-medium">Спасибо, что выбираете {{ config('clinic.name') }}. Мы перезвоним, чтобы выбрать удобное время. Ожидайте звонок.
+                                <div class="text-size-medium">Это демонстрация. Заявка не отправлена и никому не передаётся.
                                 </div>
                             </div>
                             <div class="w-form-fail" tabindex="-1" role="region" aria-label="Email Form failure">

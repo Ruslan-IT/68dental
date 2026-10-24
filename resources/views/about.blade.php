@@ -353,9 +353,9 @@
         <section class="section overflow-hidden">
             <div class="container">
                 <div class="section__content-wrap">
-                    <div data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d821061a" class="heading__wrap"><h2
+                    <div id="reviews-demo" data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d821061a" class="heading__wrap"><h2
                             class="heading-4">Пациенты о {{ config('clinic.name') }}</h2>
-                        <div class="text__wrap max-width-19"><p class="text-size-regular text-color-graphite">Спасибо за доверие. Ваши слова помогают нам работать внимательнее.</p></div>
+                        <div class="text__wrap max-width-19"><p class="text-size-regular text-color-graphite">Демонстрационные тексты из макета. Это не отзывы реальных пациентов.</p></div>
                     </div>
                     <div data-hover="cursor" data-swiper="reviews" data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d8210620"
                          class="swiper mod--reviews w-dyn-list swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
@@ -368,7 +368,7 @@
                                         src="{{ asset('images/68751e2f5e05bf26d84b822e_ico-review-1.png') }}"
                                         loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
-                                            Олег Лазаренко</p>
+                                            Алексей Орлов</p>
                                         <p class="text-size-regular text-color-neutral_gray">11.02.2025</p></div>
                                 </div>
                                 <p class="text-size-medium mobile-size-14">Хожу в {{ config('clinic.name') }} уже 3 года и доволен. Лечил здесь кариес, удалял зуб мудрости, делал чистку и ни разу не пожалел, что обратился именно сюда. Врачи знают своё дело и работают аккуратно. Советую тем, кому важны качество и спокойное отношение.</p></div>
@@ -378,7 +378,7 @@
                                         src="{{ asset('images/68751e1dafa16bbc2ef5e5bf_ico-review-2.png') }}"
                                         loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
-                                            Елена Кульчицкая</p>
+                                            Мария Лебедева</p>
                                         <p class="text-size-regular text-color-neutral_gray">02.08.2024</p></div>
                                 </div>
                                 <p class="text-size-medium mobile-size-14">Пришла с ребёнком на приём. Понравилось всё, начиная с того, как нас встретили. Врач была спокойная и внимательная, объясняла просто и понятно. Лечение прошло нормально, без слёз и крика. Видно, что умеют работать с детьми.</p></div>
@@ -388,7 +388,7 @@
                                         src="{{ asset('images/68751e0bf9380177ca218441_ico-review-3.png') }}"
                                         loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
-                                            Ирина Федунь</p>
+                                            Светлана Крылова</p>
                                         <p class="text-size-regular text-color-neutral_gray">04.06.2024</p></div>
                                 </div>
                                 <p class="text-size-medium mobile-size-14">Очень довольна визитом в {{ config('clinic.name') }}. Пришла с сильной зубной болью, оказался пульпит. Лечение прошло профессионально, аккуратно и без боли. Врачи внимательные, в клинике спокойная атмосфера. Рекомендую.</p>
@@ -399,7 +399,7 @@
                                         src="{{ asset('images/68751de8d993b092fe3713a8_ico-review-4.png') }}"
                                         loading="lazy" alt="" class="reviews__icon">
                                     <div class="reviews__text-wrap is1"><p class="text-size-medium text-weight-medium">
-                                            Назар Романчук</p>
+                                            Павел Новиков</p>
                                         <p class="text-size-regular text-color-neutral_gray">14.05.2024</p></div>
                                 </div>
                                 <p class="text-size-medium mobile-size-14">Начал лечение на элайнерах, потому что хотел исправить прикус без брекетов. В {{ config('clinic.name') }} всё организовано хорошо, врачи объясняют каждый шаг и следят за результатом. Элайнеры носить удобно, изменения уже видны. </p>
@@ -423,9 +423,8 @@
                         </div>
                     </div>
                     <div mobile-hide="" data-w-id="8d7640e9-5ef1-bbe4-af09-fa71d8210636" class="button-wrap"><a
-                            href="{{ config('clinic.map_url') }}" rel="noopener"
-                            target="_blank" class="button is-large gray w-inline-block">
-                            <div>Смотреть все отзывы</div>
+                            href="#reviews-demo" class="button is-large gray w-inline-block">
+                            <div>Демонстрационные отзывы</div>
                         </a></div>
                 </div>
             </div>
@@ -442,7 +441,7 @@
                             <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form cta"
                                   data-wf-page-id="67f396e7f9a8790a4335c7e9"
                                   data-wf-element-id="45100916-48bc-7640-6c7c-b98fa9470b69" aria-label="Форма записи" onsubmit="window.location.href='tel:{{ config('clinic.phone_tel') }}';return false;"><p
-                                    class="text-size-medium mobile-size-14 text-align-center">Мы проводим первичный осмотр и консультацию. Оставьте заявку на сайте.<br>Мы перезвоним, чтобы выбрать удобное время.</p>
+                                    class="text-size-medium mobile-size-14 text-align-center">Демонстрационная форма. Заявка никуда не отправляется.<br>Кнопка только открывает набор демонстрационного номера.</p>
                                 <div class="text__field-wrap cta"><input class="text__field w-input" maxlength="256"
                                                                          name="Name" data-name="Name"
                                                                          placeholder="Ваше имя" type="text" id="Name"
@@ -460,7 +459,7 @@
                             </form>
                             <div class="success__message w-form-done" tabindex="-1" role="region"
                                  aria-label="Форма отправлена">
-                                <div class="text-size-medium">Спасибо, что выбираете {{ config('clinic.name') }}. Мы перезвоним, чтобы выбрать удобное время. Ожидайте звонок.
+                                <div class="text-size-medium">Это демонстрация. Заявка не отправлена и никому не передаётся.
                                 </div>
                             </div>
                             <div class="w-form-fail" tabindex="-1" role="region" aria-label="Ошибка отправки формы">

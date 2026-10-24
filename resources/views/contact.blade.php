@@ -23,7 +23,7 @@
                                   data-wf-page-id="68231d17b77fe9cbbcbfa1f9"
                                   data-wf-element-id="dea7b75a-7402-9f70-0701-c0ed9d6b4236" aria-label="Форма записи" onsubmit="window.location.href='tel:{{ config('clinic.phone_tel') }}';return false;">
                                 <div class="contact__text-wrap is1"><p
-                                        class="text-size-medium mobile-size-14 text-align-center">Мы свяжемся с вами в течение часа, чтобы вы могли выбрать дату и время приёма.</p></div>
+                                        class="text-size-medium mobile-size-14 text-align-center">Демонстрационная форма. Заявка никуда не отправляется. Кнопка только открывает набор демонстрационного номера.</p></div>
                                 <div class="text__field-wrap cta"><input class="text__field w-input" maxlength="256"
                                                                          name="name-2" data-name="Name 2"
                                                                          placeholder="Ваше имя" type="text" id="name-2"
@@ -41,7 +41,7 @@
                             </form>
                             <div class="success__message w-form-done" tabindex="-1" role="region"
                                  aria-label="Форма отправлена">
-                                <div class="text-size-medium text-color-white">Спасибо, что выбираете {{ config('clinic.name') }}. Мы перезвоним, чтобы выбрать удобное время. Ожидайте звонок.
+                                <div class="text-size-medium text-color-white">Это демонстрация. Заявка не отправлена и никому не передаётся.
                                 </div>
                             </div>
                             <div class="w-form-fail" tabindex="-1" role="region" aria-label="Ошибка отправки формы">

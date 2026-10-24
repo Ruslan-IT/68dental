@@ -13,8 +13,8 @@
                                 href="{{ config('clinic.map_url') }}" target="_blank" rel="noopener"
                                 class="footer__text-link">Маршрут</a><a href="/contact" class="footer__text-link">Контакты</a><a
                                 href="tel:{{ config('clinic.phone_tel') }}" class="footer__text-link">Телефон</a><a desktop-hide="" href="{{ config('clinic.map_url') }}" target="_blank" rel="noopener"
-                                                                                                class="footer__text-link">Карточка
-                                на Яндекс Картах</a></div>
+                                                                                                class="footer__text-link">Контакты
+</a></div>
                         <div id="w-node-_0031a786-f590-9c67-4177-da6fe2287d13-e2287cff" class="footer__col is3">
                             <div class="footer__text-wrap is1"><img
                                     src="{{ asset('images/67ed3f0561fca9c14fccc574_icon__calendar.svg') }}"
@@ -37,7 +37,7 @@
                         <div class="footer__social-wrap"><a href="{{ config('clinic.map_url') }}"
                                                             target="_blank" rel="noopener"
                                                             class="footer__social w-inline-block"><span
-                                    class="text-size-small">Карта</span></a><a href="mailto:{{ config('clinic.email') }}"
+                                    class="text-size-small">Адрес</span></a><a href="mailto:{{ config('clinic.email') }}"
                                                                                target="_blank" rel="noopener"
                                                                                class="footer__social w-inline-block"><span
                                     class="text-size-small">Почта</span></a></div>
@@ -46,12 +46,13 @@
                            class="footer__col is4 w-inline-block"></a></div>
                     <div class="footer__content is2"><p class="text-size-medium mod--custom">ⓒ <span
                                 data-copyright-year="">2026</span></p>
+                        <p class="text-size-medium mod--custom">{{ config('clinic.demo_notice') }}</p>
                         <a href="{{ config('seo.url') }}" target="_blank" rel="noopener" class="text-size-medium mod--custom text-color-white">{{ config('seo.credit') }}</a>
                         <div class="footer__text-wrap is2"><a
                                 href="{{ config('clinic.map_url') }}" target="_blank"
                                 rel="noopener" class="footer__text-link">Доступность</a><a mobile-hide="" href="{{ config('clinic.map_url') }}" target="_blank" rel="noopener"
-                                                                                           class="text-size-medium mod--custom text-color-white">Карточка
-                                на Яндекс Картах</a></div>
+                                                                                           class="text-size-medium mod--custom text-color-white">Контакты
+</a></div>
                     </div>
                 </div>
             </div>

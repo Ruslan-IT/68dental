@@ -92,7 +92,7 @@
                         </div>
                     </form>
                     <div class="hide w-form-done" tabindex="-1" role="region" aria-label="Форма отправлена">
-                        <div>Заявка принята. Мы перезвоним, чтобы выбрать удобное время.</div>
+                        <div>Заявка не отправлена. Это демонстрационная форма.</div>
                     </div>
                     <div class="hide w-form-fail" tabindex="-1" role="region" aria-label="Ошибка отправки формы">
                         <div>Не удалось отправить форму. Позвоните: {{ config('clinic.phone_display') }}.</div>

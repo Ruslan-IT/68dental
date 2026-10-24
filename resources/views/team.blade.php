@@ -509,7 +509,7 @@
                                                                                                      aria-label="Открыть фото"
                                                                                                      aria-haspopup="dialog"><img
                                         src="{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }}"
-                                        loading="lazy" alt="Сертификат Ольги Петренко — диагностика и планирование"
+                                        loading="lazy" alt="Демонстрационный сертификат"
                                         sizes="(max-width: 767px) 70vw, 300px"
                                         srcset="{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02-p-500.webp') }} 500w, {{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }} 578w"
                                         class="certificate__img">
@@ -525,7 +525,7 @@
                                     </script>
                                 </a><img
                                     src="{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }}"
-                                    loading="lazy" alt="Сертификат Ольги Петренко — диагностика и планирование"
+                                    loading="lazy" alt="Демонстрационный сертификат"
                                     sizes="(max-width: 767px) 70vw, 300px"
                                     srcset="{{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02-p-500.webp') }} 500w, {{ asset('images/687676a893b837b7d5f9c703_petrenko-olga-setificat02.webp') }} 578w"
                                     class="certificate__img hide"></div>
@@ -536,7 +536,7 @@
                                                                                 aria-haspopup="dialog"><img
                                         src="{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }}"
                                         loading="lazy"
-                                        alt="Сертификат Ольги Петренко — артикулятор в клинике и лаборатории"
+                                        alt="Демонстрационный сертификат"
                                         sizes="(max-width: 767px) 70vw, 300px"
                                         srcset="{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01-p-500.webp') }} 500w, {{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }} 578w"
                                         class="certificate__img">
@@ -552,7 +552,7 @@
                                     </script>
                                 </a><img
                                     src="{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }}"
-                                    loading="lazy" alt="Сертификат Ольги Петренко — артикулятор в клинике и лаборатории"
+                                    loading="lazy" alt="Демонстрационный сертификат"
                                     sizes="(max-width: 767px) 70vw, 300px"
                                     srcset="{{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01-p-500.webp') }} 500w, {{ asset('images/687676436821f00fc5c068f7_petrenko-olga-setificat01.webp') }} 578w"
                                     class="certificate__img hide"></div>
@@ -595,7 +595,7 @@
                             <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form cta"
                                   data-wf-page-id="67fcb2e7c97b3a27aafaa8e9"
                                   data-wf-element-id="45100916-48bc-7640-6c7c-b98fa9470b69" aria-label="Форма записи" onsubmit="window.location.href='tel:{{ config('clinic.phone_tel') }}';return false;"><p
-                                    class="text-size-medium mobile-size-14 text-align-center">Мы проводим первичный осмотр и консультацию. Оставьте заявку на сайте.<br>Мы перезвоним, чтобы выбрать удобное время.</p>
+                                    class="text-size-medium mobile-size-14 text-align-center">Демонстрационная форма. Заявка никуда не отправляется.<br>Кнопка только открывает набор демонстрационного номера.</p>
                                 <div class="text__field-wrap cta"><input class="text__field w-input" maxlength="256"
                                                                          name="Name" data-name="Name"
                                                                          placeholder="Ваше имя" type="text" id="Name"
@@ -613,7 +613,7 @@
                             </form>
                             <div class="success__message w-form-done" tabindex="-1" role="region"
                                  aria-label="Форма отправлена">
-                                <div class="text-size-medium">Спасибо, что выбираете {{ config('clinic.name') }}. Мы перезвоним, чтобы выбрать удобное время. Ожидайте звонок.
+                                <div class="text-size-medium">Это демонстрация. Заявка не отправлена и никому не передаётся.
                                 </div>
                             </div>
                             <div class="w-form-fail" tabindex="-1" role="region" aria-label="Ошибка отправки формы">
